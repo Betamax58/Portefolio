@@ -1,0 +1,51 @@
+{
+    "projectName": "coupe_de_france",
+    "title": "Participation à la Coupe de France de Robotique - Équipe PING 36",
+    "images": 17,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet associatif / Projet ingénieur - ESIG'TRONIX"
+        },
+        {
+            "header": "Dates",
+            "value": "Éditions 2024 et 2025"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "8 en 2024 et 6 en 2025"
+        },
+        {
+            "header": "Rôle et contributions",
+            "value": "Conception électronique et robotique / Programmation sous ROS2 / Intégration de capteurs et systèmes embarqués / Gestion de la stratégie robotique"
+        },
+        {
+            "header": "Technologies et matériel utilisés",
+            "value": "Raspberry Pi 5 / ROS2 / ESP32 / STM32H750 avec écran tactile / Lidar / Capteur OTOS / Capteur TOF / Moteurs CC avec encodeurs / Vision par ordinateur / Découpe laser / Impression 3D pour pièces sur mesure"
+        }
+    ],
+    "description": [
+        "J'ai participé à la Coupe de France de Robotique deux années consécutives (2024 et 2025) avec l'équipe <strong>PING 36</strong> de l'association <strong>ESIG'TRONIX</strong>. Cet événement réunit chaque année des passionnés de robotique pour concevoir, programmer et faire s’affronter des robots autonomes sur un plateau de jeu respectant un cahier des charges strict.",
+        "Pour l’édition 2024, nous avons développé un robot capable d’accomplir différentes tâches imposées par le règlement, notamment la détection et le déplacement d'objets, la gestion d’obstacles et la mise en œuvre de stratégies de jeu efficaces. Cette première expérience m’a permis de perfectionner mes compétences en électronique embarquée, en prototypage et en intégration de capteurs.",
+        "Lors de l’édition 2025, nous avons amélioré notre robot en intégrant de nouvelles technologies, notamment un <strong>STM32H750</strong> avec écran tactile permettant de créer et gérer dynamiquement une liste de coordonnées pour le robot, communiquée directement au contrôleur. J’ai également travaillé sur la programmation sous <strong>ROS2</strong> et l’utilisation du <strong>Raspberry Pi 5</strong> pour le traitement embarqué.",
+        "Nous avons conçu une architecture électronique robuste, combinée à des composants imprimés en 3D sur mesure pour optimiser la structure et la maniabilité du robot. L’intégration de capteurs avancés comme le <strong>lidar</strong> le <strong>capteur OTOS</strong> et le <strong>capteur TOF</strong> a permis d’améliorer la détection d’obstacles et la précision de navigation. La vision par ordinateur a également été exploitée pour enrichir la prise de décision du robot en temps réel.",
+        "Ces deux années de participation ont renforcé mes compétences en robotique collaborative, en gestion de projet technique et en innovation, tout en m’offrant l’opportunité de représenter fièrement notre association lors d’un événement national."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos",
+            "link": "assets/img/projects/coupe_de_france"
+        },
+        {
+            "image": "assets/img/icons/pdf_file",
+            "name": "Poster du projet 2025",
+            "link": "assets/documents/poster_projet_ping36_2025.pdf"
+        },
+        {
+            "image": "assets/img/icons/website",
+            "name": "Site officiel - Coupe de France de Robotique",
+            "link": "https://www.coupederobotique.fr/"
+        }
+    ]
+}

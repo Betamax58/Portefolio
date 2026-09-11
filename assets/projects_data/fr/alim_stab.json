@@ -1,0 +1,42 @@
+{
+    "projectName": "alim_stab",
+    "title": "Alimentation stabilisée à partir d'une alimentation de PC",
+    "images": 3,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet personnel"
+        },
+        {
+            "header": "Date",
+            "value": "2023 - 2024"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "1"
+        },
+        {
+            "header": "Fonctionnalités principales",
+            "value": "Sorties stabilisées (+3.3V / +5V / +12V / -12V) / Interrupteur général / Interrupteur de distribution vers les bornes / Voyant LED indiquant la délivrance du courant / Bornes de connexion sécurisées"
+        }
+    ],
+    "description": [
+        "Ce projet personnel avait pour objectif de transformer une alimentation de PC en une alimentation stabilisée, fournissant les tensions standards utilisées en électronique (+3.3V, +5V, +12V et -12V).",
+        "L'idée était de disposer d'une alimentation fiable et sécurisée pour alimenter divers montages électroniques réalisés chez moi, notamment pour des projets de prototypage et de bricolage électronique.",
+        "Le projet a débuté en 2023 et a été finalisé à la rentrée scolaire 2024. J'ai entièrement réalisé ce projet seul, de la récupération de l'alimentation de PC à la conception du boîtier, en passant par l'intégration des protections et commandes nécessaires.",
+        "L'alimentation dispose de deux interrupteurs : un interrupteur général pour l'alimentation principale et un second permettant d'activer ou désactiver la délivrance du courant aux bornes de connexion. Une LED unique indique la délivrance du courant dans les bornes, garantissant une utilisation sécurisée.",
+        "Ce projet m'a permis de perfectionner mes compétences en électronique de puissance, en câblage sécurisé et en conception de systèmes d'alimentation adaptés aux besoins des projets électroniques personnels."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Documentation complète",
+            "link": "assets/documents/alim_stabilisee_pc.pdf"
+        },
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos",
+            "link": "assets/img/projects/alim_stabilisee_pc"
+        }
+    ]
+}

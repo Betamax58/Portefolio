@@ -1,0 +1,37 @@
+{
+    "projectName": "bateau_amorceur_carpe",
+    "title": "Remote-Controlled Bait Boat for Carp Fishing",
+    "images": 7,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal Project - High School (First Year)"
+        },
+        {
+            "header": "Date",
+            "value": "2018"
+        },
+        {
+            "header": "Project Participant",
+            "value": "1 (project completed individually)"
+        },
+        {
+            "header": "Technical Specifications",
+            "value": "Fiberglass hull with resin / Catamaran design for stability / Two Speed 800BB Turbo motors / LEDs (white at the front, red at the back) / Electromagnet for hook transport / Solar panel for recharging / Two lithium batteries for extended autonomy"
+        }
+    ],
+    "description": [
+        "This personal project was completed in 2018 during my first year of high school. The goal was to design a remote-controlled bait boat for carp fishing, capable of transporting bait and hooks to precise locations on the water.",
+        "The boat was designed in a catamaran form to ensure optimal stability, which is essential for accurate bait placement and navigation on windy water surfaces.",
+        "Propulsion is provided by two Speed 800BB Turbo motors, ensuring sufficient speed and power to quickly reach targeted fishing areas. The power supply relies on two lithium batteries offering long autonomy, complemented by an onboard solar panel to extend usage time without frequent returns to base.",
+        "For night fishing sessions, white LEDs at the front and red LEDs at the back ensure visibility and make it easy to locate the boat. An integrated electromagnet allows the hook to be transported and released precisely at the desired spot, increasing the effectiveness of fishing sessions.",
+        "The boat's hull was entirely made of fiberglass reinforced with resin, offering robustness and lightness. This project allowed me to develop skills in mechanical design, embedded electronics, and energy management, while combining a personal passion for fishing."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/bateau_amorceur_carpe"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "projectName": "recreator_filament_3d",
+    "title": "Recreator: Recycling PET Bottles into Filament for 3D Printers (Open Source Project)",
+    "images": 8,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal Project - Open Source"
+        },
+        {
+            "header": "Date",
+            "value": "2022-2023"
+        },
+        {
+            "header": "Project Participant",
+            "value": "1"
+        },
+        {
+            "header": "Key Features",
+            "value": "Recycling PET bottles into 3D filament / Filament production at different speeds (300, 600, 900 mm/min) / Open source project with shared files and schematics / Mechanical parts sourced from an Ender 3 Pro / 3D-printed components (guide and gears) / Integrated control screen / Ventilation system and heating nozzle"
+        },
+        {
+            "header": "Technologies and Materials Used",
+            "value": "Components from an Ender 3 Pro (screen, power supply, motors, nozzle, fan, aluminum profiles) / 3D-printed parts (guide and gears) / 3 custom G-code files for extrusion speed control / Microcontroller for process management / Open source software for design and control"
+        }
+    ],
+    "description": [
+        "<strong>Recreator</strong> is an <strong>open source</strong> project designed to <strong>recycle PET plastic bottles</strong> into <strong>filament suitable for 3D printers</strong>. The goal of this project is to democratize plastic recycling by providing an accessible and sustainable solution, allowing anyone to produce their own filament from household waste.",
+        "For the design, I reused the <strong>mechanical components from an Ender 3 Pro 3D printer</strong>, including the control screen, power supply, motors, heating nozzle, fan, and <strong>aluminum profiles</strong> for the frame. The <strong>gears</strong> and <strong>guide</strong> were <strong>3D-printed</strong>, ensuring optimal integration and custom functionality.",
+        "The system produces filament at <strong>three different speeds</strong> (<strong>300 mm/min, 600 mm/min, and 900 mm/min</strong>), each managed by a <strong>custom G-code file</strong>. This flexibility allows the production process to be tailored to printing needs while maintaining consistent quality.",
+        "The entire project, including <strong>G-code files</strong>, <strong>design plans</strong>, and <strong>assembly instructions</strong>, is available as open source to encourage community collaboration and continuous improvement. The extrusion process, nozzle temperature, and motor speed are automated via a microcontroller, ensuring safe and stable operation.",
+        "This project allowed me to combine my skills in <strong>3D printing</strong>, <strong>G-code programming</strong>, <strong>embedded electronics</strong>, and <strong>mechanical design</strong>, while contributing to a <strong>sustainable recycling initiative</strong> adapted for additive manufacturing."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/recreator_filament_3d"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "G-code Files and Open Source Resources",
+            "link": "https://github.com/username/recreator-filament-3d"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "projectName": "enceinte_centrale_hifi",
+    "title": "Fabrication d'une enceinte centrale Hi-Fi sur mesure",
+    "images": 4,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet personnel réalisé pendant un stage de BTS"
+        },
+        {
+            "header": "Date",
+            "value": "2020"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "1"
+        },
+        {
+            "header": "Fonctionnalités principales",
+            "value": "Enceinte centrale pour système Hi-Fi / Conception complète (menuiserie, étude du filtre, accord de l'enceinte) / Fabrication artisanale sur mesure / Optimisation des performances audio"
+        },
+        {
+            "header": "Compétences développées",
+            "value": "Menuiserie pour la fabrication du coffret / Étude et conception de filtres passifs audio / Accord acoustique de l'enceinte / Optimisation des performances sonores"
+        }
+    ],
+    "description": [
+        "Pendant mon stage de BTS, j’ai réalisé sur mon temps libre une <strong>enceinte centrale sur mesure</strong> pour un <strong>système Hi-Fi</strong>. Ce projet personnel avait pour objectif de créer une enceinte optimisée pour restituer avec précision les dialogues et les sons centraux dans une installation audio domestique.",
+        "J’ai mené ce projet <strong>entièrement seul</strong>, en prenant en charge toutes les étapes de la conception : de la <strong>menuiserie</strong> pour la fabrication du coffret en bois, à l’<strong>étude du filtre passif</strong> pour assurer une répartition optimale des fréquences sonores entre les haut-parleurs.",
+        "L’<strong>accord de l’enceinte</strong> a été soigneusement étudié afin d’obtenir un rendu sonore équilibré, avec une bonne reproduction des médiums et des aigus, essentiels pour une enceinte centrale dédiée aux dialogues.",
+        "Ce projet m’a permis de développer des compétences en <strong>acoustique</strong>, en <strong>électronique audio</strong> et en <strong>conception mécanique</strong>, tout en perfectionnant mes techniques de menuiserie et d'optimisation acoustique.",
+        "L’enceinte finale s’intègre parfaitement dans un système Hi-Fi, offrant une <strong>restitution sonore claire et précise</strong>, démontrant ma capacité à allier compétences techniques et sensibilité acoustique dans la conception d’équipements audio."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos du projet",
+            "link": "assets/img/projects/enceinte_centrale_hifi"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "projectName": "bateau_amorceur_carpe",
+    "title": "遥控投饵船：用于钓鲤鱼的自制渔船",
+    "images": 7,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "个人项目 - 高中（第一年）"
+        },
+        {
+            "header": "日期",
+            "value": "2018 年"
+        },
+        {
+            "header": "项目参与者",
+            "value": "1 人（独立完成）"
+        },
+        {
+            "header": "技术特性",
+            "value": "玻璃纤维与树脂制成的船体 / 双体船设计以提高稳定性 / 配备双 Speed 800BB Turbo 电机 / LED 灯（船头白色，船尾红色）/ 电磁铁用于精确放置鱼钩 / 太阳能板用于充电 / 双锂电池实现长续航"
+        }
+    ],
+    "description": [
+        "该项目于 2018 年在我就读高中的第一年完成，目标是设计一艘<strong>遥控投饵船</strong>，用于鲤鱼钓鱼。该船能够将鱼饵和鱼钩精准运输至水面上的指定位置。",
+        "为了确保在有风水域中的导航稳定性和投饵精准度，船体采用<strong>双体船设计</strong>，显著提升了运行时的稳定性。",
+        "动力系统由<strong>两台 Speed 800BB Turbo 电机</strong>驱动，提供充足的速度和动力，以便快速到达预定钓鱼区域。供电系统由<strong>两块锂电池</strong>组成，提供较长的续航时间，并配备<strong>太阳能板</strong>以延长使用时间，减少频繁返回充电的需求。",
+        "为了支持<strong>夜间钓鱼</strong>，船体配备了<strong>前部白色 LED 灯</strong>和<strong>后部红色 LED 灯</strong>，提升夜间可视性并便于跟踪船只位置。<strong>集成电磁铁</strong>能够将鱼钩精准地放置在目标区域，从而提高钓鱼效率。",
+        "船体采用<strong>玻璃纤维与树脂</strong>制成，兼具<strong>坚固性</strong>与<strong>轻便性</strong>。这一项目使我在<strong>机械设计</strong>、<strong>嵌入式电子</strong>和<strong>能源管理</strong>方面积累了宝贵的技能，同时也结合了我对钓鱼的个人兴趣。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "项目照片库",
+            "link": "assets/img/projects/bateau_amorceur_carpe"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "projectName": "recreator_filament_3d",
+    "title": "Recreator：将 PET 瓶回收为 3D 打印机用丝材（开源项目）",
+    "images": 6,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "个人项目 - 开源项目"
+        },
+        {
+            "header": "日期",
+            "value": "2022-2023年"
+        },
+        {
+            "header": "项目参与者",
+            "value": "1人"
+        },
+        {
+            "header": "主要功能",
+            "value": "将 PET 塑料瓶回收为 3D 打印丝材 / 提供三种不同的生产速度（300、600、900 mm/min）/ 开源项目，分享文件和设计图 / 机械部件来源于 Ender 3 Pro / 3D 打印的组件（护罩和齿轮）/ 集成控制屏幕 / 配备加热喷嘴和冷却系统"
+        },
+        {
+            "header": "使用的技术与设备",
+            "value": "Ender 3 Pro 组件（屏幕、电源、马达、加热喷嘴、风扇、铝型材）/ 3D 打印的部件（护罩和齿轮）/ 三个定制的 G-code 文件，用于调节挤出速度 / 用于流程管理的微控制器 / 开源软件，用于设计与控制"
+        }
+    ],
+    "description": [
+        "<strong>Recreator</strong> 是一个<strong>开源项目</strong>，旨在将<strong>PET 塑料瓶回收</strong>为可用于<strong>3D 打印机的丝材</strong>。该项目的目标是通过提供可访问且可持续的解决方案，使任何人都能使用家庭废弃物生产自己的 3D 打印丝材，从而推广塑料回收利用。",
+        "在设计过程中，我重新利用了来自<strong>Ender 3 Pro 打印机的机械部件</strong>，包括控制屏幕、电源、马达、加热喷嘴、风扇以及作为结构支撑的<strong>铝型材</strong>。此外，<strong>齿轮</strong>和<strong>护罩</strong>均通过<strong>3D 打印</strong>制造，以确保最佳集成与定制功能。",
+        "系统支持<strong>三种不同的生产速度</strong>（<strong>300 mm/min、600 mm/min 和 900 mm/min</strong>），每种速度通过专门开发的<strong>G-code 文件</strong>进行管理。这种灵活性允许根据打印需求调整生产速度，同时确保丝材质量的一致性。",
+        "项目的全部资源，包括<strong>G-code 文件</strong>、<strong>设计图纸</strong>以及<strong>组装说明</strong>，均以开源形式提供，旨在鼓励社区的协作与持续改进。挤出速度、加热喷嘴的温度以及电机速度均通过<strong>微控制器自动化管理</strong>，以确保运行的安全性与稳定性。",
+        "通过该项目，我将自己的<strong>3D 打印</strong>、<strong>G-code 编程</strong>、<strong>嵌入式电子</strong>和<strong>机械设计</strong>技能结合起来，同时积极参与到适用于增材制造的<strong>可持续回收利用</strong>工作中。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "项目照片库",
+            "link": "assets/img/projects/recreator_filament_3d"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "G-code 文件和开源资源",
+            "link": "https://github.com/username/recreator-filament-3d"
+        }
+    ]
+}

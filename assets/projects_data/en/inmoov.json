@@ -1,0 +1,46 @@
+{
+    "projectName": "inmoov_bras_robotique",
+    "title": "InMoov Project: Teleoperated Robotic Arm with Flexible Sensor Glove",
+    "images": 8,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal Project - Presented at the Fête de la Science, Rouen 2023"
+        },
+        {
+            "header": "Date",
+            "value": "2023 - Present (ongoing improvements)"
+        },
+        {
+            "header": "Project Participants",
+            "value": "3"
+        },
+        {
+            "header": "Key Features",
+            "value": "Individual finger control via a glove equipped with flexible sensors / 2.4 GHz wireless communication (~50m range) / 8-hour autonomy with 18650 batteries / Charging via integrated BMS accessible from the surface / Displayed under a dome for exhibitions"
+        },
+        {
+            "header": "Technologies and Materials Used",
+            "value": "Arduino Nano (arm and glove) / Flexible sensors / 2.4 GHz transmission / 18650 batteries (4 parallel packs of 2 cells in series - 7.4V) / SLS 3D printing (current version) / First version in white FDM 3D printing / Power bank for glove power supply / Integrated BMS with accessible charging port"
+        }
+    ],
+    "description": [
+        "This project is a redesign and improvement of the <strong>InMoov</strong> robotic arm, modified for presentation at the <strong>Fête de la Science in Rouen 2023</strong>. The main objective was to achieve smooth, individual control of each finger of the robotic arm through a connected glove.",
+        "The glove is equipped with <strong>flexible sensors</strong> that allow independent control of each finger. Data transmission occurs via a <strong>2.4 GHz</strong> wireless link, providing a range of approximately <strong>50 meters</strong> when the battery is fully charged.",
+        "The arm features <strong>8 hours</strong> of autonomy, powered by <strong>18650 batteries</strong>: four parallel packs, each consisting of two cells in series, providing approximately <strong>7.4V</strong>. The glove is powered by a <strong>phone power bank</strong>, ensuring mobile and practical use.",
+        "The first version of the arm was made using <strong>FDM 3D printing</strong> (white). Currently, a new version is being produced using <strong>SLS 3D printing</strong>, offering better finish, robustness, and movement precision. The arm will be displayed <strong>under a dome</strong>, equipped with an <strong>integrated BMS</strong> and a <strong>surface-accessible charging port</strong> for easy presentation at exhibitions and shows.",
+        "This project allowed me to develop skills in mechatronics, embedded electronics, energy management, and advanced additive manufacturing, while exploring intuitive control techniques using flexible sensors."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/inmoov_bras_robotique"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Arduino Source Code",
+            "link": "https://github.com/username/inmoov-bras-robotique"
+        }
+    ]
+}

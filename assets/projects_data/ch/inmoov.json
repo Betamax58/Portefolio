@@ -1,0 +1,46 @@
+{
+    "projectName": "inmoov_bras_robotique",
+    "title": "InMoov 项目：带柔性传感器手套的远程控制机器人手臂",
+    "images": 8,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "个人项目 - 于 2023 年鲁昂科学节展示"
+        },
+        {
+            "header": "日期",
+            "value": "2023 年 - 至今（持续改进中）"
+        },
+        {
+            "header": "项目参与者",
+            "value": "3 人"
+        },
+        {
+            "header": "主要功能",
+            "value": "通过配备柔性传感器的手套实现手指独立控制 / 2.4 GHz 无线通信（约 50 米范围）/ 使用 18650 电池实现 8 小时续航 / 配备表面可接入的集成 BMS 进行充电 / 展览用防尘罩展示"
+        },
+        {
+            "header": "使用的技术与设备",
+            "value": "Arduino Nano（用于手臂和手套）/ 柔性传感器 / 2.4 GHz 无线传输 / 18650 电池（4 组并联，每组 2 节串联，7.4V）/ SLS 3D 打印（当前版本）/ 首版为白色 FDM 3D 打印 / 为手套供电的移动电源 / 集成 BMS，带表面充电接口"
+        }
+    ],
+    "description": [
+        "该项目是对<strong>InMoov 机器人手臂</strong>的重新设计和改进版本，旨在于<strong>2023 年鲁昂科学节</strong>上展示。其主要目标是通过一款连接手套实现机器人手臂每根手指的独立且流畅控制。",
+        "手套配备了<strong>柔性传感器</strong>，能够独立驱动手臂上的每根手指。数据通过<strong>2.4 GHz 无线连接</strong>进行传输，满电情况下通信范围约为<strong>50 米</strong>。",
+        "手臂系统依靠<strong>18650 电池</strong>供电，采用四组并联、每组两节串联的配置，电压约为<strong>7.4V</strong>，提供长达<strong>8 小时</strong>的续航时间。手套由<strong>手机移动电源</strong>供电，实现了便携式使用。",
+        "第一版手臂通过<strong>FDM 3D 打印</strong>完成（白色）。目前，正在使用<strong>SLS 3D 打印</strong>技术制造新版手臂，以提高表面质量、结构强度及运动精度。最终版本将在<strong>防尘展示罩</strong>中展出，配备<strong>集成 BMS</strong>和<strong>表面可访问的充电端口</strong>，便于在展会和展示期间使用。",
+        "通过该项目，我提升了在<strong>机电一体化</strong>、<strong>嵌入式电子</strong>、<strong>能源管理</strong>以及<strong>先进增材制造</strong>方面的技能，同时还探索了基于<strong>柔性传感器</strong>的直观控制技术。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "项目图片库",
+            "link": "assets/img/projects/inmoov_bras_robotique"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Arduino 源代码",
+            "link": "https://github.com/username/inmoov-bras-robotique"
+        }
+    ]
+}

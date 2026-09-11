@@ -1,0 +1,41 @@
+{
+    "projectName": "reparation_trottinettes_electriques",
+    "title": "Repair of Electric Scooters for Recycling and Refurbishment",
+    "images": 6,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal Project - Self-taught Repairs"
+        },
+        {
+            "header": "Date",
+            "value": "2020 - Present"
+        },
+        {
+            "header": "Project Participant",
+            "value": "1 (project completed independently)"
+        },
+        {
+            "header": "Main Repairs Performed",
+            "value": "Resoldering battery connections / Replacing fuses and MOSFETs on motherboards / Repairing severed motor cables / Replacing controllers on UrbanGlide scooters / Resolving vibration issues caused by solid tires"
+        },
+        {
+            "header": "Project Objectives",
+            "value": "Give a second life to electric scooters recovered for parts / Reduce electronic waste / Develop skills in power electronics and light electric vehicle maintenance"
+        }
+    ],
+    "description": [
+        "I regularly repair <strong>electric scooters</strong> recovered mainly from <strong>LeBonCoin</strong>, often given away for parts. This personal project is part of an initiative focused on <strong>repair and recycling</strong>, bringing devices considered irreparable back to life.",
+        "In most cases, the issue stems from <strong>battery solder joints</strong> breaking due to <strong>vibrations caused by solid tire usage</strong>. Road conditions amplify these vibrations, leading to electrical connection failures.",
+        "Beyond these common issues, I have also tackled more complex problems. Notably, I replaced a <strong>fuse and MOSFETs on the motherboard</strong> of a <strong>Xiaomi scooter</strong> after identifying that the root cause was a <strong>severed motor cable</strong>, which I resoldered inside the motor. This damaged cable caused the short circuit that led to the motherboard failure.",
+        "I also performed <strong>complete controller replacements</strong> on <strong>UrbanGlide scooter</strong> models, restoring them to optimal working condition.",
+        "This project has allowed me to strengthen my skills in <strong>power electronics</strong>, <strong>fault diagnostics</strong>, <strong>electric motor repairs</strong>, and <strong>light electric vehicle maintenance</strong>, while contributing to the <strong>reduction of electronic waste</strong>."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Repair Photo Gallery",
+            "link": "assets/img/projects/reparation_trottinettes_electriques"
+        }
+    ]
+}

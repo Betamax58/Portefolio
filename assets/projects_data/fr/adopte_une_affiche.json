@@ -1,0 +1,42 @@
+{
+    "projectName": "adopte_une_affiche",
+    "title": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers",
+    "images": 8,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet entrepreneurial"
+        },
+        {
+            "header": "Date",
+            "value": "2024 - Présent"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "2"
+        },
+        {
+            "header": "Services proposés",
+            "value": "Affiches d'animation / Faire-part personnalisés / CV créatifs et retouches / Design graphique"
+        }
+    ],
+    "description": [
+        "\"Adopte une Affiche\" est un projet visant à proposer des solutions graphiques personnalisées, à destination des professionnels et particuliers.",
+        "À l'origine, le projet s'adressait principalement aux professionnels du secteur du divertissement (animateurs en campings, hôtels, bars, etc.) souhaitant promouvoir leurs événements via des affiches attractives et sur mesure.",
+        "Fort de son succès, le projet s'est diversifié pour inclure la création de faire-part personnalisés pour toutes occasions (mariages, naissances, anniversaires), ainsi que la conception et la retouche de CV créatifs afin d'aider les particuliers à se démarquer sur le marché du travail.",
+        "Nous offrons un service de conception graphique adapté aux besoins des clients, avec un accompagnement sur mesure afin de garantir une communication visuelle percutante et professionnelle.",
+        "Notre approche met l'accent sur la créativité, la qualité du design et la satisfaction client, en proposant des solutions rapides et accessibles."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/website",
+            "name": "Site web",
+            "link": "https://adopte-une-affiche.example.com"
+        },
+        {
+            "image": "assets/img/icons/instagram",
+            "name": "Instagram",
+            "link": "https://instagram.com/adopte_une_affiche"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "projectName": "reparation_tv_ecran_plat",
+    "title": "平板电视维修：回收与转售",
+    "images": 5,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "个人项目 - 维修时间：2017年至今"
+        },
+        {
+            "header": "日期",
+            "value": "2017 - 至今"
+        },
+        {
+            "header": "项目参与者",
+            "value": "1（独立完成的项目）"
+        },
+        {
+            "header": "已修复的电视数量",
+            "value": "大约 6 台"
+        },
+        {
+            "header": "主要维修内容",
+            "value": "更换背光 LED / 更换电源板上的保险丝 / 更换故障电容器"
+        },
+        {
+            "header": "项目目标",
+            "value": "修复并翻新故障电视 / 通过再利用减少电子垃圾 / 提升电子维修和维护技能"
+        }
+    ],
+    "description": [
+        "自 2017 年以来，我开始了<strong>平板电视维修</strong>项目，这使我在电子维修方面积累了丰富的实践技能。在该个人项目中，我共修复了<strong>约六台电视</strong>，并将其<strong>转售</strong>或<strong>赠送给亲友</strong>，以此通过减少电子垃圾来践行环保理念。",
+        "大多数故障涉及<strong>LED 背光系统</strong>，需要更换损坏的 LED 灯带。在其他情况下，我还修复了<strong>电源板故障</strong>，包括<strong>烧毁的保险丝</strong>和<strong>损坏的电容器</strong>。",
+        "这些电视主要来源于故障设备的购买或回收，我对其进行了全面修复。该过程帮助我提升了<strong>电子故障诊断</strong>、<strong>焊接技术</strong>、<strong>元件更换</strong>以及<strong>设备热管理</strong>等技能。",
+        "除此之外，该项目还为<strong>循环经济</strong>做出了贡献，通过延长电子产品的使用寿命并减少环境影响，实现环保与技术提升的双重目标。每一次维修都是一次提升技术知识并赋予电子设备新生命的机会。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "维修照片库",
+            "link": "assets/img/projects/reparation_tv_ecran_plat"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "projectName": "serveur_minecraft_esiggames",
+    "title": "为 ESIG'Games 协会创建的物理 Minecraft 服务器",
+    "images": 6,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "协会项目 - ESIG'TRONIX 与 ESIG'Games 合作"
+        },
+        {
+            "header": "日期",
+            "value": "2024年5月 - 2025年1月"
+        },
+        {
+            "header": "项目参与者",
+            "value": "3人"
+        },
+        {
+            "header": "角色与贡献",
+            "value": "服务器组件尺寸规划 / 物理服务器组装 / 旧版在线地图迁移 / 添加自定义模组 / 重新开发此前仅在在线托管服务中可用的独家模组"
+        },
+        {
+            "header": "使用的技术与设备",
+            "value": "连接至 ESIGELEC 网络的物理服务器 / Linux 操作系统 / Minecraft Java 版 / 基于 Java 的模组开发 / Minecraft 服务器管理工具"
+        }
+    ],
+    "description": [
+        "在<strong>ESIG'Games</strong>（视频游戏与桌游协会）与<strong>ESIG'TRONIX</strong>之间的合作框架下，我们受邀搭建一个<strong>物理 Minecraft 服务器</strong>，以减少在线托管相关的成本。",
+        "我负责<strong>服务器组件的尺寸规划</strong>，以确保在支持多名玩家同时在线及加载各类模组的情况下，服务器依然具备稳定的性能。在一位同事的协助下，我们成功<strong>组装了物理服务器</strong>并进行了全面的功能测试。",
+        "之后，我们完成了<strong>旧版在线地图的完整迁移</strong>，以保证玩家数据和建筑内容的连续性。同时，我们<strong>添加了多个自定义模组</strong>以丰富游戏体验，并<strong>重新编写了一个专属模组</strong>，该模组此前仅适用于旧在线托管平台，现在已兼容我们搭建的全新服务器基础设施。",
+        "整个项目在<strong>2024年5月至2025年1月</strong>期间由三人团队完成，使 ESIG'Games 协会得以使用一个高性能、可持续且经济高效的 Minecraft 服务器，并且该服务器已直接连接至 ESIGELEC 的校园网络。",
+        "通过该项目，我在<strong>服务器基础设施搭建</strong>、<strong>Minecraft Java 编程</strong>以及<strong>技术项目的团队管理</strong>方面积累了宝贵经验。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "服务器项目照片库",
+            "link": "assets/img/projects/serveur_minecraft_esiggames"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "重新编写的模组源码",
+            "link": "https://github.com/username/esiggames-minecraft-mod"
+        }
+    ]
+}

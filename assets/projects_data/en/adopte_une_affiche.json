@@ -1,0 +1,42 @@
+{
+    "projectName": "adopte_une_affiche",
+    "title": "Adopte une Affiche - Creation and Customization of Posters for Professionals and Individuals",
+    "images": 8,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Entrepreneurial project"
+        },
+        {
+            "header": "Date",
+            "value": "2024 - Present"
+        },
+        {
+            "header": "Project Participants",
+            "value": "2"
+        },
+        {
+            "header": "Services Offered",
+            "value": "Animated posters / Personalized invitations / Creative CVs and editing / Graphic design"
+        }
+    ],
+    "description": [
+        "\"Adopte une Affiche\" is a project aimed at providing personalized graphic solutions for professionals and individuals.",
+        "Initially, the project primarily targeted professionals in the entertainment sector (entertainers in campsites, hotels, bars, etc.) looking to promote their events with attractive and custom-made posters.",
+        "Thanks to its success, the project has diversified to include the creation of personalized invitations for all occasions (weddings, births, birthdays), as well as the design and editing of creative CVs to help individuals stand out in the job market.",
+        "We offer a graphic design service tailored to clients' needs, with personalized support to ensure impactful and professional visual communication.",
+        "Our approach focuses on creativity, design quality, and customer satisfaction, offering fast and accessible solutions."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/website",
+            "name": "Website",
+            "link": "https://adopte-une-affiche.example.com"
+        },
+        {
+            "image": "assets/img/icons/instagram",
+            "name": "Instagram",
+            "link": "https://instagram.com/adopte_une_affiche"
+        }
+    ]
+}

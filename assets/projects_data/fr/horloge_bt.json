@@ -1,0 +1,46 @@
+{
+    "projectName": "horloge_bt",
+    "title": "Horloge Bluetooth avec minuterie pour salle de musculation",
+    "images": 6,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet personnel"
+        },
+        {
+            "header": "Date",
+            "value": "2020 - Application mise à jour ultérieurement"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "1"
+        },
+        {
+            "header": "Fonctionnalités principales",
+            "value": "Affichage de l'heure avec matrices LED faites à la main / Minuterie contrôlée via Bluetooth / Application mobile dédiée / Buzzer sonore en fin de décompte / Retour automatique à l'affichage de l'heure"
+        },
+        {
+            "header": "Technologies et matériel utilisés",
+            "value": "Matrices LED fabriquées à la main / Module Bluetooth / Microcontrôleur / Buzzer sonore / Première application sous App Inventor / Refonte de l'application sous Android Studio"
+        }
+    ],
+    "description": [
+        "Ce projet a été réalisé pendant le premier confinement en 2020. L'objectif était de concevoir une horloge connectée pour la salle de musculation de mon petit frère, lui permettant de gérer ses répétitions et temps de repos via son smartphone.",
+        "L'horloge utilise un affichage par LED composé de matrices entièrement réalisées à la main, offrant un affichage numérique clair et visible même à distance. Elle affiche en temps normal l'heure, mais peut passer en mode minuterie lorsqu'elle est activée via une application mobile connectée en Bluetooth.",
+        "Une fois le compte à rebours terminé, un buzzer se déclenche pour signaler la fin du temps de repos, et l'affichage revient automatiquement à l'heure.",
+        "L'application mobile initiale a été développée avec <strong>App Inventor</strong> permettant un contrôle simple et rapide du minuteur. Quelques années plus tard, j’ai entièrement refondu l’application sous <strong>Android Studio</strong> pour une meilleure interface utilisateur, plus de stabilité et de nouvelles fonctionnalités.",
+        "Ce projet m’a permis de développer mes compétences en communication sans fil (Bluetooth), en développement d'applications mobiles Android, en conception électronique ainsi qu’en fabrication de matrices LED sur mesure."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos",
+            "link": "assets/img/projects/horloge_bluetooth_muscu"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Code source de l'application Android",
+            "link": "https://github.com/username/horloge-bt-muscu"
+        }
+    ]
+}

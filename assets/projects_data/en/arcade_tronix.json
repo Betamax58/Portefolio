@@ -1,0 +1,42 @@
+{
+    "projectName": "arcade_tronix",
+    "title": "Renovation of an Arcade Cabinet for the ESIG'TRONIX Association",
+    "images": 6,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Association Project - ESIG'TRONIX"
+        },
+        {
+            "header": "Date",
+            "value": "June 2024"
+        },
+        {
+            "header": "Project Participants",
+            "value": "3 (carried out with two colleagues from the association)"
+        },
+        {
+            "header": "Technologies and Materials Used",
+            "value": "Raspberry Pi 4 (4 GB) / RecallBox / Embedded Electronics / Customized LED Panel"
+        }
+    ],
+    "description": [
+        "The goal of this project was to modernize an arcade cabinet initially built in 2013-2014 by members of the ESIG'TRONIX association. The original cabinet used a Raspberry Pi 3 and offered a limited selection of retro games.",
+        "Together with two colleagues from the association, we undertook a complete upgrade of the arcade cabinet in June 2024. We replaced the Raspberry Pi 3 with a Raspberry Pi 4 with 4 GB of RAM, providing better performance for emulating multiple retro consoles.",
+        "The firmware was updated to RecallBox, allowing the integration of a wide range of retro consoles to enrich the gaming experience. The entire internal electronics were redesigned and refurbished to ensure better system stability and durability.",
+        "We also added an aesthetic touch by installing a customized LED panel on top of the cabinet, proudly displaying the ESIG'TRONIX association name, further strengthening our group's visual identity during events.",
+        "This project showcased our expertise in electronics, embedded computing, and customization of gaming systems, while providing a friendly entertainment space for the association's members."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/borne_arcade_esigtronix"
+        },
+        {
+            "image": "assets/img/icons/website",
+            "name": "ESIG'TRONIX Association Website",
+            "link": "https://esigtronix.example.com"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "projectName": "reparation_tv_ecran_plat",
+    "title": "Flat-Screen TV Repair for Recycling and Resale",
+    "images": 5,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal Project - Repairs from 2017 to Present"
+        },
+        {
+            "header": "Date",
+            "value": "2017 - Present"
+        },
+        {
+            "header": "Project Participant",
+            "value": "1 (project completed independently)"
+        },
+        {
+            "header": "Number of TVs Repaired",
+            "value": "Approximately 6"
+        },
+        {
+            "header": "Main Repairs Performed",
+            "value": "Replacement of backlight LEDs / Replacement of fuses on the power board / Replacement of faulty capacitors"
+        },
+        {
+            "header": "Project Objectives",
+            "value": "Repair and refurbish non-functional TVs / Reduce electronic waste through reuse / Develop skills in electronics and maintenance"
+        }
+    ],
+    "description": [
+        "Since 2017, I have been working on the <strong>repair of flat-screen televisions</strong>, allowing me to develop practical skills in electronics and maintenance. Around <strong>six televisions</strong> have been repaired as part of this personal project, which I have either <strong>resold</strong> or <strong>given to family and friends</strong>, thus contributing to an eco-friendly approach by reducing electronic waste.",
+        "Most of the faults were related to the <strong>LED backlighting</strong>, where LED strips needed replacement due to failure. In other cases, I identified and repaired issues on the <strong>power board</strong>, including <strong>blown fuses</strong> and <strong>damaged capacitors</strong>.",
+        "The repaired televisions mainly came from purchases of faulty models or salvaged units, which I refurbished. This process helped me enhance my skills in <strong>electronic diagnostics</strong>, <strong>soldering</strong>, <strong>component replacement</strong>, and <strong>thermal management</strong> of electronic equipment.",
+        "Beyond repair, this project contributes to the <strong>circular economy</strong> by extending the lifespan of electronic products and reducing their environmental impact. Each repair represents an opportunity to improve my technical knowledge while giving a second life to electronic devices."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Repair Photo Gallery",
+            "link": "assets/img/projects/reparation_tv_ecran_plat"
+        }
+    ]
+}

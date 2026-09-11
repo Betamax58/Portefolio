@@ -1,0 +1,46 @@
+{
+    "projectName": "inmoov_bras_robotique",
+    "title": "Projet InMoov : Bras robotique télécommandé avec gant à capteurs flexibles",
+    "images": 8,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet personnel - Présenté à la Fête de la Science de Rouen 2023"
+        },
+        {
+            "header": "Date",
+            "value": "2023 - Présent (améliorations en cours)"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "3"
+        },
+        {
+            "header": "Fonctionnalités principales",
+            "value": "Contrôle individuel des doigts via un gant équipé de capteurs flexibles / Communication sans fil en 2.4 GHz (portée ~50m) / Autonomie de 8h avec batteries 18650 / Chargement via BMS intégré accessible en surface / Présentation sous cloche pour expositions"
+        },
+        {
+            "header": "Technologies et matériel utilisés",
+            "value": "Arduino Nano (bras et gant) / Capteurs flexibles / Transmission 2.4 GHz / Batteries 18650 (4 packs en parallèle de 2 cellules en série - 7.4V) / Impression 3D SLS (version actuelle) / Première version en impression FDM blanche / Powerbank pour l'alimentation du gant / BMS intégré avec port de charge accessible"
+        }
+    ],
+    "description": [
+        "Ce projet est une reprise et une amélioration du bras robotique <strong>InMoov</strong> modifié pour être présenté lors de la <strong>Fête de la Science de Rouen 2023</strong> L’objectif principal était d’obtenir un contrôle individuel et fluide de chacun des doigts du bras robotique via un gant connecté.",
+        "Le gant est équipé de <strong>capteurs flexibles</strong> permettant de piloter indépendamment chaque doigt du bras. La transmission des données s’effectue par une liaison sans fil en <strong>2.4 GHz</strong> offrant une portée d’environ <strong>50 mètres</strong> avec la batterie complètement chargée.",
+        "Le bras bénéficie d'une autonomie de <strong>8 heures</strong> grâce à une alimentation composée de <strong>batteries 18650</strong> : quatre packs montés en parallèle, chacun constitué de deux cellules en série pour obtenir une tension d’environ <strong>7.4V</strong> Le gant, quant à lui, est alimenté par une <strong>powerbank de téléphone</strong> garantissant une utilisation mobile et pratique.",
+        "La première version du bras avait été réalisée en <strong>impression 3D FDM</strong> (blanc). Actuellement, une nouvelle version est en cours de fabrication avec une <strong>impression SLS</strong> offrant une meilleure finition, robustesse et précision des mouvements. Le bras sera présenté <strong>sous cloche</strong> équipé d’un <strong>BMS intégré</strong> et d’un <strong>port de charge accessible en surface</strong>, afin de faciliter sa présentation lors de salons et expositions.",
+        "Ce projet m’a permis de développer des compétences en mécatronique, en électronique embarquée, en gestion d’énergie et en fabrication additive avancée, tout en explorant des techniques de contrôle intuitif via des capteurs flexibles."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos",
+            "link": "assets/img/projects/inmoov_bras_robotique"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Code source Arduino",
+            "link": "https://github.com/username/inmoov-bras-robotique"
+        }
+    ]
+}

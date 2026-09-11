@@ -1,0 +1,51 @@
+{
+    "projectName": "coupe_france_robotique",
+    "title": "Participation in the French Robotics Cup - Team PING 36",
+    "images": 10,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Association Project / Engineering Project - ESIG'TRONIX"
+        },
+        {
+            "header": "Dates",
+            "value": "2024 and 2025 Editions"
+        },
+        {
+            "header": "Project Participants",
+            "value": "8 in 2024 and 6 in 2025"
+        },
+        {
+            "header": "Role and Contributions",
+            "value": "Electronic and robotic design / Programming with ROS2 / Integration of sensors and embedded systems / Robotics strategy management"
+        },
+        {
+            "header": "Technologies and Equipment Used",
+            "value": "Raspberry Pi 5 / ROS2 / ESP32 / STM32H750 with touchscreen / Lidar / OTOS sensor / TOF sensor / DC motors with encoders / Computer vision / Laser cutting / 3D printing for custom parts"
+        }
+    ],
+    "description": [
+        "I participated in the French Robotics Cup for two consecutive years (2024 and 2025) with the <strong>PING 36</strong> team from the <strong>ESIG'TRONIX</strong> association. This event brings together robotics enthusiasts each year to design, program, and compete with autonomous robots on a game field, following a strict set of specifications.",
+        "For the 2024 edition, we developed a robot capable of completing various tasks required by the regulations, including object detection and manipulation, obstacle management, and the implementation of effective game strategies. This first experience allowed me to enhance my skills in embedded electronics, prototyping, and sensor integration.",
+        "In the 2025 edition, we upgraded our robot by integrating new technologies, including an <strong>STM32H750</strong> with a touchscreen, enabling the creation and dynamic management of a coordinate list for the robot, communicated directly to the controller. I also worked on programming with <strong>ROS2</strong> and using the <strong>Raspberry Pi 5</strong> for embedded processing.",
+        "We designed a robust electronic architecture, combined with custom 3D-printed components to optimize the robot's structure and maneuverability. The integration of advanced sensors such as the <strong>lidar</strong>, <strong>OTOS sensor</strong>, and <strong>TOF sensor</strong> improved obstacle detection and navigation accuracy. Computer vision was also utilized to enhance the robot's real-time decision-making capabilities.",
+        "These two years of participation strengthened my skills in collaborative robotics, technical project management, and innovation, while providing me the opportunity to proudly represent our association at a national event."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/coupe_france_robotique"
+        },
+        {
+            "image": "assets/img/icons/pdf_file",
+            "name": "2025 Project Poster",
+            "link": "assets/documents/poster_projet_ping36_2025.pdf"
+        },
+        {
+            "image": "assets/img/icons/website",
+            "name": "Official Website - French Robotics Cup",
+            "link": "https://www.coupederobotique.fr/"
+        }
+    ]
+}

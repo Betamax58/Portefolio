@@ -1,0 +1,37 @@
+{
+    "projectName": "bateau_amorceur_carpe",
+    "title": "Bateau amorceur télécommandé pour la pêche à la carpe",
+    "images": 7,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet personnel - Lycée (Première)"
+        },
+        {
+            "header": "Date",
+            "value": "2018"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "1 (projet réalisé seul)"
+        },
+        {
+            "header": "Caractéristiques techniques",
+            "value": "Coque en fibre de verre avec résine / Design catamaran pour la stabilité / Deux moteurs Speed 800BB Turbo / LEDs (blanches à l'avant, rouges à l'arrière) / Électroaimant pour le transport d’hameçons / Panneau solaire pour la recharge / Deux batteries lithium pour une autonomie prolongée"
+        }
+    ],
+    "description": [
+        "Ce projet personnel a été réalisé en 2018, lorsque j'étais en classe de première. L'objectif était de concevoir un bateau amorceur télécommandé pour la pêche à la carpe, capable de transporter amorces et hameçons à des emplacements précis sur l'eau.",
+        "Le bateau a été conçu sous forme de catamaran afin d’assurer une stabilité optimale, essentielle pour la précision de dépôt des appâts et pour la navigation sur des plans d'eau soumis au vent.",
+        "La propulsion est assurée par deux moteurs Speed 800BB Turbo, garantissant une vitesse et une puissance suffisantes pour atteindre rapidement les zones de pêche ciblées. L'alimentation électrique repose sur deux batteries lithium offrant une grande autonomie, complétée par un panneau solaire embarqué pour prolonger la durée d'utilisation sans retour fréquent à la base.",
+        "Pour les sessions de pêche nocturnes, des LED blanches à l’avant et rouges à l’arrière assurent la visibilité et facilitent le repérage du bateau. Un électroaimant intégré permet de transporter un hameçon et de le déposer précisément à l’endroit souhaité, augmentant ainsi l’efficacité des sessions de pêche.",
+        "La coque du bateau a été entièrement réalisée en fibre de verre renforcée par de la résine, offrant robustesse et légèreté. Ce projet m’a permis de développer des compétences en conception mécanique, en électronique embarquée et en gestion énergétique, tout en combinant une passion personnelle pour la pêche."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos",
+            "link": "assets/img/projects/bateau_amorceur_carpe"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "projectName": "serveur_minecraft_esiggames",
+    "title": "Création d'un serveur Minecraft physique pour l'association ESIG'Games",
+    "images": 6,
+    "information": [
+        {
+            "header": "Cadre",
+            "value": "Projet associatif - Collaboration entre ESIG'TRONIX et ESIG'Games"
+        },
+        {
+            "header": "Date",
+            "value": "Mai 2024 - Janvier 2025"
+        },
+        {
+            "header": "Participant au projet",
+            "value": "3"
+        },
+        {
+            "header": "Rôle et contributions",
+            "value": "Dimensionnement des composants pour le serveur / Assemblage du serveur physique / Migration de l'ancienne map en ligne / Ajout de mods personnalisés / Refonte d'un mod exclusif auparavant disponible uniquement chez l’hébergeur en ligne"
+        },
+        {
+            "header": "Technologies et matériel utilisés",
+            "value": "Serveur physique connecté au réseau internet de l'ESIGELEC / Système d'exploitation Linux / Minecraft Java Edition / Développement de mods en Java / Outils de gestion de serveur Minecraft"
+        }
+    ],
+    "description": [
+        "Dans le cadre d'une collaboration entre l'association <strong>ESIG'Games</strong> (jeux vidéo et jeux de société) et <strong>ESIG'TRONIX</strong> nous avons été sollicités pour mettre en place un <strong>serveur Minecraft physique</strong> afin de réduire les coûts liés à l’hébergement en ligne.",
+        "J’ai pris en charge le <strong>dimensionnement des composants</strong> nécessaires pour garantir la stabilité et les performances du serveur, en tenant compte des besoins en ressources pour héberger plusieurs joueurs simultanément et supporter divers mods. Avec l’aide d’un collègue, nous avons <strong>assemblé le serveur</strong> et réalisé les tests de bon fonctionnement.",
+        "Nous avons ensuite procédé à la <strong>migration complète de l’ancienne map</strong> du serveur en ligne vers ce nouveau serveur physique, assurant la continuité des données et des constructions existantes. En parallèle, nous avons <strong>ajouté plusieurs mods</strong> afin d’enrichir l’expérience de jeu, et avons <strong>recodé un mod</strong> qui n’était disponible que sur l’ancien hébergeur, afin de le rendre compatible avec notre nouvelle infrastructure.",
+        "Le projet a été mené à bien en équipe de trois personnes, entre <strong>mai 2024 et janvier 2025</strong> et a permis à l’association ESIG'Games de bénéficier d’un serveur performant, durable et économique, connecté directement au réseau internet de l’ESIGELEC.",
+        "Ce projet m’a permis de renforcer mes compétences en <strong>infrastructure serveur</strong>, en <strong>programmation Java pour Minecraft</strong>, ainsi qu’en gestion de projets techniques collaboratifs."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Galerie photos du serveur",
+            "link": "assets/img/projects/serveur_minecraft_esiggames"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Code source du mod recodé",
+            "link": "https://github.com/username/esiggames-minecraft-mod"
+        }
+    ]
+}

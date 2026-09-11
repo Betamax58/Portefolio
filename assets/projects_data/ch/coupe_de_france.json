@@ -1,0 +1,51 @@
+{
+    "projectName": "coupe_france_robotique",
+    "title": "参加法国机器人杯 - PING 36 团队",
+    "images": 10,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "协会项目 / 工程师项目 - ESIG'TRONIX"
+        },
+        {
+            "header": "日期",
+            "value": "2024 年与 2025 年赛事"
+        },
+        {
+            "header": "项目参与者",
+            "value": "2024 年 8 人，2025 年 6 人"
+        },
+        {
+            "header": "角色与贡献",
+            "value": "电子与机器人设计 / 基于 ROS2 的编程 / 传感器与嵌入式系统集成 / 机器人战略管理"
+        },
+        {
+            "header": "使用的技术与设备",
+            "value": "Raspberry Pi 5 / ROS2 / ESP32 / 配备触控屏的 STM32H750 / 激光雷达 / OTOS 传感器 / TOF 传感器 / 配有编码器的直流电机 / 计算机视觉 / 激光切割 / 3D 打印定制部件"
+        }
+    ],
+    "description": [
+        "我在 2024 年和 2025 年连续两年与 <strong>ESIG'TRONIX</strong> 协会的 <strong>PING 36</strong> 团队一起参加了<strong>法国机器人杯</strong>。该赛事每年吸引机器人爱好者聚集，设计、编程并在遵循严格规格的比赛场地上对抗自主机器人。",
+        "在 2024 年的比赛中，我们开发了一款能够完成多项任务的机器人，包括物体检测与搬运、障碍物管理以及高效的游戏策略实施。这次初次参赛让我提升了<strong>嵌入式电子</strong>、<strong>原型制作</strong>以及<strong>传感器集成</strong>方面的技能。",
+        "在 2025 年的比赛中，我们对机器人进行了升级，引入了新的技术，包括配备<strong>触控屏的 STM32H750</strong>，用于动态创建和管理机器人坐标列表，并将其直接传输至控制器。我还参与了基于<strong>ROS2</strong>的编程以及使用<strong>Raspberry Pi 5</strong>进行嵌入式处理。",
+        "我们设计了<strong>稳健的电子架构</strong>，结合定制的<strong>3D 打印部件</strong>以优化机器人的结构和可操作性。通过集成如<strong>激光雷达</strong>、<strong>OTOS 传感器</strong>和<strong>TOF 传感器</strong>等高级传感器，我们显著提升了障碍物检测和导航精度。此外，<strong>计算机视觉</strong>也被用于增强机器人在比赛中的实时决策能力。",
+        "这两年的参赛经历不仅提升了我在<strong>协作式机器人开发</strong>、<strong>技术项目管理</strong>以及<strong>创新能力</strong>方面的技能，同时也让我有机会在国家级赛事中自豪地代表我们的协会。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "项目图片库",
+            "link": "assets/img/projects/coupe_france_robotique"
+        },
+        {
+            "image": "assets/img/icons/pdf_file",
+            "name": "2025 年项目海报",
+            "link": "assets/documents/poster_projet_ping36_2025.pdf"
+        },
+        {
+            "image": "assets/img/icons/website",
+            "name": "法国机器人杯官方网站",
+            "link": "https://www.coupederobotique.fr/"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "projectName": "arcade_tronix",
+    "title": "为 ESIG'TRONIX 协会翻新街机游戏机",
+    "images": 6,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "协会项目 - ESIG'TRONIX"
+        },
+        {
+            "header": "日期",
+            "value": "2024年6月"
+        },
+        {
+            "header": "项目参与者",
+            "value": "3（与协会的两位同事共同完成）"
+        },
+        {
+            "header": "使用的技术与设备",
+            "value": "Raspberry Pi 4 (4GB) / RecallBox / 嵌入式电子设备 / 定制发光面板"
+        }
+    ],
+    "description": [
+        "该项目的目标是对最初由 ESIG'TRONIX 协会成员在 2013-2014 年间构建的街机游戏机进行现代化升级。原始版本采用 Raspberry Pi 3，且可玩游戏数量有限。",
+        "在 2024 年 6 月，我与协会的两位同事对游戏机进行了全面升级。我们将 Raspberry Pi 3 替换为配备 4GB 内存的 Raspberry Pi 4，从而显著提升了多款复古游戏主机模拟的性能。",
+        "系统固件升级至 RecallBox，支持更多的复古游戏机平台，丰富了游戏体验。我们还重新设计并翻新了内部电子系统，以提高系统的稳定性和耐用性。",
+        "为提升外观效果，我们在机顶安装了一个定制的发光面板，上面醒目地展示了协会名称“ESIG'TRONIX”，从而在活动中进一步强化了团队的视觉识别度。",
+        "该项目不仅展示了我们在电子技术、嵌入式计算和娱乐系统个性化方面的技能，还为协会成员提供了一个共享的娱乐空间，增强了团队凝聚力。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "照片库",
+            "link": "assets/img/projects/borne_arcade_esigtronix"
+        },
+        {
+            "image": "assets/img/icons/website",
+            "name": "ESIG'TRONIX 协会网站",
+            "link": "https://esigtronix.example.com"
+        }
+    ]
+}

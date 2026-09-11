@@ -1,0 +1,46 @@
+{
+    "projectName": "horloge_bt",
+    "title": "Bluetooth Clock with Timer for Home Gym",
+    "images": 6,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal Project"
+        },
+        {
+            "header": "Date",
+            "value": "2020 - Application updated later"
+        },
+        {
+            "header": "Project Participant",
+            "value": "1"
+        },
+        {
+            "header": "Key Features",
+            "value": "Time display with handmade LED matrices / Timer controlled via Bluetooth / Dedicated mobile application / Sound buzzer at the end of the countdown / Automatic return to time display"
+        },
+        {
+            "header": "Technologies and Materials Used",
+            "value": "Handmade LED matrices / Bluetooth module / Microcontroller / Sound buzzer / First application using App Inventor / Redesigned application with Android Studio"
+        }
+    ],
+    "description": [
+        "This project was developed during the first lockdown in 2020. The goal was to design a connected clock for my younger brother's home gym, allowing him to manage his repetitions and rest times via his smartphone.",
+        "The clock uses a LED display composed of entirely handmade matrices, providing a clear digital display visible even from a distance. By default, it shows the current time but switches to timer mode when activated via a Bluetooth-connected mobile application.",
+        "Once the countdown ends, a buzzer sounds to indicate the end of the rest period, and the display automatically returns to showing the time.",
+        "The initial mobile application was developed using <strong>App Inventor</strong>, allowing for quick and simple timer control. A few years later, I completely redesigned the application using <strong>Android Studio</strong> for an improved user interface, better stability, and additional features.",
+        "This project allowed me to develop my skills in wireless communication (Bluetooth), Android mobile application development, electronic design, and custom LED matrix fabrication."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/horloge_bluetooth_muscu"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Android Application Source Code",
+            "link": "https://github.com/username/horloge-bt-muscu"
+        }
+    ]
+}

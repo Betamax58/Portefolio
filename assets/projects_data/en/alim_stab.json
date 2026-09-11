@@ -1,0 +1,42 @@
+{
+    "projectName": "alim_stab",
+    "title": "Stabilized Power Supply from a PC Power Supply",
+    "images": 5,
+    "information": [
+        {
+            "header": "Context",
+            "value": "Personal project"
+        },
+        {
+            "header": "Date",
+            "value": "2023 - 2024"
+        },
+        {
+            "header": "Project Participant",
+            "value": "1"
+        },
+        {
+            "header": "Main Features",
+            "value": "Stabilized outputs (+3.3V / +5V / +12V / -12V) / Main switch / Distribution switch to terminals / LED indicator showing current delivery / Secured connection terminals"
+        }
+    ],
+    "description": [
+        "This personal project aimed to transform a PC power supply into a stabilized power supply, providing the standard voltages used in electronics (+3.3V, +5V, +12V, and -12V).",
+        "The goal was to have a reliable and safe power supply to power various electronic circuits at home, particularly for prototyping and DIY electronics projects.",
+        "The project started in 2023 and was completed at the beginning of the 2024 school year. I carried out the entire project on my own, from retrieving the PC power supply to designing the enclosure, including integrating the necessary protections and controls.",
+        "The power supply features two switches: a main switch for the primary power and a secondary switch to enable or disable the power delivery to the connection terminals. A single LED indicates when current is being delivered to the terminals, ensuring safe usage.",
+        "This project allowed me to refine my skills in power electronics, secure wiring, and designing power systems tailored to the needs of personal electronic projects."
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Complete Documentation",
+            "link": "assets/documents/alim_stabilisee_pc.pdf"
+        },
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "Photo Gallery",
+            "link": "assets/img/projects/alim_stabilisee_pc"
+        }
+    ]
+}

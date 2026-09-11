@@ -1,0 +1,46 @@
+{
+    "projectName": "horloge_bt",
+    "title": "蓝牙计时钟：为健身房设计的带计时器时钟",
+    "images": 6,
+    "information": [
+        {
+            "header": "项目背景",
+            "value": "个人项目"
+        },
+        {
+            "header": "日期",
+            "value": "2020 年 - 应用程序后续更新"
+        },
+        {
+            "header": "项目参与者",
+            "value": "1 人"
+        },
+        {
+            "header": "主要功能",
+            "value": "由手工制作的 LED 矩阵显示时间 / 通过蓝牙控制的计时器 / 专属移动应用 / 倒计时结束时蜂鸣器提醒 / 自动返回时间显示模式"
+        },
+        {
+            "header": "使用的技术与设备",
+            "value": "手工制作的 LED 矩阵 / 蓝牙模块 / 微控制器 / 蜂鸣器 / 基于 App Inventor 开发的初始应用 / 使用 Android Studio 重制的移动应用"
+        }
+    ],
+    "description": [
+        "该项目于 2020 年第一次封锁期间完成，旨在为我弟弟的健身房设计一款可通过智能手机管理训练间歇和重复次数的蓝牙连接时钟。",
+        "时钟采用<strong>手工制作的 LED 矩阵</strong>进行数字显示，即使在远距离也能清晰可见。设备在正常情况下显示时间，但在通过<strong>蓝牙连接的移动应用</strong>激活后，可切换至计时器模式。",
+        "当倒计时结束时，<strong>蜂鸣器会响起</strong>以提示休息时间结束，显示屏随后会<strong>自动返回至时间显示</strong>。",
+        "最初的移动应用使用<strong>App Inventor</strong>开发，能够快速且简便地控制计时器。几年后，我使用<strong>Android Studio</strong>对应用程序进行了全面重制，以提供更好的用户界面、更高的稳定性以及更多功能。",
+        "通过该项目，我提升了在<strong>无线通信（蓝牙）</strong>、<strong>Android 移动应用开发</strong>、<strong>电子设计</strong>以及<strong>定制 LED 矩阵制造</strong>等方面的技能。"
+    ],
+    "resources": [
+        {
+            "image": "assets/img/icons/gallery",
+            "name": "项目照片库",
+            "link": "assets/img/projects/horloge_bluetooth_muscu"
+        },
+        {
+            "image": "assets/img/icons/github_black",
+            "name": "Android 应用源码",
+            "link": "https://github.com/username/horloge-bt-muscu"
+        }
+    ]
+}

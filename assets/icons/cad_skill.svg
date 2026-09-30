@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Icône CAO DAO">
+  <g fill="none" stroke="#4ec9e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M64 12 106 36 64 60 22 36 64 12Z"/>
+    <path d="M22 36v49l42 25 42-25V36"/>
+    <path d="M64 60v50"/>
+    <path d="M42 25 85 50" opacity=".65"/>
+  </g>
+</svg>

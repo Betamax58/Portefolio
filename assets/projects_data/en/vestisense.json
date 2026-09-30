@@ -1,0 +1,41 @@
+{
+  "projectName": "vestisense",
+  "title": "Vestisense: Connected Wardrobe and Smart Mirror",
+  "images": 5,
+  "information": [
+    {
+      "header": "Context",
+      "value": "Personal project under development"
+    },
+    {
+      "header": "Date",
+      "value": "2022 - Present"
+    },
+    {
+      "header": "Project author",
+      "value": "Kévin BOYER--NAVARRO"
+    },
+    {
+      "header": "Main features",
+      "value": "RFID-based automated wardrobe inventory / Computer-vision clothing identification and segmentation / Outfit recommendations based on weather, style and available garments / Full-length smart-mirror interface / Virtual try-on under development"
+    },
+    {
+      "header": "Current and planned technologies",
+      "value": "Python / OpenCV / PyTorch and computer-vision models / 2D or 3D camera / RFID / Raspberry Pi 5 / Display behind a semi-reflective mirror / Weather API / Wardrobe database / Recommendation AI"
+    }
+  ],
+  "description": [
+    "<strong>Vestisense</strong> is a personal project started in 2022 that aims to turn a conventional wardrobe into a connected system centred on a smart mirror. Its purpose is to track the garments that are actually available and help the user choose a suitable outfit.",
+    "Garments are associated with <strong>RFID tags</strong>, while readers installed in hanging and shelving areas track their presence. A central database stores the user’s wardrobe and can be enriched from photographs of newly added clothes.",
+    "The software is mainly developed in <strong>Python</strong>. Early computer-vision prototypes use <strong>OpenCV</strong> and artificial-intelligence models to detect the user, segment garments and identify the different parts of an outfit. Skeleton tracking and the <strong>virtual try-on</strong> feature are still under development.",
+    "Eventually, the recommendation system will be able to consider weather conditions, colour matching, the desired style, trends and the garments currently available. The user will be able to browse suggested outfits directly from the mirror through simple gesture-based interaction.",
+    "The planned hardware combines a semi-reflective mirror, a display, a camera and a <strong>Raspberry Pi 5</strong>, linked to the wardrobe’s RFID readers. Development follows a progressive approach: a 2D software and vision prototype first, followed by improved recognition, rendering and 3D try-on capabilities."
+  ],
+  "resources": [
+    {
+      "image": "assets/img/icons/gallery",
+      "name": "Project gallery",
+      "link": "assets/projects/vestisense"
+    }
+  ]
+}

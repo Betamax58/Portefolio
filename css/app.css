@@ -1180,3 +1180,10 @@ footer p {font-size: 14px;}
         font-size: 18px;
     }
 }
+
+.skill > img.skill-logo-wide {
+    width: 100%;
+    max-width: 100px;
+    height: 60px;
+    object-fit: contain;
+}

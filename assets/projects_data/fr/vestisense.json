@@ -1,0 +1,41 @@
+{
+  "projectName": "vestisense",
+  "title": "Vestisense : dressing connecté et miroir intelligent",
+  "images": 5,
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel en développement"
+    },
+    {
+      "header": "Date",
+      "value": "2022 - Présent"
+    },
+    {
+      "header": "Auteur du projet",
+      "value": "Kévin BOYER--NAVARRO"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Inventaire automatisé du dressing par RFID / Identification et segmentation des vêtements par vision / Recommandation de tenues selon la météo, le style et les vêtements disponibles / Interface intégrée à un miroir plein pied / Essayage virtuel (virtual try-on) en développement"
+    },
+    {
+      "header": "Technologies utilisées et envisagées",
+      "value": "Python / OpenCV / PyTorch et modèles de vision par ordinateur / Caméra 2D ou 3D / RFID / Raspberry Pi 5 / Écran derrière une vitre semi-réfléchissante / API météo / Base de données du dressing / IA de recommandation"
+    }
+  ],
+  "description": [
+    "<strong>Vestisense</strong> est un projet personnel commencé en 2022 qui vise à transformer un dressing classique en un système connecté, organisé autour d’un miroir intelligent. L’objectif est de connaître automatiquement les vêtements disponibles et d’aider l’utilisateur à choisir une tenue adaptée.",
+    "Les vêtements sont associés à des <strong>étiquettes RFID</strong>, tandis que des lecteurs placés dans les penderies et les étagères permettent de suivre leur présence. Une base de données centralise le dressing de l’utilisateur et peut être enrichie à partir de photographies des vêtements.",
+    "Le logiciel est principalement développé en <strong>Python</strong>. Les premiers prototypes de vision utilisent notamment <strong>OpenCV</strong> et des modèles d’intelligence artificielle pour détecter la personne, segmenter les vêtements et distinguer les différentes parties d’une tenue. Le suivi du squelette et l’<strong>essayage virtuel</strong> (virtual try-on) sont encore en développement.",
+    "À terme, l’intelligence artificielle pourra proposer des tenues en tenant compte de la météo, des associations de couleurs, du style recherché, des tendances et des vêtements réellement disponibles. L’utilisateur pourra faire défiler les propositions depuis le miroir grâce à une interaction gestuelle simple.",
+    "L’architecture matérielle envisagée réunit une vitre semi-réfléchissante, un écran, une caméra et un <strong>Raspberry Pi 5</strong>, avec une passerelle vers les lecteurs RFID du dressing. Le projet est conçu de manière progressive : prototype logiciel et vision en 2D dans un premier temps, puis amélioration du rendu, de la reconnaissance et du try-on en 3D."
+  ],
+  "resources": [
+    {
+      "image": "assets/img/icons/gallery",
+      "name": "Galerie du projet",
+      "link": "assets/projects/vestisense"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Logo Shapr3D">
+  <rect x="8" y="8" width="112" height="112" rx="5" fill="#2f5df5"/>
+  <g fill="#fff">
+    <path d="M64 29 90 44 64 59 38 44 64 29Zm0 8.8L53.2 44 64 50.2 74.8 44 64 37.8Z"/>
+    <path d="m35 49 25 14.4v29L35 78V49Zm8 13.8v10.6l9 5.2V68l-9-5.2Z"/>
+    <path d="m93 49-25 14.4v29L93 78V49ZM85 62.8 76 68v10.6l9-5.2V62.8Z"/>
+  </g>
+</svg>

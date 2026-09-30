@@ -1,6 +1,6 @@
 {
     "projectName": "inmoov_bras_robotique",
-    "title": "InMoov Project: Teleoperated Robotic Arm with Flexible Sensor Glove",
+    "title": "InMoov Project: Computer-Vision-Controlled Robotic Arm",
     "images": 17,
     "information": [
         {
@@ -17,19 +17,19 @@
         },
         {
             "header": "Key Features",
-            "value": "Individual finger control via a glove equipped with flexible sensors / 2.4 GHz wireless communication (~50m range) / 8-hour autonomy with 18650 batteries / Charging via integrated BMS accessible from the surface / Displayed under a dome for exhibitions"
+            "value": "Contactless control using computer vision / SLS nylon printed arm / 3S6P 18650 battery pack / Charging through an integrated and accessible BMS / Custom laser-cut base and protective enclosure / Arm protection during exhibitions"
         },
         {
             "header": "Technologies and Materials Used",
-            "value": "Arduino Nano (arm and glove) / Flexible sensors / 2.4 GHz transmission / 18650 batteries (4 parallel packs of 2 cells in series - 7.4V) / SLS 3D printing (current version) / First version in white FDM 3D printing / Power bank for glove power supply / Integrated BMS with accessible charging port"
+            "value": "Arduino Nano / Camera and computer vision / Servomotors / 3S6P 18650 battery pack / Integrated BMS with accessible charging port / SLS nylon 3D printing / Laser-cut base and protective enclosure"
         }
     ],
     "description": [
-        "This project is a redesign and improvement of the <strong>InMoov</strong> robotic arm, modified for presentation at the <strong>Fête de la Science in Rouen 2023</strong>. The main objective was to achieve smooth, individual control of each finger of the robotic arm through a connected glove.",
-        "The glove is equipped with <strong>flexible sensors</strong> that allow independent control of each finger. Data transmission occurs via a <strong>2.4 GHz</strong> wireless link, providing a range of approximately <strong>50 meters</strong> when the battery is fully charged.",
-        "The arm features <strong>8 hours</strong> of autonomy, powered by <strong>18650 batteries</strong>: four parallel packs, each consisting of two cells in series, providing approximately <strong>7.4V</strong>. The glove is powered by a <strong>phone power bank</strong>, ensuring mobile and practical use.",
-        "The first version of the arm was made using <strong>FDM 3D printing</strong> (white). Currently, a new version is being produced using <strong>SLS 3D printing</strong>, offering better finish, robustness, and movement precision. The arm will be displayed <strong>under a dome</strong>, equipped with an <strong>integrated BMS</strong> and a <strong>surface-accessible charging port</strong> for easy presentation at exhibitions and shows.",
-        "This project allowed me to develop skills in mechatronics, embedded electronics, energy management, and advanced additive manufacturing, while exploring intuitive control techniques using flexible sensors."
+        "This project is a redesign and improvement of the <strong>InMoov</strong> robotic arm, initially adapted for presentation at the <strong>Fête de la Science in Rouen 2023</strong>. The first version used a glove fitted with flexible sensors to reproduce hand movements.",
+        "Following the first exhibitions, we replaced the glove with a <strong>computer vision</strong> control system. This contactless solution avoids lending the glove to visitors for hygiene reasons and protects the flexible sensors, which were too fragile for repeated handling.",
+        "The arm was then fully reprinted in <strong>SLS nylon</strong> to improve its strength, finish, and movement precision. It is powered by <strong>18650 cells in a 3S6P configuration</strong>, combined with an <strong>integrated BMS</strong> and a charging port directly accessible from the base.",
+        "The supporting box and the <strong>protective enclosure</strong> were custom-made using <strong>laser cutting</strong>. The enclosure keeps the arm clearly visible while protecting it from handling, impacts, and damage during exhibitions and trade shows.",
+        "This project allowed me to develop skills in mechatronics, embedded electronics, computer vision, energy management, SLS 3D printing, and design for laser cutting."
     ],
     "resources": [
         {

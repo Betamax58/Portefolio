@@ -1,6 +1,6 @@
 {
     "projectName": "inmoov_bras_robotique",
-    "title": "Projet InMoov : Bras robotique télécommandé avec gant à capteurs flexibles",
+    "title": "Projet InMoov : Bras robotique piloté par vision par ordinateur",
     "images": 17,
     "information": [
         {
@@ -17,19 +17,19 @@
         },
         {
             "header": "Fonctionnalités principales",
-            "value": "Contrôle individuel des doigts via un gant équipé de capteurs flexibles / Communication sans fil en 2.4 GHz (portée ~50m) / Autonomie de 8h avec batteries 18650 / Chargement via BMS intégré accessible en surface / Présentation sous cloche pour expositions"
+            "value": "Pilotage sans contact par vision par ordinateur / Bras imprimé en nylon SLS / Batterie 18650 en configuration 3S6P / Chargement via un BMS intégré et accessible / Socle et cloche réalisés sur mesure par découpe laser / Protection du bras pendant les salons"
         },
         {
             "header": "Technologies et matériel utilisés",
-            "value": "Arduino Nano (bras et gant) / Capteurs flexibles / Transmission 2.4 GHz / Batteries 18650 (4 packs en parallèle de 2 cellules en série - 7.4V) / Impression 3D SLS (version actuelle) / Première version en impression FDM blanche / Powerbank pour l'alimentation du gant / BMS intégré avec port de charge accessible"
+            "value": "Arduino Nano / Caméra et vision par ordinateur / Servomoteurs / Batteries 18650 en configuration 3S6P / BMS intégré avec port de charge accessible / Impression 3D SLS en nylon / Découpe laser du socle et de la cloche de protection"
         }
     ],
     "description": [
-        "Ce projet est une reprise et une amélioration du bras robotique <strong>InMoov</strong> modifié pour être présenté lors de la <strong>Fête de la Science de Rouen 2023</strong> L’objectif principal était d’obtenir un contrôle individuel et fluide de chacun des doigts du bras robotique via un gant connecté.",
-        "Le gant est équipé de <strong>capteurs flexibles</strong> permettant de piloter indépendamment chaque doigt du bras. La transmission des données s’effectue par une liaison sans fil en <strong>2.4 GHz</strong> offrant une portée d’environ <strong>50 mètres</strong> avec la batterie complètement chargée.",
-        "Le bras bénéficie d'une autonomie de <strong>8 heures</strong> grâce à une alimentation composée de <strong>batteries 18650</strong> : quatre packs montés en parallèle, chacun constitué de deux cellules en série pour obtenir une tension d’environ <strong>7.4V</strong> Le gant, quant à lui, est alimenté par une <strong>powerbank de téléphone</strong> garantissant une utilisation mobile et pratique.",
-        "La première version du bras avait été réalisée en <strong>impression 3D FDM</strong> (blanc). Actuellement, une nouvelle version est en cours de fabrication avec une <strong>impression SLS</strong> offrant une meilleure finition, robustesse et précision des mouvements. Le bras sera présenté <strong>sous cloche</strong> équipé d’un <strong>BMS intégré</strong> et d’un <strong>port de charge accessible en surface</strong>, afin de faciliter sa présentation lors de salons et expositions.",
-        "Ce projet m’a permis de développer des compétences en mécatronique, en électronique embarquée, en gestion d’énergie et en fabrication additive avancée, tout en explorant des techniques de contrôle intuitif via des capteurs flexibles."
+        "Ce projet est une reprise et une amélioration du bras robotique <strong>InMoov</strong>, initialement adapté pour être présenté lors de la <strong>Fête de la Science de Rouen 2023</strong>. La première version utilisait un gant équipé de capteurs flexibles pour reproduire les mouvements de la main.",
+        "À la suite des premiers salons, nous avons supprimé le gant au profit d’un pilotage par <strong>vision par ordinateur</strong>. Cette solution permet une interaction sans contact : elle évite de prêter le gant aux visiteurs pour des raisons d’hygiène et protège les capteurs flexibles, trop fragiles pour des manipulations répétées.",
+        "Le bras a ensuite été entièrement réimprimé en <strong>nylon SLS</strong> afin d’améliorer sa robustesse, sa finition et la précision de ses mouvements. Son alimentation repose sur des <strong>cellules 18650 en configuration 3S6P</strong>, associées à un <strong>BMS intégré</strong> et à un port de charge directement accessible depuis le socle.",
+        "La boîte servant de support ainsi que la <strong>cloche de protection</strong> ont été fabriquées sur mesure par <strong>découpe laser</strong>. La cloche permet de conserver une bonne visibilité du bras tout en le protégeant des manipulations, des chocs et des dégradations pendant les salons et les expositions.",
+        "Ce projet m’a permis de développer des compétences en mécatronique, en électronique embarquée, en vision par ordinateur, en gestion d’énergie, en impression 3D SLS et en conception pour la découpe laser."
     ],
     "resources": [
         {

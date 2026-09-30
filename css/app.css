@@ -339,6 +339,22 @@ footer p {font-size: 14px;}
     transition: 0.2s ease-in-out;
 }
 
+.cad-skills .skill > img {
+    width: 100%;
+    max-width: 96px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.cad-skills .skill > span {
+    width: 100%;
+    min-height: 2.2em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
 .skills-container:hover .skill > img {
     filter: none;
 }
@@ -1179,11 +1195,4 @@ footer p {font-size: 14px;}
     .icon-license span {
         font-size: 18px;
     }
-}
-
-.skill > img.skill-logo-wide {
-    width: 100%;
-    max-width: 100px;
-    height: 60px;
-    object-fit: contain;
 }

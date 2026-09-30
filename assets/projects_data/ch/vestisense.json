@@ -1,0 +1,41 @@
+{
+  "projectName": "vestisense",
+  "title": "Vestisense：联网衣橱与智能镜",
+  "images": 5,
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "正在开发的个人项目"
+    },
+    {
+      "header": "日期",
+      "value": "2022年至今"
+    },
+    {
+      "header": "项目作者",
+      "value": "Kévin BOYER--NAVARRO"
+    },
+    {
+      "header": "主要功能",
+      "value": "基于RFID的衣橱自动盘点 / 通过计算机视觉识别与分割服装 / 根据天气、风格和现有衣物推荐穿搭 / 集成在全身镜中的界面 / 正在开发虚拟试衣功能"
+    },
+    {
+      "header": "已采用及计划采用的技术",
+      "value": "Python / OpenCV / PyTorch与计算机视觉模型 / 2D或3D摄像头 / RFID / Raspberry Pi 5 / 半透镜后方显示屏 / 天气API / 衣橱数据库 / 穿搭推荐人工智能"
+    }
+  ],
+  "description": [
+    "<strong>Vestisense</strong> 是一个始于2022年的个人项目，目标是将传统衣橱改造成以智能镜为核心的联网系统，自动掌握可用衣物，并帮助用户选择合适的穿搭。",
+    "每件衣物都关联一个 <strong>RFID标签</strong>，安装在挂衣区和搁板中的读取器可以检测其是否在衣橱内。中央数据库保存用户的衣物信息，也可通过照片添加新衣物。",
+    "软件主要使用 <strong>Python</strong> 开发。早期视觉原型使用 <strong>OpenCV</strong> 和人工智能模型来检测人物、分割衣物并识别穿搭的不同部分。人体骨架跟踪和 <strong>虚拟试衣</strong> 功能目前仍在开发中。",
+    "未来，推荐系统将结合天气、颜色搭配、目标风格、流行趋势以及实际可用的衣物生成穿搭建议。用户可以通过简单的手势直接在镜面界面中切换方案。",
+    "计划中的硬件由半透镜、显示屏、摄像头和 <strong>Raspberry Pi 5</strong> 组成，并连接衣橱中的RFID读取器。项目将逐步推进：首先完成2D软件与视觉原型，随后提升识别、显示效果以及3D虚拟试衣能力。"
+  ],
+  "resources": [
+    {
+      "image": "assets/img/icons/gallery",
+      "name": "项目图片",
+      "link": "assets/projects/vestisense"
+    }
+  ]
+}

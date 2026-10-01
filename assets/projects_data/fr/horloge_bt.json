@@ -32,7 +32,12 @@
         "L'application mobile initiale a été développée avec <strong>App Inventor</strong> permettant un contrôle simple et rapide du minuteur. Quelques années plus tard, j’ai entièrement refondu l’application sous <strong>Android Studio</strong> pour une meilleure interface utilisateur, plus de stabilité et de nouvelles fonctionnalités.",
         "Ce projet m’a permis de développer mes compétences en communication sans fil (Bluetooth), en développement d'applications mobiles Android, en conception électronique ainsi qu’en fabrication de matrices LED sur mesure."
     ],
-    "resources": [],
+    "resources": [
+        {
+            "name": "Projet GitHub — bientôt disponible",
+            "image": "assets/icons/github"
+        }
+    ],
     "media": [
         {
             "type": "image",

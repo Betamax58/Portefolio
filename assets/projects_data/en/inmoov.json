@@ -33,14 +33,8 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Photo Gallery",
-            "link": "assets/img/projects/inmoov_bras_robotique"
-        },
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "Arduino Source Code",
-            "link": "https://github.com/username/inmoov-bras-robotique"
+            "image": "assets/icons/github",
+            "name": "Arduino source code — coming soon"
         }
     ]
 }

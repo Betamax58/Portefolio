@@ -611,6 +611,59 @@ footer p {font-size: 14px;}
 /* +--------------------------+ */
 /* | SECTION - CERTIFICATION  | */
 /* +--------------------------+ */
+.languages-strip {
+    max-width: 760px;
+    margin-top: 35px;
+    padding: 22px 24px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.languages-strip h3 {
+    margin-bottom: 18px;
+    color: var(--dark-blue);
+    font-size: 25px;
+}
+
+.language-list {
+    gap: 18px;
+}
+
+.language-item {
+    min-width: 175px;
+    padding: 8px 12px;
+}
+
+.language-item img {
+    width: 58px;
+    height: 38px;
+    margin-bottom: 9px;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+}
+
+.language-item strong,
+.language-item span {
+    display: block;
+}
+
+.language-item span {
+    color: #666;
+    font-size: 15px;
+}
+
+@media (max-width: 575px) {
+    .languages-strip {padding: 18px 10px;}
+    .language-list {gap: 4px;}
+    .language-item {min-width: 0; padding: 7px 5px;}
+    .language-item img {width: 48px; height: 32px;}
+    .language-item strong {font-size: 14px;}
+    .language-item span {font-size: 12px;}
+}
+
 .certif-container {
     margin-bottom: 30px;
 }

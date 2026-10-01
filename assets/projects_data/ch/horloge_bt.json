@@ -1,7 +1,7 @@
 {
     "projectName": "horloge_bt",
     "title": "蓝牙计时钟：为健身房设计的带计时器时钟",
-    "images": 1,
+    "images": 3,
     "information": [
         {
             "header": "项目背景",
@@ -21,13 +21,14 @@
         },
         {
             "header": "使用的技术与设备",
-            "value": "手工制作的 LED 矩阵 / 蓝牙模块 / 微控制器 / 蜂鸣器 / 基于 App Inventor 开发的初始应用 / 使用 Android Studio 重制的移动应用"
+            "value": "手工制作的 LED 矩阵 / 蓝牙模块 / 微控制器 / 蜂鸣器 / 基于 App Inventor 开发的初始应用 / 使用 Android Studio 重制的移动应用 / Arduino Mega + HC-05 → ESP32-WROOM / JLCPCB"
         }
     ],
     "description": [
         "该项目于 2020 年第一次封锁期间完成，旨在为我弟弟的健身房设计一款可通过智能手机管理训练间歇和重复次数的蓝牙连接时钟。",
         "时钟采用<strong>手工制作的 LED 矩阵</strong>进行数字显示，即使在远距离也能清晰可见。设备在正常情况下显示时间，但在通过<strong>蓝牙连接的移动应用</strong>激活后，可切换至计时器模式。",
         "当倒计时结束时，<strong>蜂鸣器会响起</strong>以提示休息时间结束，显示屏随后会<strong>自动返回至时间显示</strong>。",
+        "第一版採用 <strong>Arduino Mega 搭配 HC-05 藍牙模組</strong>，電路手工焊接於<strong>洞洞板</strong>上。新版改用 <strong>ESP32-WROOM</strong>，其內建藍牙可省去外接模組並簡化配線，使電子系統更精巧，也為後續功能擴充保留空間。洞洞板原型隨後改為<strong>由 JLCPCB 製造的專用印刷電路板</strong>，讓整合更整潔、連接更可靠，並提高組裝的一致性。",
         "最初的移动应用使用<strong>App Inventor</strong>开发，能够快速且简便地控制计时器。几年后，我使用<strong>Android Studio</strong>对应用程序进行了全面重制，以提供更好的用户界面、更高的稳定性以及更多功能。",
         "通过该项目，我提升了在<strong>无线通信（蓝牙）</strong>、<strong>Android 移动应用开发</strong>、<strong>电子设计</strong>以及<strong>定制 LED 矩阵制造</strong>等方面的技能。"
     ],
@@ -49,6 +50,16 @@
             "src": "assets/projects/horloge_bt/horloge_bt_demo_2.mp4",
             "poster": "assets/projects/horloge_bt/horloge_bt_demo_2.jpg",
             "alt": "示範影片 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/horloge_bt/horloge_bt_assembly.png",
+            "alt": "新版組裝"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/horloge_bt/horloge_bt_finished.png",
+            "alt": "裝入外殼的時鐘"
         }
     ]
 }

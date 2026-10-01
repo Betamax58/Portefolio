@@ -9,7 +9,7 @@
         },
         {
             "header": "Dates",
-            "value": "2023, 2024 and 2025 Editions"
+            "value": "2024, 2025 and 2026 Editions"
         },
         {
             "header": "Team",
@@ -25,8 +25,8 @@
         }
     ],
     "description": [
-        "I participated in three editions of the French Robotics Cup, in <strong>2023, 2024 and 2025</strong>, with the <strong>PING 36</strong> team from the <strong>ESIG'TRONIX</strong> association. This event brings together robotics enthusiasts each year to design, program, and compete with autonomous robots on a game field, following a strict set of specifications.",
-        "The three editions I took part in were respectively themed <strong>Farming Mars</strong> in 2023, <strong>The Show Must Go On</strong> in 2024 and <strong>Winter Is Coming</strong> in 2025. Each new rulebook required us to rethink the mechanisms, strategy, electronic architecture and embedded software of the robot.",
+        "I participated in three editions of the French Robotics Cup, in <strong>2024, 2025 and 2026</strong>, with the <strong>PING 36</strong> team from the <strong>ESIG'TRONIX</strong> association. This event brings together robotics enthusiasts each year to design, program, and compete with autonomous robots on a game field, following a strict set of specifications.",
+        "The three editions I took part in were respectively themed <strong>Farming Mars</strong> in 2024, <strong>The Show Must Go On</strong> in 2025 and <strong>Winter Is Coming</strong> in 2026. Each new rulebook required us to rethink the mechanisms, strategy, electronic architecture and embedded software of the robot.",
         "For the 2024 edition, we developed a robot capable of completing various tasks required by the regulations, including object detection and manipulation, obstacle management, and the implementation of effective game strategies. This first experience allowed me to enhance my skills in embedded electronics, prototyping, and sensor integration.",
         "In the 2025 edition, we upgraded our robot by integrating new technologies, including an <strong>STM32H750</strong> with a touchscreen, enabling the creation and dynamic management of a coordinate list for the robot, communicated directly to the controller. I also worked on programming with <strong>ROS2</strong> and using the <strong>Raspberry Pi 5</strong> for embedded processing.",
         "We designed a robust electronic architecture, combined with custom 3D-printed components to optimize the robot's structure and maneuverability. The integration of advanced sensors such as the <strong>lidar</strong>, <strong>OTOS sensor</strong>, and <strong>TOF sensor</strong> improved obstacle detection and navigation accuracy. Computer vision was also utilized to enhance the robot's real-time decision-making capabilities.",

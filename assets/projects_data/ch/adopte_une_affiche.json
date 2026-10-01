@@ -1,7 +1,7 @@
 {
     "projectName": "adopte_une_affiche",
     "title": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务",
-    "images": 8,
+    "images": 18,
     "information": [
         {
             "header": "项目背景",
@@ -29,12 +29,11 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/website",
-            "name": "网站",
-            "link": "https://adopte-une-affiche.example.com"
+            "image": "assets/icons/adopte_une_affiche_logo",
+            "name": "網站—即將上線"
         },
         {
-            "image": "assets/img/icons/instagram",
+            "image": "assets/icons/adopte_une_affiche_logo",
             "name": "Instagram",
             "link": "https://instagram.com/adopte_une_affiche"
         }

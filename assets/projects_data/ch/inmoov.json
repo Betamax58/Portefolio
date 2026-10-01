@@ -33,14 +33,8 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "项目图片库",
-            "link": "assets/img/projects/inmoov_bras_robotique"
-        },
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "Arduino 源代码",
-            "link": "https://github.com/username/inmoov-bras-robotique"
+            "image": "assets/icons/github",
+            "name": "Arduino 原始碼 — 即將推出"
         }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "projectName": "coupe_france_robotique",
     "title": "参加法国机器人杯 - PING 36 团队",
-    "images": 23,
+    "images": 22,
     "information": [
         {
             "header": "项目背景",
@@ -34,17 +34,12 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "项目图片库",
-            "link": "assets/img/projects/coupe_france_robotique"
-        },
-        {
-            "image": "assets/img/icons/pdf_file",
+            "image": "assets/documents/poster_projet_ping36_2025",
             "name": "2025 年项目海报",
-            "link": "assets/documents/poster_projet_ping36_2025.pdf"
+            "link": "assets/documents/poster_projet_ping36_2025.webp"
         },
         {
-            "image": "assets/img/icons/website",
+            "image": "assets/icons/planete_sciences",
             "name": "法国机器人杯官方网站",
             "link": "https://www.coupederobotique.fr/"
         }

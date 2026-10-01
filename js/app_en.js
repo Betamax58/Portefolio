@@ -117,7 +117,34 @@ function loadProjects() {
                 $("#project-carousel > .carousel-inner").html("");
 
                 $("#project .project-images").html("");
-                for(let i=1; i<=data.images; i++) {
+
+                // Explicit media lists avoid empty slides and support video demonstrations.
+                if (Array.isArray(data.media)) {
+                    data.media.forEach(function(media, index) {
+                        let item = $("<div></div>").addClass("carousel-item");
+                        if (index === 0) item.addClass("active");
+                        let content;
+                        if (media.type === "video") {
+                            item.css("transform", "none");
+                            content = $("<video></video>").attr({
+                                src: media.src, poster: media.poster, controls: true,
+                                preload: "metadata", playsinline: true, "aria-label": media.alt
+                            }).css({width: "100%", height: "100%", objectFit: "contain", background: "#f2f4f5"});
+                        } else {
+                            content = $("<img>").attr({src: media.src, alt: media.alt}).addClass("d-block w-100");
+                        }
+                        item.append(content);
+                        $("#project-carousel > .carousel-inner").append(item);
+                        let button = $("<button></button>").attr({type: "button", "aria-label": media.alt})
+                            .css({border: 0, padding: 0, background: "transparent", width: "100%", cursor: "pointer"})
+                            .append($("<img>").attr({src: media.poster || media.src, alt: media.alt}));
+                        if (media.type === "video") button.append($("<span></span>").text("▶ " + media.alt));
+                        button.click(function() { $("#project-carousel").carousel(index); });
+                        $("#project .project-images").append($("<li></li>").addClass("col-4 col-sm-3").append(button));
+                    });
+                }
+
+                for(let i=1; !Array.isArray(data.media) && i<=data.images; i++) {
                     let div = $("<div></div>").addClass("carousel-item").append(
                         $("<img>")
                             .attr("src", "assets/animations/loading.gif")
@@ -153,7 +180,15 @@ function loadProjects() {
                     console.log("Loading:", img.src);
                     $("#project .project-images").append(li);
                 }
+                $("#project-carousel").off(".projectMedia")
+                    .on("slide.bs.carousel.projectMedia", function() {
+                        $(this).find("video").each(function() { this.pause(); });
+                    });
+                $("#project").off("hide.bs.modal.projectMedia").on("hide.bs.modal.projectMedia", function() {
+                    $(this).find("video").each(function() { this.pause(); });
+                });
                 $("#project-carousel").carousel();
+                if (Array.isArray(data.media)) $("#project-carousel").carousel("pause");
 
                 // Information
                 $("#project .project-info table").html("");
@@ -196,7 +231,7 @@ function loadProjects() {
 
 function startProjectImageScaleOnHover() {
     $("#project-carousel").on("touchend", function(event) {
-        event.preventDefault();
+        if (!$(event.target).closest("video, button").length) event.preventDefault();
     });
 
     $("#project-carousel").mousemove(function(event) {
@@ -209,3 +244,4 @@ function startProjectImageScaleOnHover() {
         $(".carousel-item").css("transform-origin", relX + "px " + relY + "px");
     });
 }
+

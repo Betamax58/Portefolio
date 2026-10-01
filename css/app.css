@@ -623,6 +623,30 @@ footer p {font-size: 14px;}
     border-radius: 50%;
 }
 
+.certif-logo-link {
+    display: block;
+    width: 60%;
+    max-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.certif-logo-link > img {
+    display: block;
+    width: 100%;
+    border: 3px solid var(--light-blue);
+    border-radius: 50%;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.certif-logo-link:hover > img,
+.certif-logo-link:focus > img {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.18);
+}
+
 .certif-label {margin-top: 10px;}
 
 .certif-label > h4 {
@@ -638,6 +662,7 @@ footer p {font-size: 14px;}
 
 @media (min-width: 576px) {
     .certif-container > img {width: 65%;}
+    .certif-logo-link {width: 65%;}
     .certif-label > h4 {font-size: 21.5px;}
     .certif-label > span {font-size: 18px;}
 }
@@ -651,6 +676,8 @@ footer p {font-size: 14px;}
     .certif-container > img {
         border: 5px solid var(--light-blue);
     }
+
+    .certif-logo-link > img {border-width: 5px;}
 
     .certif-label > h4 {font-size: 26px;}
     .certif-label > span {font-size: 20px;}

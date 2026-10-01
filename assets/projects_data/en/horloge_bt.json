@@ -32,7 +32,12 @@
         "The initial mobile application was developed using <strong>App Inventor</strong>, allowing for quick and simple timer control. A few years later, I completely redesigned the application using <strong>Android Studio</strong> for an improved user interface, better stability, and additional features.",
         "This project allowed me to develop my skills in wireless communication (Bluetooth), Android mobile application development, electronic design, and custom LED matrix fabrication."
     ],
-    "resources": [],
+    "resources": [
+        {
+            "name": "GitHub project — coming soon",
+            "image": "assets/icons/github"
+        }
+    ],
     "media": [
         {
             "type": "image",

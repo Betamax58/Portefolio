@@ -33,9 +33,8 @@
   ],
   "resources": [
     {
-      "image": "assets/img/icons/gallery",
-      "name": "项目图片",
-      "link": "assets/projects/vestisense"
+      "image": "assets/icons/github",
+      "name": "Arduino 原始碼 — 即將推出"
     }
   ]
 }

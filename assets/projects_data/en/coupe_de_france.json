@@ -1,7 +1,7 @@
 {
     "projectName": "coupe_france_robotique",
     "title": "Participation in the French Robotics Cup - Team PING 36",
-    "images": 23,
+    "images": 22,
     "information": [
         {
             "header": "Context",
@@ -34,17 +34,12 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Photo Gallery",
-            "link": "assets/img/projects/coupe_france_robotique"
-        },
-        {
-            "image": "assets/img/icons/pdf_file",
+            "image": "assets/documents/poster_projet_ping36_2025",
             "name": "2025 Project Poster",
-            "link": "assets/documents/poster_projet_ping36_2025.pdf"
+            "link": "assets/documents/poster_projet_ping36_2025.webp"
         },
         {
-            "image": "assets/img/icons/website",
+            "image": "assets/icons/planete_sciences",
             "name": "Official Website - French Robotics Cup",
             "link": "https://www.coupederobotique.fr/"
         }

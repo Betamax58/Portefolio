@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Certification Pix</title>
+  <desc id="desc">Logo Pix sur fond blanc</desc>
+  <defs>
+    <linearGradient id="pix-gradient" x1="42" y1="54" x2="254" y2="246" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5a35d6"/>
+      <stop offset="0.52" stop-color="#4754de"/>
+      <stop offset="1" stop-color="#19b9b3"/>
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="145" fill="#fff"/>
+  <g fill="url(#pix-gradient)">
+    <path d="M51 104h42c34 0 54 18 54 48s-21 49-55 49H78v40H51zm40 72c18 0 28-8 28-24s-10-23-28-23H78v47z"/>
+    <path d="M157 104h28v137h-28z"/>
+    <path d="m193 104 30 44 29-44h32l-45 66 47 71h-33l-31-48-31 48h-32l47-70-45-67z"/>
+    <rect x="249" y="57" width="15" height="15" rx="2"/>
+    <rect x="270" y="78" width="11" height="11" rx="2"/>
+    <rect x="225" y="77" width="10" height="10" rx="2"/>
+  </g>
+</svg>

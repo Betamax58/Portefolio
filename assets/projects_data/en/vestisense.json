@@ -33,9 +33,8 @@
   ],
   "resources": [
     {
-      "image": "assets/img/icons/gallery",
-      "name": "Project gallery",
-      "link": "assets/projects/vestisense"
+      "image": "assets/icons/github",
+      "name": "Arduino source code — coming soon"
     }
   ]
 }

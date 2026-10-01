@@ -33,14 +33,9 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos",
-            "link": "assets/img/projects/recreator_filament_3d"
-        },
-        {
-            "image": "assets/img/icons/github_black",
+            "image": "assets/projects/recreator/thumbnail",
             "name": "Fichiers G-code et ressources open source",
-            "link": "https://github.com/username/recreator-filament-3d"
+            "link": "https://www.recreator3d.com/mk5kitender3"
         }
     ]
 }

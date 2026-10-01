@@ -1,7 +1,7 @@
 {
     "projectName": "horloge_bt",
     "title": "Bluetooth Clock with Timer for Home Gym",
-    "images": 6,
+    "images": 1,
     "information": [
         {
             "header": "Context",
@@ -31,16 +31,24 @@
         "The initial mobile application was developed using <strong>App Inventor</strong>, allowing for quick and simple timer control. A few years later, I completely redesigned the application using <strong>Android Studio</strong> for an improved user interface, better stability, and additional features.",
         "This project allowed me to develop my skills in wireless communication (Bluetooth), Android mobile application development, electronic design, and custom LED matrix fabrication."
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Photo Gallery",
-            "link": "assets/img/projects/horloge_bluetooth_muscu"
+            "type": "image",
+            "src": "assets/projects/horloge_bt/horloge_bt_1.jpg",
+            "alt": "LED display schematic"
         },
         {
-            "image": "assets/img/icons/github_black",
-            "name": "Android Application Source Code",
-            "link": "https://github.com/username/horloge-bt-muscu"
+            "type": "video",
+            "src": "assets/projects/horloge_bt/horloge_bt_demo_1.mp4",
+            "poster": "assets/projects/horloge_bt/horloge_bt_demo_1.jpg",
+            "alt": "Demonstration 1"
+        },
+        {
+            "type": "video",
+            "src": "assets/projects/horloge_bt/horloge_bt_demo_2.mp4",
+            "poster": "assets/projects/horloge_bt/horloge_bt_demo_2.jpg",
+            "alt": "Demonstration 2"
         }
     ]
 }

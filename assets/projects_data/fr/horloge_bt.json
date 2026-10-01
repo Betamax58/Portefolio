@@ -1,7 +1,7 @@
 {
     "projectName": "horloge_bt",
     "title": "Horloge Bluetooth avec minuterie pour salle de musculation",
-    "images": 6,
+    "images": 1,
     "information": [
         {
             "header": "Cadre",
@@ -31,16 +31,24 @@
         "L'application mobile initiale a été développée avec <strong>App Inventor</strong> permettant un contrôle simple et rapide du minuteur. Quelques années plus tard, j’ai entièrement refondu l’application sous <strong>Android Studio</strong> pour une meilleure interface utilisateur, plus de stabilité et de nouvelles fonctionnalités.",
         "Ce projet m’a permis de développer mes compétences en communication sans fil (Bluetooth), en développement d'applications mobiles Android, en conception électronique ainsi qu’en fabrication de matrices LED sur mesure."
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos",
-            "link": "assets/img/projects/horloge_bluetooth_muscu"
+            "type": "image",
+            "src": "assets/projects/horloge_bt/horloge_bt_1.jpg",
+            "alt": "Schéma de l’afficheur LED"
         },
         {
-            "image": "assets/img/icons/github_black",
-            "name": "Code source de l'application Android",
-            "link": "https://github.com/username/horloge-bt-muscu"
+            "type": "video",
+            "src": "assets/projects/horloge_bt/horloge_bt_demo_1.mp4",
+            "poster": "assets/projects/horloge_bt/horloge_bt_demo_1.jpg",
+            "alt": "Démonstration 1"
+        },
+        {
+            "type": "video",
+            "src": "assets/projects/horloge_bt/horloge_bt_demo_2.mp4",
+            "poster": "assets/projects/horloge_bt/horloge_bt_demo_2.jpg",
+            "alt": "Démonstration 2"
         }
     ]
 }

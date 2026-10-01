@@ -33,7 +33,7 @@
     ],
     "resources": [
         {
-            "image": "assets/projects/recreator/thumbnail",
+            "image": "assets/icons/recreator",
             "name": "Fichiers G-code et ressources open source",
             "link": "https://www.recreator3d.com/mk5kitender3"
         }

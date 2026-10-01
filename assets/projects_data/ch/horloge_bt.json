@@ -32,7 +32,12 @@
         "最初的移动应用使用<strong>App Inventor</strong>开发，能够快速且简便地控制计时器。几年后，我使用<strong>Android Studio</strong>对应用程序进行了全面重制，以提供更好的用户界面、更高的稳定性以及更多功能。",
         "通过该项目，我提升了在<strong>无线通信（蓝牙）</strong>、<strong>Android 移动应用开发</strong>、<strong>电子设计</strong>以及<strong>定制 LED 矩阵制造</strong>等方面的技能。"
     ],
-    "resources": [],
+    "resources": [
+        {
+            "name": "GitHub 專案 — 即將推出",
+            "image": "assets/icons/github"
+        }
+    ],
     "media": [
         {
             "type": "image",

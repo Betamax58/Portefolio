@@ -1,7 +1,7 @@
 {
     "projectName": "adopte_une_affiche",
     "title": "Adopte une Affiche - Creation and Customization of Posters for Professionals and Individuals",
-    "images": 8,
+    "images": 18,
     "information": [
         {
             "header": "Context",
@@ -29,12 +29,11 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/website",
-            "name": "Website",
-            "link": "https://adopte-une-affiche.example.com"
+            "image": "assets/icons/adopte_une_affiche_logo",
+            "name": "Website — coming soon"
         },
         {
-            "image": "assets/img/icons/instagram",
+            "image": "assets/icons/adopte_une_affiche_logo",
             "name": "Instagram",
             "link": "https://instagram.com/adopte_une_affiche"
         }

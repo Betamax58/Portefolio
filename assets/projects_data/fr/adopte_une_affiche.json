@@ -1,7 +1,7 @@
 {
     "projectName": "adopte_une_affiche",
     "title": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers",
-    "images": 8,
+    "images": 18,
     "information": [
         {
             "header": "Cadre",
@@ -29,12 +29,11 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/website",
-            "name": "Site web",
-            "link": "https://adopte-une-affiche.example.com"
+            "image": "assets/icons/adopte_une_affiche_logo",
+            "name": "Site web — prochainement"
         },
         {
-            "image": "assets/img/icons/instagram",
+            "image": "assets/icons/adopte_une_affiche_logo",
             "name": "Instagram",
             "link": "https://instagram.com/adopte_une_affiche"
         }

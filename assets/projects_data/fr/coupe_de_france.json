@@ -42,6 +42,10 @@
             "image": "assets/icons/planete_sciences",
             "name": "Site officiel - Coupe de France de Robotique",
             "link": "https://www.coupederobotique.fr/"
+        },
+        {
+            "image": "assets/icons/github",
+            "name": "Code source GitHub — bientôt disponible"
         }
     ]
 }

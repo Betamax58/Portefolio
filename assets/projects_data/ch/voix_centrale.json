@@ -31,11 +31,5 @@
         "通过该项目，我提升了在<strong>声学工程</strong>、<strong>音频电子学</strong>和<strong>机械设计</strong>方面的技能，同时完善了我的<strong>木工技术</strong>和<strong>音响系统优化能力</strong>。",
         "最终成品完美集成到高保真系统中，提供了<strong>清晰且精准的声音还原</strong>，充分展示了我在音频设备设计中将技术能力与声学敏感性相结合的能力。"
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "项目图片库",
-            "link": "assets/img/projects/enceinte_centrale_hifi"
-        }
-    ]
+    "resources": []
 }

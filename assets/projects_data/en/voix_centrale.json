@@ -31,11 +31,5 @@
         "This project allowed me to develop skills in <strong>acoustics</strong>, <strong>audio electronics</strong>, and <strong>mechanical design</strong>, while honing my techniques in woodworking and acoustic optimization.",
         "The final speaker integrates seamlessly into a Hi-Fi system, offering <strong>clear and precise sound reproduction</strong>, demonstrating my ability to combine technical expertise with acoustic sensitivity in the design of audio equipment."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Project Photo Gallery",
-            "link": "assets/img/projects/enceinte_centrale_hifi"
-        }
-    ]
+    "resources": []
 }

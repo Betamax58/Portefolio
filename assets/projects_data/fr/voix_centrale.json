@@ -31,11 +31,5 @@
         "Ce projet m’a permis de développer des compétences en <strong>acoustique</strong>, en <strong>électronique audio</strong> et en <strong>conception mécanique</strong>, tout en perfectionnant mes techniques de menuiserie et d'optimisation acoustique.",
         "L’enceinte finale s’intègre parfaitement dans un système Hi-Fi, offrant une <strong>restitution sonore claire et précise</strong>, démontrant ma capacité à allier compétences techniques et sensibilité acoustique dans la conception d’équipements audio."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos du projet",
-            "link": "assets/img/projects/enceinte_centrale_hifi"
-        }
-    ]
+    "resources": []
 }

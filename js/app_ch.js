@@ -210,6 +210,7 @@ function loadProjects() {
 
                 // Resources
                 $("#project .project-resources > div").html("");
+                $("#project .project-resources").toggle(data.resources.length > 0);
                 data.resources.forEach(function(resource) {
                     let a = $("<a></a>").addClass("resource-container d-flex flex-column align-items-center")
                         .attr("target", "_blank")

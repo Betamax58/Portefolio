@@ -1,7 +1,7 @@
 {
     "projectName": "arcade_tronix",
     "title": "为 ESIG'TRONIX 协会翻新街机游戏机",
-    "images": 6,
+    "images": 4,
     "information": [
         {
             "header": "项目背景",
@@ -29,14 +29,31 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "照片库",
-            "link": "assets/img/projects/borne_arcade_esigtronix"
+            "image": "assets/icons/instagram",
+            "name": "ESIG’TRONIX 協會 Instagram",
+            "link": "https://www.instagram.com/esig_tronix/"
+        }
+    ],
+    "media": [
+        {
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_1.webp",
+            "alt": "ESIG’TRONIX 街機 — 照片 1"
         },
         {
-            "image": "assets/img/icons/website",
-            "name": "ESIG'TRONIX 协会网站",
-            "link": "https://esigtronix.example.com"
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_2.webp",
+            "alt": "ESIG’TRONIX 街機 — 照片 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_3.webp",
+            "alt": "ESIG’TRONIX 街機 — 照片 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_4.webp",
+            "alt": "ESIG’TRONIX 街機 — 照片 4"
         }
     ]
 }

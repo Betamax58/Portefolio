@@ -31,11 +31,5 @@
         "此外，我还为多台<strong>UrbanGlide 滑板车</strong>进行了<strong>控制器的完整更换</strong>，确保它们恢复到最佳运行状态。",
         "通过该项目，我提升了在<strong>功率电子学</strong>、<strong>故障诊断</strong>、<strong>电机维修</strong>以及<strong>轻型电动交通工具维护</strong>方面的技能，同时也为<strong>减少电子垃圾</strong>贡献了一份力量。"
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "维修照片库",
-            "link": "assets/img/projects/reparation_trottinettes_electriques"
-        }
-    ]
+    "resources": []
 }

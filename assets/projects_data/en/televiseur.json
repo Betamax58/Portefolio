@@ -1,7 +1,7 @@
 {
     "projectName": "reparation_tv_ecran_plat",
     "title": "Flat-Screen TV Repair for Recycling and Resale",
-    "images": 5,
+    "images": 10,
     "information": [
         {
             "header": "Context",
@@ -34,11 +34,57 @@
         "The repaired televisions mainly came from purchases of faulty models or salvaged units, which I refurbished. This process helped me enhance my skills in <strong>electronic diagnostics</strong>, <strong>soldering</strong>, <strong>component replacement</strong>, and <strong>thermal management</strong> of electronic equipment.",
         "Beyond repair, this project contributes to the <strong>circular economy</strong> by extending the lifespan of electronic products and reducing their environmental impact. Each repair represents an opportunity to improve my technical knowledge while giving a second life to electronic devices."
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Repair Photo Gallery",
-            "link": "assets/img/projects/reparation_tv_ecran_plat"
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_1.webp",
+            "alt": "TV repair — photo 1"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_2.webp",
+            "alt": "TV repair — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_3.webp",
+            "alt": "TV repair — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_4.webp",
+            "alt": "TV repair — photo 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_5.webp",
+            "alt": "TV repair — photo 5"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_6.webp",
+            "alt": "TV repair — photo 6"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_7.webp",
+            "alt": "TV repair — photo 7"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_8.webp",
+            "alt": "TV repair — photo 8"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_9.webp",
+            "alt": "TV repair — photo 9"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_10.webp",
+            "alt": "TV repair — photo 10"
         }
     ]
 }

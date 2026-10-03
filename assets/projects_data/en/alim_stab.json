@@ -27,16 +27,5 @@
         "The power supply features two switches: a main switch for the primary power and a secondary switch to enable or disable the power delivery to the connection terminals. A single LED indicates when current is being delivered to the terminals, ensuring safe usage.",
         "This project allowed me to refine my skills in power electronics, secure wiring, and designing power systems tailored to the needs of personal electronic projects."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "Complete Documentation",
-            "link": "assets/documents/alim_stabilisee_pc.pdf"
-        },
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Photo Gallery",
-            "link": "assets/img/projects/alim_stabilisee_pc"
-        }
-    ]
+    "resources": []
 }

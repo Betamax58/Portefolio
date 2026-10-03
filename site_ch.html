@@ -60,6 +60,10 @@
 .media-zoom{position:fixed;inset:0;z-index:99999;background:#10131aef;display:flex;align-items:center;justify-content:center;padding:48px 20px}
 .media-zoom img{max-width:100%;max-height:90vh;object-fit:contain}.media-zoom iframe{width:min(850px,100%);height:85vh;border:0}.media-zoom button{position:absolute;right:18px;top:12px;color:white;background:none;border:0;font-size:36px}
 .music-library{background:#f4f6fa}.music-track{display:grid;grid-template-columns:36px minmax(0,1fr);gap:4px 12px;padding:14px!important;margin:0 0 10px!important;background:white;border:1px solid #e2e6ef;border-radius:12px}.track-number{grid-row:1/3;align-self:center;color:#7b879c;font-weight:700;font-size:18px}.music-track h5{margin:0;font-size:16px}.music-track audio{width:100%;height:34px;margin-top:6px}.music-library>p{color:#59657a;font-size:14px}
+</style><style id="gallery-navigation">
+.media-zoom .zoom-nav{top:50%;transform:translateY(-50%);right:auto;width:48px;height:64px;background:#0007;border-radius:8px;font-size:48px;line-height:1;z-index:2}
+.media-zoom .zoom-prev{left:10px}.media-zoom .zoom-next{right:10px}.media-zoom .zoom-close{z-index:3}.zoom-count{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);color:white;background:#0008;padding:4px 12px;border-radius:20px;z-index:2}.media-zoom .zoom-media{max-width:calc(100% - 70px);touch-action:pan-y pinch-zoom}
+@media(max-width:600px){.media-zoom{padding:48px 6px}.media-zoom .zoom-nav{width:36px;height:52px;font-size:38px}.media-zoom .zoom-prev{left:4px}.media-zoom .zoom-next{right:4px}.media-zoom .zoom-media{max-width:calc(100% - 60px)}}
 </style></head>
 
     <body data-spy="scroll" data-target=".navbar-center" data-offset="80">
@@ -1414,7 +1418,23 @@
 </div>
     <div class="modal fade hobby-modal" id="hobby-4" tabindex="-1" role="dialog" aria-labelledby="hobby-title-4" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h4 class="modal-title" id="hobby-title-4">旅行</h4><button type="button" class="close" data-dismiss="modal" aria-label="關閉"><span aria-hidden="true">&times;</span></button></div><div class="modal-body hobby-empty"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18M12 3c-5 5-5 13 0 18"/></svg><p>我的旅行照片與回憶即將加入。</p></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button></div></div></div></div><script>document.querySelectorAll('#hobby-0 audio').forEach(function(player){player.addEventListener('play',function(){document.querySelectorAll('#hobby-0 audio').forEach(function(other){if(other!==player)other.pause();});});});$('#hobby-0').on('hidden.bs.modal',function(){this.querySelectorAll('audio').forEach(function(player){player.pause();});});</script>
 <script id="hobby-gallery-zoom">
-(function(){function closeZoom(){var x=document.querySelector('.media-zoom');if(x)x.remove()}
-document.addEventListener('click',function(e){var a=e.target.closest('#hobby-1 .drawing-gallery a,#hobby-2 .maker-grid a');if(!a)return;e.preventDefault();closeZoom();var box=document.createElement('div');box.className='media-zoom';box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');var btn=document.createElement('button');btn.textContent='×';btn.setAttribute('aria-label','Close');btn.onclick=closeZoom;box.appendChild(btn);var media=document.createElement(a.dataset.video?'iframe':'img');media.src=a.href;if(a.dataset.video)media.allow='fullscreen';else media.alt=a.querySelector('img').alt;box.appendChild(media);box.addEventListener('click',function(ev){if(ev.target===box)closeZoom()});document.body.appendChild(box);btn.focus()});document.addEventListener('keydown',function(e){if(e.key==='Escape')closeZoom()})})();
+(function(){
+var items=[],current=0,returnFocus=null;
+function closeZoom(){var x=document.querySelector('.media-zoom');if(x)x.remove();if(returnFocus)returnFocus.focus()}
+function show(index){current=(index+items.length)%items.length;var box=document.querySelector('.media-zoom');if(!box)return;var old=box.querySelector('.zoom-media');if(old)old.remove();var a=items[current],media=document.createElement(a.dataset.video?'iframe':'img');media.className='zoom-media';media.src=a.href;if(a.dataset.video){media.allow='fullscreen';media.title=a.getAttribute('aria-label')||'Video'}else media.alt=a.querySelector('img').alt;box.appendChild(media);box.querySelector('.zoom-count').textContent=(current+1)+' / '+items.length}
+document.addEventListener('click',function(e){
+var a=e.target.closest('#hobby-1 .drawing-gallery a,#hobby-2 .maker-grid a');if(!a)return;e.preventDefault();closeZoom();returnFocus=a;
+var grid=a.closest('.drawing-gallery,.maker-grid');items=Array.from(grid.querySelectorAll('a'));current=items.indexOf(a);
+var box=document.createElement('div');box.className='media-zoom';box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');box.setAttribute('aria-label','Gallery');
+var btn=document.createElement('button');btn.className='zoom-close';btn.textContent='×';btn.setAttribute('aria-label','Close');btn.onclick=closeZoom;box.appendChild(btn);
+['prev','next'].forEach(function(direction){var b=document.createElement('button');b.className='zoom-nav zoom-'+direction;b.textContent=direction==='prev'?'‹':'›';b.setAttribute('aria-label',direction==='prev'?'Previous':'Next');b.onclick=function(){show(current+(direction==='prev'?-1:1))};b.hidden=items.length<2;box.appendChild(b)});
+var count=document.createElement('span');count.className='zoom-count';count.setAttribute('aria-live','polite');box.appendChild(count);
+var touchX=0,touchY=0;
+box.addEventListener('touchstart',function(ev){if(ev.touches.length!==1)return;touchX=ev.touches[0].clientX;touchY=ev.touches[0].clientY},{passive:true});
+box.addEventListener('touchend',function(ev){if(!ev.changedTouches.length||ev.touches.length)return;var dx=ev.changedTouches[0].clientX-touchX,dy=ev.changedTouches[0].clientY-touchY;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)show(current+(dx<0?1:-1))},{passive:true});
+box.addEventListener('click',function(ev){if(ev.target===box)closeZoom()});document.body.appendChild(box);show(current);btn.focus()
+});
+document.addEventListener('keydown',function(e){if(!document.querySelector('.media-zoom'))return;if(e.key==='Escape')closeZoom();if(e.key==='ArrowLeft'){e.preventDefault();show(current-1)}if(e.key==='ArrowRight'){e.preventDefault();show(current+1)}});
+})();
 </script></body>
 </html>

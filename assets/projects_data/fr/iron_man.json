@@ -11,6 +11,12 @@
       "type": "image",
       "src": "assets/projects/iron_man/electronics.webp",
       "alt": "Arduino / Programmation embarquée / Servomoteurs / Câblage / Impression 3D / Assemblage"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/iron_man/demo.mp4",
+      "poster": "assets/projects/iron_man/helmet.webp",
+      "alt": "Démonstration du casque Iron Man"
     }
   ],
   "information": [

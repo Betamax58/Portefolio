@@ -41,7 +41,7 @@
         <script src="js/lib/wow.min.js" defer></script>
 
         <!-- Main script -->
-        <script src="js/app_en.js?v=20261003-resources" defer></script>
+        <script src="js/app_en.js?v=20261003-audit-final" defer></script>
     <style>
 .hobbies-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:32px}
 .hobby-card{width:100%;border:1px solid #dce4e8;border-radius:12px;background:#fff;color:#416070;padding:28px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.06);transition:transform .2s,box-shadow .2s}
@@ -303,7 +303,7 @@
 					</div>
 
 					<ul class="timeline p-0">
-<li class="timeline-inverted"><div class="timeline-image wow bounceInUp"><img class="rounded-circle img-fluid" src="assets/icons/work.svg" alt="Crew member — McDonald’s"></div><div class="timeline-panel"><div class="timeline-heading"><h3 class="timeline-time">2025–2026</h3><h3>Crew member — McDonald’s</h3></div><div class="timeline-body"><p>Crew member at McDonald’s in Cosne-Cours-sur-Loire.</p></div></div></li>
+<li><div class="timeline-image wow bounceInUp"><img class="rounded-circle img-fluid" src="assets/icons/work.svg" alt="Crew member — McDonald’s"></div><div class="timeline-panel"><div class="timeline-heading"><h3 class="timeline-time">2025–2026</h3><h3>Crew member — McDonald’s</h3></div><div class="timeline-body"><p>Crew member at McDonald’s in Cosne-Cours-sur-Loire.</p></div></div></li>
 <li class="timeline-inverted"><div class="timeline-image wow bounceInUp"><img class="rounded-circle img-fluid" src="assets/icons/work.svg" alt="Room attendant — Miléade"></div><div class="timeline-panel"><div class="timeline-heading"><h3 class="timeline-time">2024</h3><h3>Room attendant — Miléade</h3></div><div class="timeline-body"><p>Room attendant experience at Miléade.</p></div></div></li>
 
 						<li>
@@ -573,15 +573,15 @@
 					</div>
 
 					<ul class="projects-filters mx-auto p-0 d-flex justify-content-between">
-						<li class="active" data-filter-name="selection">Top 6</li>
-						<li data-filter-name="all">All</li>
-						<li data-filter-name="elec">Electronics</li>
-						<li data-filter-name="software">Software</li>
-						<li data-filter-name="other">Other</li>
+						<li class="active" data-filter-name="selection" role="button" tabindex="0">Featured</li>
+						<li data-filter-name="all" role="button" tabindex="0">All</li>
+						<li data-filter-name="elec" role="button" tabindex="0">Electronics</li>
+						<li data-filter-name="software" role="button" tabindex="0">Software</li>
+						<li data-filter-name="other" role="button" tabindex="0">Other</li>
 					</ul>
 
 					<div class="row mt-4 mt-sm-5 justify-content-between align-last-row">
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="100ms" data-project-name="inmoov" data-project-categories="['selection', 'all', 'elec', 'software']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="100ms" data-project-name="inmoov" data-project-categories="['selection', 'all', 'elec', 'software']" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/inmoov/thumbnail.webp" alt="Remotely Controlled Robotic Arm">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -591,7 +591,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="recreator" data-project-categories="['selection', 'all', 'elec', 'software']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="recreator" data-project-categories="['selection', 'all', 'elec', 'software']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/recreator/thumbnail.webp" alt="Plastic Recycling for 3D Printing">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -601,7 +601,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="200ms" data-project-name="iron_man" data-project-categories="['selection', 'all', 'elec', 'software', 'other']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="200ms" data-project-name="iron_man" data-project-categories="['selection', 'all', 'elec', 'software', 'other']" role="button" tabindex="0">
                             <div class="project-container-body d-flex flex-row flex-sm-column">
                                 <img src="assets/projects/iron_man/thumbnail.webp" alt="Motorized Iron Man helmet">
                                 <div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -611,7 +611,7 @@
                             </div>
                         </div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="200ms" data-project-name="vestisense" data-project-categories="['selection', 'all', 'elec', 'software', 'other']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="200ms" data-project-name="vestisense" data-project-categories="['selection', 'all', 'elec', 'software', 'other']" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/vestisense/thumbnail.webp" alt="Vestisense Connected Wardrobe">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -621,7 +621,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="horloge_bt" data-project-categories="['all', 'elec', 'software']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="horloge_bt" data-project-categories="['all', 'elec', 'software']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/horloge_bt/thumbnail.webp" alt="Bluetooth Clock">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -631,7 +631,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="300ms" data-project-name="coupe_de_france" data-project-categories="['selection', 'all', 'elec', 'software']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="300ms" data-project-name="coupe_de_france" data-project-categories="['selection', 'all', 'elec', 'software']" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/coupe_de_france/thumbnail.webp" alt="French Robotics Cup">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -641,7 +641,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="400ms" data-project-name="minecraft_serv" data-project-categories="['all', 'software', 'other']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="400ms" data-project-name="minecraft_serv" data-project-categories="['all', 'software', 'other']" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/minecraft_serv/thumbnail.webp" alt="Minecraft Server">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -651,7 +651,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="500ms" data-project-name="adopte_une_affiche" data-project-categories="['selection', 'all', 'software', 'other']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="500ms" data-project-name="adopte_une_affiche" data-project-categories="['selection', 'all', 'software', 'other']" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/adopte_une_affiche/thumbnail.webp" alt="Poster Sales Website">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -661,7 +661,7 @@
 							</div>
 						</div>
 						
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="volley_remote" data-project-categories="['all', 'software', 'elec']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="volley_remote" data-project-categories="['all', 'software', 'elec']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/volley_remote/thumbnail.webp" alt="Bluetooth Console for a Volleyball Scoreboard">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -671,7 +671,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="trotinette" data-project-categories="['all', 'elec']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="trotinette" data-project-categories="['all', 'elec']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/trotinette/thumbnail.webp" alt="Electric Scooter Repair">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -681,7 +681,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="arcade_tronix" data-project-categories="['all', 'software', 'elec']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="arcade_tronix" data-project-categories="['all', 'software', 'elec']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/arcade_tronix/thumbnail.webp" alt="Arcade Cabinet Creation">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -691,7 +691,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="600ms" data-project-name="voix_centrale" data-project-categories="['selection', 'all', 'elec', 'other']">
+                        <div class="project-container col-12 col-sm-6 col-lg-4 wow zoomIn" data-wow-delay="600ms" data-project-name="voix_centrale" data-project-categories="['selection', 'all', 'elec', 'other']" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/voix_centrale/thumbnail.webp" alt="Hi-Fi Central Speaker Creation">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -701,7 +701,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="bateau_peche" data-project-categories="['all', 'elec', 'other']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="bateau_peche" data-project-categories="['all', 'elec', 'other']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/bateau_peche/thumbnail.webp" alt="Remote-Controlled Fishing Boat">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -711,7 +711,7 @@
 							</div>
 						</div>
 
-                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="televiseur" data-project-categories="['all', 'elec']" style="display: none;">
+                        <div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="televiseur" data-project-categories="['all', 'elec']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/televiseur/thumbnail.webp" alt="TV Repair">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -721,7 +721,7 @@
 							</div>
 						</div>
 
-						<div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="alim_stab" data-project-categories="['all', 'elec']" style="display: none;">
+						<div class="project-container col-12 col-sm-6 col-lg-4" data-project-name="alim_stab" data-project-categories="['all', 'elec']" style="display: none;" role="button" tabindex="0">
 							<div class="project-container-body d-flex flex-row flex-sm-column">
 								<img src="assets/projects/alim_stab/thumbnail.webp" alt="DIY Laboratory Power Supply">
 								<div class="project-container-title d-flex flex-column align-items-center justify-content-center text-center">
@@ -897,7 +897,7 @@
 								along with their licenses, are listed below.
 							</p>
 							<p>
-								Last updated: September 2026
+								Last updated: 3 October 2026
 							</p>
 						</section>
 						<section>
@@ -909,7 +909,7 @@
 										<div class="col-12 col-sm-9 d-flex justify-content-center justify-content-sm-start align-items-center">
 											<img src="assets/licenses/bootstrap.webp" class="mr-2 mr-md-3" alt="bootstrap logo">
 											<div>
-												<a class="d-block mb-1" href="https://getbootstrap.com/">Bootstrap 4.0</a>
+												<a class="d-block mb-1" href="https://getbootstrap.com/">Bootstrap 4.5.3</a>
 												<span>By "The Bootstrap Authors"</span>
 											</div>
 										</div>
@@ -1119,7 +1119,7 @@
                                         <div class="col-12 col-sm-9 d-flex justify-content-center justify-content-sm-start align-items-center">
                                             <div>
                                                 <a class="d-block mb-1" href="https://github.com/VincentGarreau/particles.js/">particles.js</a>
-                                                <span>De Vicent Garreau</span>
+                                                <span>De Vincent Garreau</span>
                                             </div>
                                         </div>
                                         <button class="btn btn-dark mx-auto mx-xs-0 mt-2" data-toggle="collapse" data-target="#license-particles" aria-expanded="true" aria-controls="license-particles">

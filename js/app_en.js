@@ -13,6 +13,12 @@ $(document).ready(function () {
     startLogoParallax();
     startProjectsFilters();
     loadProjects();
+    $(".project-container, .projects-filters li").on("keydown", function(event) {
+        if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            $(this).trigger("click");
+        }
+    });
     $(".projects-filters li.active").trigger("click");
     startProjectImageScaleOnHover();
 

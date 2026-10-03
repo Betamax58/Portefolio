@@ -1328,3 +1328,5 @@ footer p {font-size: 14px;}
     html, body {scroll-behavior: auto;}
     .animated {animation: none !important;}
 }
+
+.project-container:focus-visible, .projects-filters li:focus-visible {outline: 3px solid var(--light-blue); outline-offset: 4px;}

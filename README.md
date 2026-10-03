@@ -32,3 +32,5 @@ jQuery 3.5.1 Slim et Bootstrap 4.5.3 (CSS et bundle incluant Popper.js) sont ser
 - Filtre sélection appliqué au démarrage ; libellés de navigation et textes alternatifs corrigés ; préférence de réduction des animations respectée.
 - Crédits complétés pour Devicon, Popper.js, Simple Icons / Thingiverse, marques et institutions, Strava, Pix, projets de référence et Marvel / Iron Man ; crédits Flaticon existants conservés.
 - Vérificateur ajouté pour les liens locaux, ancres, identifiants, médias, parité linguistique, manifeste et crédits des pictogrammes techniques.
+
+Le filtre « Sélection » remplace « Top 6 », qui ne correspondait plus au nombre de projets sélectionnés. Les cartes et filtres se commandent aussi au clavier ; les dates des crédits, libellés de versions et fautes de frappe du parcours ont été corrigés. Les trois scripts disposent du même paramètre de version pour éviter les anciennes copies en cache.

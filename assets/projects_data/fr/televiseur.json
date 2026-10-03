@@ -1,7 +1,7 @@
 {
     "projectName": "reparation_tv_ecran_plat",
     "title": "Réparation de téléviseurs écran plat pour le recyclage et la revente",
-    "images": 5,
+    "images": 10,
     "information": [
         {
             "header": "Cadre",
@@ -34,11 +34,57 @@
         "Les téléviseurs réparés provenaient principalement d’achats de modèles HS ou de récupérations, que je remettais en état. Ce processus m’a permis de perfectionner mes compétences en <strong>diagnostic électronique</strong>, <strong>soudure</strong>, <strong>remplacement de composants</strong> et <strong>gestion thermique</strong> des équipements.",
         "Au-delà de la réparation, ce projet contribue à <strong>l’économie circulaire</strong>, en prolongeant la durée de vie de produits électroniques et en réduisant leur impact environnemental. Chaque réparation représente une opportunité d’améliorer mes connaissances techniques tout en donnant une seconde vie à du matériel électronique."
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos des réparations",
-            "link": "assets/img/projects/reparation_tv_ecran_plat"
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_1.webp",
+            "alt": "Réparation TV — photo 1"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_2.webp",
+            "alt": "Réparation TV — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_3.webp",
+            "alt": "Réparation TV — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_4.webp",
+            "alt": "Réparation TV — photo 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_5.webp",
+            "alt": "Réparation TV — photo 5"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_6.webp",
+            "alt": "Réparation TV — photo 6"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_7.webp",
+            "alt": "Réparation TV — photo 7"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_8.webp",
+            "alt": "Réparation TV — photo 8"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_9.webp",
+            "alt": "Réparation TV — photo 9"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_10.webp",
+            "alt": "Réparation TV — photo 10"
         }
     ]
 }

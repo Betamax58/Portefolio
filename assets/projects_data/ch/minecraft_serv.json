@@ -1,7 +1,7 @@
 {
     "projectName": "serveur_minecraft_esiggames",
     "title": "为 ESIG'Games 协会创建的物理 Minecraft 服务器",
-    "images": 6,
+    "images": 5,
     "information": [
         {
             "header": "项目背景",
@@ -41,6 +41,33 @@
             "image": "assets/img/icons/github_black",
             "name": "重新编写的模组源码",
             "link": "https://github.com/username/esiggames-minecraft-mod"
+        }
+    ],
+    "media": [
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_1.webp",
+            "alt": "Minecraft 建築 — 照片 1"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_2.webp",
+            "alt": "Minecraft 建築 — 照片 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_3.webp",
+            "alt": "Minecraft 建築 — 照片 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_4.webp",
+            "alt": "Minecraft 建築 — 照片 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_5.webp",
+            "alt": "雙處理器 Linux 伺服器的生成示意圖"
         }
     ]
 }

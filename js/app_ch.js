@@ -112,7 +112,7 @@ function loadProjects() {
         $(".loading-body span").text("Veuillez patienter...")
 
         var request = new XMLHttpRequest();
-        request.open("GET", "assets/projects_data/ch/" + projectName + ".json?v=20261003-audit", true);
+        request.open("GET", "assets/projects_data/ch/" + projectName + ".json?v=20261003-labo-resources", true);
         request.onerror = function() {
             $(".loading-body .spinner-border").hide();
             $(".loading-body span").text("无法加载此项目，请重试。")

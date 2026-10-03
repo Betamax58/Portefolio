@@ -453,6 +453,13 @@
       "author": "Navimodélisme RC (as displayed in the screenshot)",
       "source": "navi.modelisme.com — Trucs et astuces — Raccordements faciles (visible screenshot attribution)",
       "license": "Copyright remains with original author. No open license asserted."
+    },
+    {
+      "files": [
+        "assets/projects/labo_idees/thumbnail.svg"
+      ],
+      "source": "Original vector illustration created for this portfolio; no third-party logo or asset",
+      "license": "No third-party package applied"
     }
   ]
 }

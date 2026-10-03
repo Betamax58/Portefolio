@@ -1,7 +1,7 @@
 {
     "projectName": "serveur_minecraft_esiggames",
     "title": "Création d'un serveur Minecraft physique pour l'association ESIG'Games",
-    "images": 6,
+    "images": 5,
     "information": [
         {
             "header": "Cadre",
@@ -41,6 +41,33 @@
             "image": "assets/img/icons/github_black",
             "name": "Code source du mod recodé",
             "link": "https://github.com/username/esiggames-minecraft-mod"
+        }
+    ],
+    "media": [
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_1.webp",
+            "alt": "Construction Minecraft — photo 1"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_2.webp",
+            "alt": "Construction Minecraft — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_3.webp",
+            "alt": "Construction Minecraft — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_4.webp",
+            "alt": "Construction Minecraft — photo 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_5.webp",
+            "alt": "Illustration générée du serveur Linux à deux processeurs"
         }
     ]
 }

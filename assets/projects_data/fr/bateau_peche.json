@@ -22,9 +22,12 @@
   "description": [
     "Ce projet personnel a été réalisé en 2018, lorsque j'étais en classe de première. L'objectif était de concevoir un bateau amorceur télécommandé pour la pêche à la carpe, capable de transporter amorces et hameçons à des emplacements précis sur l'eau.",
     "Le bateau a été conçu sous forme de catamaran afin d’assurer une stabilité optimale, essentielle pour la précision de dépôt des appâts et pour la navigation sur des plans d'eau soumis au vent.",
+    "La première version de la coque a été réalisée par thermoformage du plastique à l’aide d’un moule fabriqué en médium (MDF). Le dispositif associait une planche percée et une forme reproduisant le volume de la coque, obtenue en superposant et en collant plusieurs plaques de médium découpées à la CNC. La feuille de plastique chauffée pouvait ainsi épouser la forme du moule.",
+    "Les différentes pièces de cette première coque étaient toutefois trop fragiles au niveau des assemblages : les jonctions ne tenaient pas suffisamment entre elles. J’ai donc fait évoluer la fabrication vers une coque en fibre de verre et résine, afin d’obtenir une structure plus rigide et des liaisons plus résistantes.",
     "La propulsion est assurée par deux moteurs Speed 800BB Turbo, garantissant une vitesse et une puissance suffisantes pour atteindre rapidement les zones de pêche ciblées. L'alimentation électrique repose sur deux batteries lithium offrant une grande autonomie, complétée par un panneau solaire embarqué pour prolonger la durée d'utilisation sans retour fréquent à la base.",
     "Pour les sessions de pêche nocturnes, des LED blanches à l’avant et rouges à l’arrière assurent la visibilité et facilitent le repérage du bateau. Un électroaimant intégré permet de transporter un hameçon et de le déposer précisément à l’endroit souhaité, augmentant ainsi l’efficacité des sessions de pêche.",
-    "La coque du bateau a été entièrement réalisée en fibre de verre renforcée par de la résine, offrant robustesse et légèreté. Ce projet m’a permis de développer des compétences en conception mécanique, en électronique embarquée et en gestion énergétique, tout en combinant une passion personnelle pour la pêche."
+    "Cette évolution m’a permis d’adapter le choix des matériaux aux contraintes rencontrées et de développer mes compétences en conception mécanique, en fabrication et en électronique embarquée.",
+    "La galerie présente le moule en médium ainsi que des visuels de référence pour la coque et le câblage. Ces captures de référence ne représentent pas toutes le bateau réalisé. La capture de câblage mentionne Navimodélisme RC (navi.modelisme.com) ; les auteurs des autres références ne sont pas identifiés sur les captures fournies."
   ],
   "resources": [],
   "media": [
@@ -32,6 +35,26 @@
       "type": "image",
       "src": "assets/projects/bateau_peche/thumbnail.webp",
       "alt": "Bateau amorceur télécommandé pour la pêche à la carpe — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/moule_medium.jpg",
+      "alt": "Moule de coque en médium : plaques découpées à la CNC et collées"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/reference_coque.png",
+      "alt": "Référence de coque de catamaran — capture fournie"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/reference_cablage_1.png",
+      "alt": "Référence de câblage à deux moteurs et deux variateurs — capture fournie"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/reference_cablage_2.png",
+      "alt": "Référence de câblage à deux moteurs — Navimodélisme RC"
     }
   ]
 }

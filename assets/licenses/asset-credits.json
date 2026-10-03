@@ -428,6 +428,31 @@
       "author": "McDonald’s",
       "source": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/logo/m-logo_108x108.jpg",
       "license": "Copyright and trademark remain with the brand owner. No open-source license asserted. Used to identify a past or current employer."
+    },
+    {
+      "files": [
+        "assets/projects/bateau_peche/moule_medium.jpg"
+      ],
+      "author": "Kévin BOYER-NAVARRO",
+      "source": "Photograph supplied by the portfolio author",
+      "license": "Author photograph; no third-party license asserted"
+    },
+    {
+      "files": [
+        "assets/projects/bateau_peche/reference_coque.png",
+        "assets/projects/bateau_peche/reference_cablage_1.png"
+      ],
+      "author": "Original authors unidentified",
+      "source": "Reference screenshots supplied by the user; original sources not visible",
+      "license": "Copyright remains with original authors. No open license or personal authorship asserted."
+    },
+    {
+      "files": [
+        "assets/projects/bateau_peche/reference_cablage_2.png"
+      ],
+      "author": "Navimodélisme RC (as displayed in the screenshot)",
+      "source": "navi.modelisme.com — Trucs et astuces — Raccordements faciles (visible screenshot attribution)",
+      "license": "Copyright remains with original author. No open license asserted."
     }
   ]
 }

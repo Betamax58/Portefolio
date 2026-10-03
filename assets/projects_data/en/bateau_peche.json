@@ -22,9 +22,12 @@
   "description": [
     "This personal project was completed in 2018 during my first year of high school. The goal was to design a remote-controlled bait boat for carp fishing, capable of transporting bait and hooks to precise locations on the water.",
     "The boat was designed in a catamaran form to ensure optimal stability, which is essential for accurate bait placement and navigation on windy water surfaces.",
+    "The first hull version was made by thermoforming plastic over a mould built from medium-density fibreboard (MDF). The setup combined a perforated board with a form reproducing the hull volume, made by stacking and gluing several CNC-cut MDF sheets. The heated plastic sheet could then conform to the mould’s shape.",
+    "However, the joints between the plastic hull sections proved too fragile: the separate parts did not hold together reliably. I therefore switched to a fibreglass-and-resin hull to obtain a stiffer structure with stronger connections.",
     "Propulsion is provided by two Speed 800BB Turbo motors, ensuring sufficient speed and power to quickly reach targeted fishing areas. The power supply relies on two lithium batteries offering long autonomy, complemented by an onboard solar panel to extend usage time without frequent returns to base.",
     "For night fishing sessions, white LEDs at the front and red LEDs at the back ensure visibility and make it easy to locate the boat. An integrated electromagnet allows the hook to be transported and released precisely at the desired spot, increasing the effectiveness of fishing sessions.",
-    "The boat's hull was entirely made of fiberglass reinforced with resin, offering robustness and lightness. This project allowed me to develop skills in mechanical design, embedded electronics, and energy management, while combining a personal passion for fishing."
+    "This development helped me adapt the materials to the practical constraints encountered and build my skills in mechanical design, fabrication and embedded electronics.",
+    "The gallery includes the MDF mould and reference images for the hull and wiring. These reference screenshots do not all show the boat I built. One wiring screenshot credits Navimodélisme RC (navi.modelisme.com); the authors of the other references are not identified in the supplied screenshots."
   ],
   "resources": [],
   "media": [
@@ -32,6 +35,26 @@
       "type": "image",
       "src": "assets/projects/bateau_peche/thumbnail.webp",
       "alt": "Remote-Controlled Bait Boat for Carp Fishing — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/moule_medium.jpg",
+      "alt": "MDF hull mould: CNC-cut sheets glued together"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/reference_coque.png",
+      "alt": "Catamaran hull reference — supplied screenshot"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/reference_cablage_1.png",
+      "alt": "Two-motor, two-controller wiring reference — supplied screenshot"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/bateau_peche/reference_cablage_2.png",
+      "alt": "Two-motor wiring reference — Navimodélisme RC"
     }
   ]
 }

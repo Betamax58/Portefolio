@@ -47,7 +47,7 @@ function loadParticlesJS() {
 
 function loadTypedJS() {
     var options = {
-        strings: ["ESIGELEC课程 · 2022–2025", "医疗系统", "电子", "机器人"],
+        strings: ["ESIGELEC工程师", "医疗系统工程专业方向", "电子", "机器人"],
         typeSpeed: 80,
         backSpeed: 40,
         backDelay: 2000,

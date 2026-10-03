@@ -47,7 +47,7 @@ function loadParticlesJS() {
 
 function loadTypedJS() {
     var options = {
-        strings: ["ESIGELEC studies · 2022–2025", "Medical systems", "Electronics", "Robotics"],
+        strings: ["ESIGELEC Engineer", "Specialisation in Medical Systems Engineering", "Electronics", "Robotics"],
         typeSpeed: 80,
         backSpeed: 40,
         backDelay: 2000,

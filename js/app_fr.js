@@ -47,7 +47,7 @@ function loadParticlesJS() {
 
 function loadTypedJS() {
     var options = {
-        strings: ["Formation ESIGELEC · 2022–2025", "Systèmes médicaux", "Électronique", "Robotique"],
+        strings: ["Ingénieur ESIGELEC", "Dominance Ingénierie des Systèmes Médicaux", "Électronique", "Robotique"],
         typeSpeed: 80,
         backSpeed: 40,
         backDelay: 2000,

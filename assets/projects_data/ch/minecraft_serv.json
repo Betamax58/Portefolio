@@ -31,18 +31,7 @@
         "整个项目在<strong>2024年5月至2025年1月</strong>期间由三人团队完成，使 ESIG'Games 协会得以使用一个高性能、可持续且经济高效的 Minecraft 服务器，并且该服务器已直接连接至 ESIGELEC 的校园网络。",
         "通过该项目，我在<strong>服务器基础设施搭建</strong>、<strong>Minecraft Java 编程</strong>以及<strong>技术项目的团队管理</strong>方面积累了宝贵经验。"
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "服务器项目照片库",
-            "link": "assets/img/projects/serveur_minecraft_esiggames"
-        },
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "重新编写的模组源码",
-            "link": "https://github.com/username/esiggames-minecraft-mod"
-        }
-    ],
+    "resources": [],
     "media": [
         {
             "type": "image",

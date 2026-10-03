@@ -1,0 +1,56 @@
+{
+  "projectName": "iron_man",
+  "title": "Casque Iron Man motorisé",
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/iron_man/helmet.webp",
+      "alt": "Casque Iron Man motorisé"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/iron_man/electronics.webp",
+      "alt": "ESP32 / Programmation embarquée / Servomoteurs / Câblage / Impression 3D / Assemblage"
+    }
+  ],
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel"
+    },
+    {
+      "header": "Date",
+      "value": "2025"
+    },
+    {
+      "header": "Réalisation",
+      "value": "Kévin BOYER-NAVARRO — réalisation en solo"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Casque articulé / Commande des servomoteurs par ESP32 / Intégration électronique et mécanique"
+    },
+    {
+      "header": "Technologies et matériel",
+      "value": "ESP32 / Programmation embarquée / Servomoteurs / Câblage / Impression 3D / Assemblage"
+    }
+  ],
+  "description": [
+    "Fan de <strong>Marvel</strong>, et particulièrement d’<strong>Iron Man</strong>, j’ai réalisé en 2025 un casque motorisé inspiré de l’armure Mark V. Ce projet personnel réunit impression 3D, électronique et programmation embarquée pour donner vie à un objet emblématique de cet univers.",
+    "J’ai mené seul la réalisation du casque : <strong>impression 3D des pièces, assemblage mécanique, intégration de l’électronique, câblage et programmation sur ESP32</strong>. Les servomoteurs actionnent les différentes parties de la façade ; leur commande demande de coordonner les mouvements avec la mécanique du casque.",
+    "Les photographies présentent le casque assemblé et son intérieur, où l’on distingue le câblage, les servomoteurs et les mécanismes. Le travail d’intégration consiste à faire cohabiter ces éléments dans un volume réduit, tout en conservant une façade articulée.",
+    "Ce projet m’a permis de mettre en pratique une démarche complète de réalisation en mécatronique, de la fabrication des pièces à la commande embarquée. <strong>Il ne me manque plus que J.A.R.V.I.S. et un cœur réacteur</strong>… mais le casque est déjà une bonne première étape.",
+    "Pour retrouver des fichiers STL de ce type de casque, le bouton ci-dessous renvoie au <strong>Mark V de BoxAndLoop sur Thingiverse</strong>. Le code de ma version ESP32 sera partagé ultérieurement."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "Code ESP32 — bientôt disponible"
+    },
+    {
+      "image": "assets/icons/thingiverse.svg",
+      "name": "Fichiers STL — BoxAndLoop / Thingiverse",
+      "link": "https://www.thingiverse.com/thing:5137286"
+    }
+  ]
+}

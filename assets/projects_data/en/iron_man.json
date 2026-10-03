@@ -1,0 +1,56 @@
+{
+  "projectName": "iron_man",
+  "title": "Motorized Iron Man helmet",
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/iron_man/helmet.webp",
+      "alt": "Motorized Iron Man helmet"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/iron_man/electronics.webp",
+      "alt": "ESP32 / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
+    }
+  ],
+  "information": [
+    {
+      "header": "Context",
+      "value": "Personal project"
+    },
+    {
+      "header": "Date",
+      "value": "2025"
+    },
+    {
+      "header": "Built by",
+      "value": "Kévin BOYER-NAVARRO — solo build"
+    },
+    {
+      "header": "Main features",
+      "value": "Articulated helmet / ESP32 servo control / Electronic and mechanical integration"
+    },
+    {
+      "header": "Technology and hardware",
+      "value": "ESP32 / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
+    }
+  ],
+  "description": [
+    "As a <strong>Marvel fan</strong>, especially of <strong>Iron Man</strong>, I built a motorized helmet inspired by the Mark V armor in 2025. This personal project brings together 3D printing, electronics and embedded programming.",
+    "I completed the build on my own: <strong>3D printing the parts, mechanical assembly, electronic integration, wiring and ESP32 programming</strong>. Servomotors move the individual sections of the faceplate, requiring coordinated control matched to the mechanism.",
+    "The photographs show the assembled helmet and its interior, including the wiring, servomotors and linkages. Integrating these components into a compact space was an essential part of the build.",
+    "This project let me put a complete mechatronics workflow into practice, from manufacturing parts to embedded control. <strong>All I need now is J.A.R.V.I.S. and an arc reactor</strong>… the helmet is a good start.",
+    "The STL button links to <strong>BoxAndLoop’s Mark V helmet on Thingiverse</strong>, a downloadable model of this helmet type. My ESP32 code will be shared later."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "ESP32 code — coming soon"
+    },
+    {
+      "image": "assets/icons/thingiverse.svg",
+      "name": "STL files — BoxAndLoop / Thingiverse",
+      "link": "https://www.thingiverse.com/thing:5137286"
+    }
+  ]
+}

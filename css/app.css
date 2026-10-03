@@ -1316,3 +1316,5 @@ footer p {font-size: 14px;}
         font-size: 18px;
     }
 }
+
+.resource-container.resource-disabled {opacity: .5; cursor: default; pointer-events: none;}

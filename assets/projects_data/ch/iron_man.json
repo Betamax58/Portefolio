@@ -1,0 +1,56 @@
+{
+  "projectName": "iron_man",
+  "title": "电动钢铁侠头盔",
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/iron_man/helmet.webp",
+      "alt": "电动钢铁侠头盔"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/iron_man/electronics.webp",
+      "alt": "ESP32 / 嵌入式编程 / 舵机 / 布线 / 3D打印 / 装配"
+    }
+  ],
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "个人项目"
+    },
+    {
+      "header": "日期",
+      "value": "2025"
+    },
+    {
+      "header": "制作人",
+      "value": "Kévin BOYER-NAVARRO — 独立制作"
+    },
+    {
+      "header": "主要功能",
+      "value": "可动头盔 / ESP32舵机控制 / 电子与机械集成"
+    },
+    {
+      "header": "技术与硬件",
+      "value": "ESP32 / 嵌入式编程 / 舵机 / 布线 / 3D打印 / 装配"
+    }
+  ],
+  "description": [
+    "作为<strong>漫威</strong>粉丝，尤其喜爱<strong>钢铁侠</strong>，我在2025年制作了一款受Mark V装甲启发的电动头盔。这个个人项目结合了3D打印、电子技术和嵌入式编程。",
+    "我独立完成了<strong>零件3D打印、机械装配、电子集成、布线和ESP32编程</strong>。舵机驱动面罩各部分，需要根据机械结构协调运动。",
+    "照片展示了组装完成的头盔以及内部的布线、舵机和连杆。将这些组件集成到有限空间中是制作过程的重要环节。",
+    "这个项目让我实践了从零件制造到嵌入式控制的完整机电制作流程。<strong>现在只差J.A.R.V.I.S.和一个方舟反应堆了</strong>……头盔已经是不错的开始。",
+    "STL按钮链接至<strong>Thingiverse上BoxAndLoop的Mark V头盔</strong>，可下载同类型头盔的模型。我的ESP32代码将稍后公开。"
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "ESP32代码 — 即将公开"
+    },
+    {
+      "image": "assets/icons/thingiverse.svg",
+      "name": "STL文件 — BoxAndLoop / Thingiverse",
+      "link": "https://www.thingiverse.com/thing:5137286"
+    }
+  ]
+}

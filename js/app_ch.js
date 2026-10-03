@@ -216,9 +216,15 @@ function loadProjects() {
                         .attr("target", "_blank")
                         .attr("href", resource.link)
                         .append(
-                            $("<img>").attr("src", resource.image + ".png").attr("srcset", resource.image + ".webp, " + resource.image + ".png"),
+                            $("<img>").attr("src", resource.image.endsWith(".svg") ? resource.image : resource.image + ".webp").attr("alt", resource.name),
                             $("<span>").text(resource.name)
                         );
+                    if (!resource.link) {
+                        a.attr({"aria-disabled": "true", "tabindex": "-1"})
+                            .removeAttr("target").addClass("resource-disabled");
+                    } else {
+                        a.attr("rel", "noopener noreferrer");
+                    }
                     $("#project .project-resources > div").append(a);
                 });
 

@@ -36,16 +36,43 @@
         "Le projet intègre des <strong>matrices LED géantes</strong> pour une lisibilité optimale du score, même à distance, ainsi qu’un système de gestion robuste permettant un affichage fluide et sans décalage.",
         "Ce projet m’a permis de renforcer mes compétences en <strong>communication sans fil (Bluetooth)</strong>, en <strong>développement d’applications mobiles</strong>, ainsi qu’en <strong>intégration électronique</strong> et <strong>travail en équipe sur un projet technique</strong>."
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos du projet",
-            "link": "assets/img/projects/console_score_volleyball_bt"
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_1.webp",
+            "alt": "Console et tableau de score Bluetooth — photo 1"
         },
         {
-            "image": "assets/img/icons/github_black",
-            "name": "Code source de l'application App Inventor",
-            "link": "https://github.com/username/console-score-volleyball"
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_2.webp",
+            "alt": "Console et tableau de score Bluetooth — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_3.webp",
+            "alt": "Console et tableau de score Bluetooth — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_4.webp",
+            "alt": "Console et tableau de score Bluetooth — photo 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_5.webp",
+            "alt": "Console et tableau de score Bluetooth — photo 5"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_6.webp",
+            "alt": "Console et tableau de score Bluetooth — photo 6"
+        },
+        {
+            "type": "video",
+            "src": "assets/projects/volley_remote/volley_demo.mp4",
+            "poster": "assets/projects/volley_remote/volley_demo.webp",
+            "alt": "Démonstration de la console de score Bluetooth"
         }
     ]
 }

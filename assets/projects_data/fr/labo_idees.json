@@ -23,13 +23,14 @@
     "Un espace pour regrouper mes essais en programmation, électronique et mécanique, réalisés pour le plaisir de découvrir et de fabriquer. J’y teste des idées, explore des solutions et assemble de petits prototypes, sans forcément chercher à en faire un projet complet.",
     "Le fil conducteur : essayer, comprendre et apprendre en s’amusant."
   ],
-  "resources": [],
-  "media": [
+  "resources": [
     {
-      "type": "image",
-      "src": "assets/projects/labo_idees/thumbnail.svg",
-      "alt": "Le labo des idées"
-    },
+      "image": "assets/icons/github",
+      "name": "Code source — Just for fun",
+      "link": "https://github.com/Betamax58/just-for-fun"
+    }
+  ],
+  "media": [
     {
       "type": "video",
       "src": "assets/projects/labo_idees/araignee.webm",

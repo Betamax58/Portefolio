@@ -31,11 +31,5 @@
         "J’ai aussi effectué le <strong>remplacement complet de contrôleurs</strong> sur des modèles de trottinettes <strong>UrbanGlide</strong>, assurant leur remise en état de fonctionnement optimal.",
         "Ce projet m’a permis de renforcer mes compétences en <strong>électronique de puissance</strong>, en <strong>diagnostic de pannes</strong>, en <strong>réparation de moteurs électriques</strong> et en <strong>maintenance de véhicules électriques légers</strong>, tout en contribuant à la <strong>réduction des déchets électroniques</strong>."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos des réparations",
-            "link": "assets/img/projects/reparation_trottinettes_electriques"
-        }
-    ]
+    "resources": []
 }

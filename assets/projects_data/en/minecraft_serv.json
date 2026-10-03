@@ -1,7 +1,7 @@
 {
     "projectName": "serveur_minecraft_esiggames",
     "title": "Creation of a Physical Minecraft Server for the ESIG'Games Association",
-    "images": 6,
+    "images": 5,
     "information": [
         {
             "header": "Context",
@@ -41,6 +41,33 @@
             "image": "assets/img/icons/github_black",
             "name": "Source Code of the Recoded Mod",
             "link": "https://github.com/username/esiggames-minecraft-mod"
+        }
+    ],
+    "media": [
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_1.webp",
+            "alt": "Minecraft build — photo 1"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_2.webp",
+            "alt": "Minecraft build — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_3.webp",
+            "alt": "Minecraft build — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_4.webp",
+            "alt": "Minecraft build — photo 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/minecraft_serv/minecraft_5.webp",
+            "alt": "Generated illustration of a dual-processor Linux server"
         }
     ]
 }

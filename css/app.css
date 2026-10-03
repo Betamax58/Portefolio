@@ -541,6 +541,8 @@ footer p {font-size: 14px;}
 
 .timeline .timeline-body p {
     color: #666d73;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .timeline .timeline-body a {

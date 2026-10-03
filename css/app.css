@@ -1330,3 +1330,15 @@ footer p {font-size: 14px;}
 }
 
 .project-container:focus-visible, .projects-filters li:focus-visible {outline: 3px solid var(--light-blue); outline-offset: 4px;}
+
+/* Company logos fill the timeline circle so wide wordmarks stay centered. */
+.timeline > li .timeline-image > .career-company-logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 10%;
+    background: #fff;
+    box-sizing: border-box;
+}

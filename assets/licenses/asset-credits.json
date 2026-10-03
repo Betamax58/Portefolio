@@ -396,6 +396,38 @@
       ],
       "source": "Original SVG created for this portfolio",
       "license": "No third-party package applied"
+    },
+    {
+      "files": [
+        "assets/career/acadomia.png"
+      ],
+      "author": "Acadomia",
+      "source": "https://www.cdn.acadomia.fr/docs/logo-acadomia-bleu.png",
+      "license": "Copyright and trademark remain with the brand owner. No open-source license asserted. Used to identify a past or current employer."
+    },
+    {
+      "files": [
+        "assets/career/millerioux.png"
+      ],
+      "author": "Millerioux",
+      "source": "https://www.ambulances-vsl-taxis-millerioux.fr/wp-content/uploads/2022/11/logo-Millerioux-398x117.png",
+      "license": "Copyright and trademark remain with the brand owner. No open-source license asserted. Used to identify a past or current employer."
+    },
+    {
+      "files": [
+        "assets/career/mileade.svg"
+      ],
+      "author": "Miléade",
+      "source": "https://www.mileade.com/wp-content/themes/periscope/assets/images/mileade.svg",
+      "license": "Copyright and trademark remain with the brand owner. No open-source license asserted. Used to identify a past or current employer."
+    },
+    {
+      "files": [
+        "assets/career/mcdonalds.png"
+      ],
+      "author": "McDonald’s",
+      "source": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/logo/m-logo_108x108.jpg",
+      "license": "Copyright and trademark remain with the brand owner. No open-source license asserted. Used to identify a past or current employer."
     }
   ]
 }

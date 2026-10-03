@@ -36,16 +36,43 @@
         "The project integrates <strong>giant LED matrices</strong> for optimal score visibility, even from a distance, along with a robust management system ensuring smooth and lag-free display.",
         "This project strengthened my skills in <strong>wireless communication (Bluetooth)</strong>, <strong>mobile application development</strong>, as well as <strong>electronic integration</strong> and <strong>teamwork on a technical project</strong>."
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Project Photo Gallery",
-            "link": "assets/img/projects/console_score_volleyball_bt"
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_1.webp",
+            "alt": "Bluetooth score console and scoreboard — photo 1"
         },
         {
-            "image": "assets/img/icons/github_black",
-            "name": "App Inventor Application Source Code",
-            "link": "https://github.com/username/console-score-volleyball"
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_2.webp",
+            "alt": "Bluetooth score console and scoreboard — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_3.webp",
+            "alt": "Bluetooth score console and scoreboard — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_4.webp",
+            "alt": "Bluetooth score console and scoreboard — photo 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_5.webp",
+            "alt": "Bluetooth score console and scoreboard — photo 5"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/volley_remote/volley_6.webp",
+            "alt": "Bluetooth score console and scoreboard — photo 6"
+        },
+        {
+            "type": "video",
+            "src": "assets/projects/volley_remote/volley_demo.mp4",
+            "poster": "assets/projects/volley_remote/volley_demo.webp",
+            "alt": "Bluetooth score console demonstration"
         }
     ]
 }

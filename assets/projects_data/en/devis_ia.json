@@ -1,0 +1,106 @@
+{
+  "projectName": "devis_ia",
+  "title": "Devis IA — AI-assisted construction quotes",
+  "information": [
+    {
+      "header": "Context",
+      "value": "Solo entrepreneurial project"
+    },
+    {
+      "header": "Author",
+      "value": "Kévin BOYER-NAVARRO — solo design and development"
+    },
+    {
+      "header": "Status",
+      "value": "Prototype under development"
+    },
+    {
+      "header": "Target users",
+      "value": "Tradespeople and construction professionals"
+    },
+    {
+      "header": "Main features",
+      "value": "Voice or text job descriptions / AI-assisted quote preparation / Editable quote items / Net, VAT and gross totals / PDF export / Client management / Follow-up and subscription settings"
+    }
+  ],
+  "description": [
+    "<strong>Devis IA</strong> is an entrepreneurial project that I design and develop on my own. Its goal is to <strong>speed up quote preparation for construction professionals</strong> and reduce time spent on administration, allowing them to focus more on their jobs and clients.",
+    "The idea is simple: a tradesperson describes the planned work, by speaking or typing, and AI helps structure an initial quote. They can then review and adjust the items, quantities, prices and VAT before producing a professional PDF.",
+    "The prototype brings together a dashboard, client management, company details and payment terms, along with settings for follow-ups and subscription plans. These features support the development of a service for tradespeople and construction businesses.",
+    "The gallery follows the user journey: sign in, introduction and home, first quote creation, item editing, quote summary and PDF preview, followed by clients, settings, follow-ups and subscriptions."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "Source code — Devis IA",
+      "link": "https://github.com/Betamax58/Devis-Ia"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_1.webp",
+      "alt": "1. Sign in"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_2.webp",
+      "alt": "2. Application overview"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_3.webp",
+      "alt": "3. Home and dashboard"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_4.webp",
+      "alt": "4. First quote: spoken or written description of the work"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_5.webp",
+      "alt": "5. Editing a quote item"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_6.webp",
+      "alt": "6. Detailed quote: items, VAT and totals"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_7.webp",
+      "alt": "7. PDF quote preview"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_8.webp",
+      "alt": "8. Client management"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_9.webp",
+      "alt": "9. Settings and company profile"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_10.webp",
+      "alt": "10. Quote defaults and payment terms"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_11.webp",
+      "alt": "11. Automatic follow-up settings"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_12.webp",
+      "alt": "12. Subscription plans: Essential and Pro"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_13.webp",
+      "alt": "13. Subscription plans: Pro and Business"
+    }
+  ]
+}

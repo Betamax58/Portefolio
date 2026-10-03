@@ -1,0 +1,106 @@
+{
+  "projectName": "devis_ia",
+  "title": "Devis IA — 建筑行业智能报价",
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "个人创业项目"
+    },
+    {
+      "header": "作者",
+      "value": "Kévin BOYER-NAVARRO — 独立设计与开发"
+    },
+    {
+      "header": "状态",
+      "value": "原型开发中"
+    },
+    {
+      "header": "目标用户",
+      "value": "建筑与土木工程行业的工匠及专业人员"
+    },
+    {
+      "header": "主要功能",
+      "value": "语音或文字描述施工内容 / AI 辅助生成报价 / 编辑报价项目 / 计算未税金额、增值税与含税总额 / PDF 导出 / 客户管理 / 跟进与订阅设置"
+    }
+  ],
+  "description": [
+    "<strong>Devis IA</strong> 是我独立设计和开发的创业项目，旨在<strong>加快建筑与土木工程专业人员的报价制作过程</strong>，减少行政事务所需时间，让他们能够更加专注于施工和客户服务。",
+    "使用者通过语音或文字描述计划进行的施工，AI 随后协助整理初步报价。工匠可以检查并调整项目、数量、价格和增值税，最后生成专业的 PDF 报价文件。",
+    "原型包含仪表板、客户管理、企业资料与付款条件设置，以及跟进和订阅方案的配置界面。这些功能服务于面向工匠及建筑企业的创业目标。",
+    "图库按使用流程排列：登录、产品介绍与首页、首次创建报价、编辑项目、报价汇总与 PDF 预览，然后展示客户管理、设置、跟进及订阅方案。"
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "源代码 — Devis IA",
+      "link": "https://github.com/Betamax58/Devis-Ia"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_1.webp",
+      "alt": "1. 登录"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_2.webp",
+      "alt": "2. 应用介绍"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_3.webp",
+      "alt": "3. 首页与仪表板"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_4.webp",
+      "alt": "4. 首次报价：口述或输入施工内容"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_5.webp",
+      "alt": "5. 修改报价项目"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_6.webp",
+      "alt": "6. 报价详情：项目、增值税与总额"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_7.webp",
+      "alt": "7. PDF 报价预览"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_8.webp",
+      "alt": "8. 客户管理"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_9.webp",
+      "alt": "9. 设置与企业资料"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_10.webp",
+      "alt": "10. 报价默认参数与付款条件"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_11.webp",
+      "alt": "11. 自动跟进设置"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_12.webp",
+      "alt": "12. 订阅方案：基础版与专业版"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_13.webp",
+      "alt": "13. 订阅方案：专业版与企业版"
+    }
+  ]
+}

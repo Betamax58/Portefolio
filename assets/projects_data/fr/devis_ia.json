@@ -1,0 +1,106 @@
+{
+  "projectName": "devis_ia",
+  "title": "Devis IA — devis assistés pour le BTP",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet entrepreneurial individuel"
+    },
+    {
+      "header": "Auteur",
+      "value": "Kévin BOYER-NAVARRO — conception et développement en solo"
+    },
+    {
+      "header": "État",
+      "value": "Prototype en développement"
+    },
+    {
+      "header": "Public cible",
+      "value": "Artisans et professionnels du bâtiment et des travaux publics"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Description des travaux par voix ou texte / Préparation des devis par IA / Modification des prestations / Calcul des montants HT, TVA et TTC / Export PDF / Gestion des clients / Paramétrage des relances et abonnements"
+    }
+  ],
+  "description": [
+    "<strong>Devis IA</strong> est un projet entrepreneurial que je conçois et développe seul. Son objectif est d’<strong>accélérer la préparation des devis pour les professionnels du BTP</strong> et de réduire le temps consacré aux tâches administratives, afin de leur permettre de se concentrer davantage sur leurs chantiers et leurs clients.",
+    "Le principe est simple : l’artisan décrit les travaux à réaliser, à l’oral ou par écrit, puis l’intelligence artificielle aide à structurer un premier devis. Il peut ensuite vérifier et ajuster les prestations, les quantités, les prix et la TVA avant d’obtenir un document PDF professionnel.",
+    "Le prototype réunit un tableau de bord, la gestion des clients, la personnalisation des informations de l’entreprise et des conditions de paiement, ainsi que des écrans de configuration des relances et des offres d’abonnement. Ces fonctions s’inscrivent dans une démarche de création d’un service destiné aux artisans et aux entreprises du bâtiment.",
+    "La galerie présente le parcours dans un ordre logique : connexion, découverte et accueil, création d’un premier devis, modification d’une prestation, récapitulatif et aperçu PDF, puis gestion des clients, réglages, relances et abonnements."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "Code source — Devis IA",
+      "link": "https://github.com/Betamax58/Devis-Ia"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_1.webp",
+      "alt": "1. Connexion"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_2.webp",
+      "alt": "2. Présentation de l’application"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_3.webp",
+      "alt": "3. Accueil et tableau de bord"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_4.webp",
+      "alt": "4. Premier devis : description vocale ou écrite des travaux"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_5.webp",
+      "alt": "5. Modification d’une prestation"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_6.webp",
+      "alt": "6. Devis détaillé : prestations, TVA et totaux"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_7.webp",
+      "alt": "7. Aperçu du devis au format PDF"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_8.webp",
+      "alt": "8. Gestion des clients"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_9.webp",
+      "alt": "9. Réglages et profil de l’entreprise"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_10.webp",
+      "alt": "10. Paramètres des devis et conditions de paiement"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_11.webp",
+      "alt": "11. Configuration des relances automatiques"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_12.webp",
+      "alt": "12. Offres d’abonnement : Essentiel et Pro"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/devis_ia/devis_ia_13.webp",
+      "alt": "13. Offres d’abonnement : Pro et Entreprise"
+    }
+  ]
+}

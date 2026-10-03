@@ -31,18 +31,7 @@
         "The project was successfully completed by a team of three people between <strong>May 2024 and January 2025</strong>, providing the ESIG'Games association with a high-performance, durable, and cost-effective server connected directly to ESIGELEC's internet network.",
         "This project allowed me to strengthen my skills in <strong>server infrastructure</strong>, <strong>Java programming for Minecraft</strong>, and collaborative technical project management."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Server Photo Gallery",
-            "link": "assets/img/projects/serveur_minecraft_esiggames"
-        },
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "Source Code of the Recoded Mod",
-            "link": "https://github.com/username/esiggames-minecraft-mod"
-        }
-    ],
+    "resources": [],
     "media": [
         {
             "type": "image",

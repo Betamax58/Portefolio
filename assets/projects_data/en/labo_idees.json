@@ -1,0 +1,52 @@
+{
+  "projectName": "labo_idees",
+  "title": "The Idea Lab",
+  "information": [
+    {
+      "header": "Context",
+      "value": "Personal experiments"
+    },
+    {
+      "header": "Author",
+      "value": "Kévin BOYER-NAVARRO"
+    },
+    {
+      "header": "Status",
+      "value": "Ongoing explorations"
+    },
+    {
+      "header": "Fields",
+      "value": "Programming / Electronics / Mechanics / Prototyping"
+    }
+  ],
+  "description": [
+    "A space for my programming, electronics and mechanical experiments, made for the enjoyment of discovering and building things. I test ideas, explore solutions and put together small prototypes, without necessarily turning each one into a full project.",
+    "The common thread: experimenting, understanding and learning while having fun."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/labo_idees/thumbnail.svg",
+      "alt": "The Idea Lab"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/labo_idees/araignee.webm",
+      "poster": "assets/projects/labo_idees/araignee_poster.jpg",
+      "alt": "Spider — demonstration"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/labo_idees/papillon.webm",
+      "poster": "assets/projects/labo_idees/papillon_poster.jpg",
+      "alt": "Butterfly — demonstration"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/labo_idees/sniper.mp4",
+      "poster": "assets/projects/labo_idees/sniper_poster.jpg",
+      "alt": "Sniper — demonstration"
+    }
+  ]
+}

@@ -41,6 +41,16 @@
 
         <!-- Main script -->
         <script src="js/app_fr.js?v=20261003-minecraft-clean" defer></script>
+    <style>
+.hobbies-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:32px}
+.hobby-card{width:100%;border:1px solid #dce4e8;border-radius:12px;background:#fff;color:#416070;padding:28px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.06);transition:transform .2s,box-shadow .2s}
+.hobby-card:hover,.hobby-card:focus-visible{transform:translateY(-4px);box-shadow:0 8px 20px rgba(65,96,112,.18);outline:2px solid #416070;outline-offset:3px}
+.hobby-card svg{width:56px;height:56px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.hobby-card strong{font-size:1.2rem}.hobby-card span{font-size:.9rem;color:#65757d;line-height:1.4}
+.hobby-empty{padding:36px 16px;text-align:center;color:#65757d}.hobby-empty svg{width:64px;height:64px;fill:none;stroke:#416070;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;margin-bottom:20px}
+@media(max-width:767px){.hobbies-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.hobby-card{padding:24px 12px}}
+@media(prefers-reduced-motion:reduce){.hobby-card{transition:none}.hobby-card:hover,.hobby-card:focus-visible{transform:none}}
+</style>
     </head>
 
     <body data-spy="scroll" data-target=".navbar-center" data-offset="80">
@@ -65,6 +75,7 @@
                     <a class="nav-item nav-link animated slideInDown delay-400ms" href="#career">Parcours</a>
                     <a class="nav-item nav-link animated slideInDown delay-500ms" href="#certifications">Certifications</a>
                     <a class="nav-item nav-link animated slideInDown delay-600ms" href="#projects">Projets</a>
+                    <a class="nav-item nav-link animated slideInDown delay-650ms" href="#hobbies">Loisirs</a>
                     <a class="nav-item nav-link animated slideInDown delay-700ms" href="#contact">Contact</a>
                 </div>
                 <div class="navbar-side navbar-lang navbar-nav flex-row animated slideInDown delay-800ms">
@@ -753,6 +764,20 @@
                 </div>
             </section>
 
+            <!-- HOBBIES -->
+<section id="hobbies" class="bg-gray">
+ <div class="container">
+  <div class="section-header"><h2 class="text-center">LOISIRS</h2><hr></div>
+  <p class="text-center">Un aperçu de mes passions, au-delà de mes projets techniques.</p>
+  <div class="hobbies-grid">
+   <button type="button" class="hobby-card" data-toggle="modal" data-target="#hobby-0" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><path d="m9 9 12-2"/></svg><strong>Musique</strong><span>Écouter mes créations</span></button>
+   <button type="button" class="hobby-card" data-toggle="modal" data-target="#hobby-1" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m4 20 4-1 12-12-3-3L5 16l-1 4Z"/><path d="m14 7 3 3M5 16l3 3"/></svg><strong>Dessin</strong><span>Voir mes dessins</span></button>
+   <button type="button" class="hobby-card" data-toggle="modal" data-target="#hobby-2" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 9V3h14v6M5 17H3V9h18v8h-2M5 13h14v8H5Z"/><path d="M16 10h2"/></svg><strong>Impression 3D</strong><span>Découvrir mes impressions</span></button>
+   <button type="button" class="hobby-card" data-toggle="modal" data-target="#hobby-3" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 8v8M4 6v12M17 8v8M20 6v12M7 12h10M2 9v6M22 9v6"/></svg><strong>Sport</strong><span>Voir mes activités</span></button>
+  </div>
+ </div>
+</section>
+
             <!-- CONTACT -->
             <footer id="contact" class="container-fluid p-0 position-relative">
                 <div id="contact-particles-bg" class="contact-bg container-fluid p-0 position-absolute"></div>
@@ -1353,5 +1378,33 @@
             </div>
         </article>
 
+    <div class="modal fade hobby-modal" id="hobby-0" tabindex="-1" role="dialog" aria-labelledby="hobby-title-0" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+ <div class="modal-header"><h4 class="modal-title" id="hobby-title-0">Musique</h4><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+ <div class="modal-body hobby-empty"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/><path d="m9 9 12-2"/></svg><p><strong>Des contenus seront ajoutés prochainement.</strong></p><p>Cet espace accueillera bientôt mes photos, réalisations ou enregistrements.</p></div>
+ <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button></div>
+ </div></div>
+</div>
+<div class="modal fade hobby-modal" id="hobby-1" tabindex="-1" role="dialog" aria-labelledby="hobby-title-1" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+ <div class="modal-header"><h4 class="modal-title" id="hobby-title-1">Dessin</h4><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+ <div class="modal-body hobby-empty"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m4 20 4-1 12-12-3-3L5 16l-1 4Z"/><path d="m14 7 3 3M5 16l3 3"/></svg><p><strong>Des contenus seront ajoutés prochainement.</strong></p><p>Cet espace accueillera bientôt mes photos, réalisations ou enregistrements.</p></div>
+ <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button></div>
+ </div></div>
+</div>
+<div class="modal fade hobby-modal" id="hobby-2" tabindex="-1" role="dialog" aria-labelledby="hobby-title-2" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+ <div class="modal-header"><h4 class="modal-title" id="hobby-title-2">Impression 3D</h4><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+ <div class="modal-body hobby-empty"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 9V3h14v6M5 17H3V9h18v8h-2M5 13h14v8H5Z"/><path d="M16 10h2"/></svg><p><strong>Des contenus seront ajoutés prochainement.</strong></p><p>Cet espace accueillera bientôt mes photos, réalisations ou enregistrements.</p></div>
+ <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button></div>
+ </div></div>
+</div>
+<div class="modal fade hobby-modal" id="hobby-3" tabindex="-1" role="dialog" aria-labelledby="hobby-title-3" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+ <div class="modal-header"><h4 class="modal-title" id="hobby-title-3">Sport</h4><button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button></div>
+ <div class="modal-body hobby-empty"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 8v8M4 6v12M17 8v8M20 6v12M7 12h10M2 9v6M22 9v6"/></svg><p><strong>Des contenus seront ajoutés prochainement.</strong></p><p>Cet espace accueillera bientôt mes photos, réalisations ou enregistrements.</p></div>
+ <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button></div>
+ </div></div>
+</div>
     </body>
 </html>

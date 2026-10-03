@@ -31,11 +31,5 @@
         "I also performed <strong>complete controller replacements</strong> on <strong>UrbanGlide scooter</strong> models, restoring them to optimal working condition.",
         "This project has allowed me to strengthen my skills in <strong>power electronics</strong>, <strong>fault diagnostics</strong>, <strong>electric motor repairs</strong>, and <strong>light electric vehicle maintenance</strong>, while contributing to the <strong>reduction of electronic waste</strong>."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Repair Photo Gallery",
-            "link": "assets/img/projects/reparation_trottinettes_electriques"
-        }
-    ]
+    "resources": []
 }

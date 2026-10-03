@@ -1,7 +1,7 @@
 {
     "projectName": "arcade_tronix",
     "title": "Renovation of an Arcade Cabinet for the ESIG'TRONIX Association",
-    "images": 6,
+    "images": 4,
     "information": [
         {
             "header": "Context",
@@ -29,14 +29,31 @@
     ],
     "resources": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "Photo Gallery",
-            "link": "assets/img/projects/borne_arcade_esigtronix"
+            "image": "assets/icons/instagram",
+            "name": "ESIG’TRONIX association Instagram",
+            "link": "https://www.instagram.com/esig_tronix/"
+        }
+    ],
+    "media": [
+        {
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_1.webp",
+            "alt": "ESIG’TRONIX arcade cabinet — photo 1"
         },
         {
-            "image": "assets/img/icons/website",
-            "name": "ESIG'TRONIX Association Website",
-            "link": "https://esigtronix.example.com"
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_2.webp",
+            "alt": "ESIG’TRONIX arcade cabinet — photo 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_3.webp",
+            "alt": "ESIG’TRONIX arcade cabinet — photo 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/arcade_tronix/arcade_4.webp",
+            "alt": "ESIG’TRONIX arcade cabinet — photo 4"
         }
     ]
 }

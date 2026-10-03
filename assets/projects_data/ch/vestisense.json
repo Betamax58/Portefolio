@@ -1,7 +1,6 @@
 {
   "projectName": "vestisense",
   "title": "Vestisense：联网衣橱与智能镜",
-  "images": 5,
   "information": [
     {
       "header": "项目背景",
@@ -35,6 +34,33 @@
     {
       "image": "assets/icons/github",
       "name": "原始碼 — 即將推出"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_1.webp",
+      "alt": "Vestisense：联网衣橱与智能镜 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_2.webp",
+      "alt": "Vestisense：联网衣橱与智能镜 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_3.webp",
+      "alt": "Vestisense：联网衣橱与智能镜 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_4.webp",
+      "alt": "Vestisense：联网衣橱与智能镜 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_5.webp",
+      "alt": "Vestisense：联网衣橱与智能镜 — 5"
     }
   ]
 }

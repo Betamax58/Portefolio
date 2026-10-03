@@ -1,78 +1,77 @@
 {
-    "projectName": "console_score_volleyball_bt",
-    "title": "Bluetooth Score Console for Volleyball Scoreboard",
-    "images": 6,
-    "information": [
-        {
-            "header": "Context",
-            "value": "Final year project - BTS Digital Systems"
-        },
-        {
-            "header": "Date",
-            "value": "2021"
-        },
-        {
-            "header": "Project Participants",
-            "value": "3"
-        },
-        {
-            "header": "Role and Contributions",
-            "value": "Bluetooth data transmission from the console / Development of an alternative mobile application using App Inventor"
-        },
-        {
-            "header": "Main Features",
-            "value": "Physical console for real-time score management / Bluetooth transmission to a scoreboard / Mobile application as an alternative to the console / Display on giant LED matrices"
-        },
-        {
-            "header": "Technologies and Equipment Used",
-            "value": "PIC18F45K20 microcontroller / Bluetooth / Giant LED matrices for display / Mobile application developed with App Inventor"
-        }
-    ],
-    "description": [
-        "As part of my <strong>final year project in BTS Digital Systems</strong> in 2021, we designed a <strong>Bluetooth score console</strong> intended for a <strong>scoreboard for a volleyball team in Montpellier</strong>.",
-        "Our team consisted of <strong>three members</strong>, each with a specific role: I was responsible for the <strong>Bluetooth data transmission</strong> from the physical console, one colleague handled the <strong>reception and processing of data</strong>, and the last member worked on the <strong>score display on giant LED matrices</strong>.",
-        "The console, based on a <strong>PIC18F45K20 microcontroller</strong>, allowed <strong>real-time score management</strong> by sending data via Bluetooth to the scoreboard. This microcontroller was chosen for its data processing capabilities and features suitable for wireless communications.",
-        "To complement this setup, I developed a <strong>mobile application using App Inventor</strong>, allowing users to <strong>replace the physical console</strong> if needed, providing greater flexibility.",
-        "The project integrates <strong>giant LED matrices</strong> for optimal score visibility, even from a distance, along with a robust management system ensuring smooth and lag-free display.",
-        "This project strengthened my skills in <strong>wireless communication (Bluetooth)</strong>, <strong>mobile application development</strong>, as well as <strong>electronic integration</strong> and <strong>teamwork on a technical project</strong>."
-    ],
-    "resources": [],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_1.webp",
-            "alt": "Bluetooth score console and scoreboard — photo 1"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_2.webp",
-            "alt": "Bluetooth score console and scoreboard — photo 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_3.webp",
-            "alt": "Bluetooth score console and scoreboard — photo 3"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_4.webp",
-            "alt": "Bluetooth score console and scoreboard — photo 4"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_5.webp",
-            "alt": "Bluetooth score console and scoreboard — photo 5"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_6.webp",
-            "alt": "Bluetooth score console and scoreboard — photo 6"
-        },
-        {
-            "type": "video",
-            "src": "assets/projects/volley_remote/volley_demo.mp4",
-            "poster": "assets/projects/volley_remote/volley_demo.webp",
-            "alt": "Bluetooth score console demonstration"
-        }
-    ]
+  "projectName": "volley_remote",
+  "title": "Bluetooth Score Console for Volleyball Scoreboard",
+  "information": [
+    {
+      "header": "Context",
+      "value": "Final year project - BTS Digital Systems"
+    },
+    {
+      "header": "Date",
+      "value": "2021"
+    },
+    {
+      "header": "Project Participants",
+      "value": "3"
+    },
+    {
+      "header": "Role and Contributions",
+      "value": "Bluetooth data transmission from the console / Development of an alternative mobile application using App Inventor"
+    },
+    {
+      "header": "Main Features",
+      "value": "Physical console for real-time score management / Bluetooth transmission to a scoreboard / Mobile application as an alternative to the console / Display on giant LED matrices"
+    },
+    {
+      "header": "Technologies and Equipment Used",
+      "value": "PIC18F45K20 microcontroller / Bluetooth / Giant LED matrices for display / Mobile application developed with App Inventor"
+    }
+  ],
+  "description": [
+    "As part of my <strong>final year project in BTS Digital Systems</strong> in 2021, we designed a <strong>Bluetooth score console</strong> intended for a <strong>scoreboard for a volleyball team in Montpellier</strong>.",
+    "Our team consisted of <strong>three members</strong>, each with a specific role: I was responsible for the <strong>Bluetooth data transmission</strong> from the physical console, one colleague handled the <strong>reception and processing of data</strong>, and the last member worked on the <strong>score display on giant LED matrices</strong>.",
+    "The console, based on a <strong>PIC18F45K20 microcontroller</strong>, allowed <strong>real-time score management</strong> by sending data via Bluetooth to the scoreboard. This microcontroller was chosen for its data processing capabilities and features suitable for wireless communications.",
+    "To complement this setup, I developed a <strong>mobile application using App Inventor</strong>, allowing users to <strong>replace the physical console</strong> if needed, providing greater flexibility.",
+    "The project integrates <strong>giant LED matrices</strong> for optimal score visibility, even from a distance, along with a robust management system ensuring smooth and lag-free display.",
+    "This project strengthened my skills in <strong>wireless communication (Bluetooth)</strong>, <strong>mobile application development</strong>, as well as <strong>electronic integration</strong> and <strong>teamwork on a technical project</strong>."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_1.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_2.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_3.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_4.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_5.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_6.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — 6"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/volley_remote/volley_demo.mp4",
+      "poster": "assets/projects/volley_remote/volley_demo.webp",
+      "alt": "Bluetooth Score Console for Volleyball Scoreboard — Video demonstration"
+    }
+  ]
 }

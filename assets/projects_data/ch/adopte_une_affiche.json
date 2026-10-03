@@ -1,36 +1,87 @@
 {
-    "projectName": "adopte_une_affiche",
-    "title": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务",
-    "images": 10,
-    "information": [
-        {
-            "header": "项目背景",
-            "value": "创业项目"
-        },
-        {
-            "header": "日期",
-            "value": "2024 - 至今"
-        },
-        {
-            "header": "项目参与者",
-            "value": "2"
-        },
-        {
-            "header": "提供的服务",
-            "value": "动画海报 / 个性化请柬 / 创意简历设计与修饰 / 平面设计"
-        }
-    ],
-    "description": [
-        "“Adopte une Affiche” 是一个旨在为专业人士和个人提供个性化平面设计解决方案的项目。",
-        "项目最初主要面向娱乐行业的专业人士（如露营地、酒店、酒吧的主持人等），帮助他们通过引人注目的定制海报推广活动。",
-        "凭借项目的成功，我们扩展了服务范围，包括为各种场合（婚礼、出生、生日等）设计个性化请柬，以及为个人提供创意简历的设计与修饰，帮助他们在就业市场中脱颖而出。",
-        "我们提供符合客户需求的平面设计服务，并提供个性化支持，确保视觉传达具有冲击力且专业。",
-        "我们的方法强调创意、设计质量和客户满意度，提供快速且易于获取的解决方案。"
-    ],
-    "resources": [
-        {
-            "image": "assets/icons/adopte_une_affiche_logo",
-            "name": "網站—即將上線"
-        }
-    ]
+  "projectName": "adopte_une_affiche",
+  "title": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务",
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "创业项目"
+    },
+    {
+      "header": "日期",
+      "value": "2024 - 至今"
+    },
+    {
+      "header": "项目参与者",
+      "value": "2"
+    },
+    {
+      "header": "提供的服务",
+      "value": "动画海报 / 个性化请柬 / 创意简历设计与修饰 / 平面设计"
+    }
+  ],
+  "description": [
+    "“Adopte une Affiche” 是一个旨在为专业人士和个人提供个性化平面设计解决方案的项目。",
+    "项目最初主要面向娱乐行业的专业人士（如露营地、酒店、酒吧的主持人等），帮助他们通过引人注目的定制海报推广活动。",
+    "凭借项目的成功，我们扩展了服务范围，包括为各种场合（婚礼、出生、生日等）设计个性化请柬，以及为个人提供创意简历的设计与修饰，帮助他们在就业市场中脱颖而出。",
+    "我们提供符合客户需求的平面设计服务，并提供个性化支持，确保视觉传达具有冲击力且专业。",
+    "我们的方法强调创意、设计质量和客户满意度，提供快速且易于获取的解决方案。"
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/adopte_une_affiche_logo",
+      "name": "網站—即將上線"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_1.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_2.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_3.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_4.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_5.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_6.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_7.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_8.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_9.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_10.webp",
+      "alt": "Adopte une Affiche - 为专业人士和个人提供海报创作与个性化服务 — 10"
+    }
+  ]
 }

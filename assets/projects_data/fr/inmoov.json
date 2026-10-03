@@ -1,40 +1,126 @@
 {
-    "projectName": "inmoov_bras_robotique",
-    "title": "Projet InMoov : Bras robotique piloté par vision par ordinateur",
-    "images": 17,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet personnel - Présenté à la Fête de la Science de Rouen 2023"
-        },
-        {
-            "header": "Date",
-            "value": "2023 - Présent (améliorations en cours)"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "3"
-        },
-        {
-            "header": "Fonctionnalités principales",
-            "value": "Pilotage sans contact par vision par ordinateur / Bras imprimé en nylon SLS / Batterie 18650 en configuration 3S6P / Chargement via un BMS intégré et accessible / Socle et cloche réalisés sur mesure par découpe laser / Protection du bras pendant les salons"
-        },
-        {
-            "header": "Technologies et matériel utilisés",
-            "value": "Arduino Nano / Caméra et vision par ordinateur / Servomoteurs / Batteries 18650 en configuration 3S6P / BMS intégré avec port de charge accessible / Impression 3D SLS en nylon / Découpe laser du socle et de la cloche de protection"
-        }
-    ],
-    "description": [
-        "Ce projet est une reprise et une amélioration du bras robotique <strong>InMoov</strong>, initialement adapté pour être présenté lors de la <strong>Fête de la Science de Rouen 2023</strong>. La première version utilisait un gant équipé de capteurs flexibles pour reproduire les mouvements de la main.",
-        "À la suite des premiers salons, nous avons supprimé le gant au profit d’un pilotage par <strong>vision par ordinateur</strong>. Cette solution permet une interaction sans contact : elle évite de prêter le gant aux visiteurs pour des raisons d’hygiène et protège les capteurs flexibles, trop fragiles pour des manipulations répétées.",
-        "Le bras a ensuite été entièrement réimprimé en <strong>nylon SLS</strong> afin d’améliorer sa robustesse, sa finition et la précision de ses mouvements. Son alimentation repose sur des <strong>cellules 18650 en configuration 3S6P</strong>, associées à un <strong>BMS intégré</strong> et à un port de charge directement accessible depuis le socle.",
-        "La boîte servant de support ainsi que la <strong>cloche de protection</strong> ont été fabriquées sur mesure par <strong>découpe laser</strong>. La cloche permet de conserver une bonne visibilité du bras tout en le protégeant des manipulations, des chocs et des dégradations pendant les salons et les expositions.",
-        "Ce projet m’a permis de développer des compétences en mécatronique, en électronique embarquée, en vision par ordinateur, en gestion d’énergie, en impression 3D SLS et en conception pour la découpe laser."
-    ],
-    "resources": [
-        {
-            "image": "assets/icons/github",
-            "name": "Code source Arduino — bientôt disponible"
-        }
-    ]
+  "projectName": "inmoov",
+  "title": "Projet InMoov : Bras robotique piloté par vision par ordinateur",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel - Présenté à la Fête de la Science de Rouen 2023"
+    },
+    {
+      "header": "Date",
+      "value": "2023 - Présent (améliorations en cours)"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "3"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Pilotage sans contact par vision par ordinateur / Bras imprimé en nylon SLS / Batterie 18650 en configuration 3S6P / Chargement via un BMS intégré et accessible / Socle et cloche réalisés sur mesure par découpe laser / Protection du bras pendant les salons"
+    },
+    {
+      "header": "Technologies et matériel utilisés",
+      "value": "Arduino Nano / Caméra et vision par ordinateur / Servomoteurs / Batteries 18650 en configuration 3S6P / BMS intégré avec port de charge accessible / Impression 3D SLS en nylon / Découpe laser du socle et de la cloche de protection"
+    }
+  ],
+  "description": [
+    "Ce projet est une reprise et une amélioration du bras robotique <strong>InMoov</strong>, initialement adapté pour être présenté lors de la <strong>Fête de la Science de Rouen 2023</strong>. La première version utilisait un gant équipé de capteurs flexibles pour reproduire les mouvements de la main.",
+    "À la suite des premiers salons, nous avons supprimé le gant au profit d’un pilotage par <strong>vision par ordinateur</strong>. Cette solution permet une interaction sans contact : elle évite de prêter le gant aux visiteurs pour des raisons d’hygiène et protège les capteurs flexibles, trop fragiles pour des manipulations répétées.",
+    "Le bras a ensuite été entièrement réimprimé en <strong>nylon SLS</strong> afin d’améliorer sa robustesse, sa finition et la précision de ses mouvements. Son alimentation repose sur des <strong>cellules 18650 en configuration 3S6P</strong>, associées à un <strong>BMS intégré</strong> et à un port de charge directement accessible depuis le socle.",
+    "La boîte servant de support ainsi que la <strong>cloche de protection</strong> ont été fabriquées sur mesure par <strong>découpe laser</strong>. La cloche permet de conserver une bonne visibilité du bras tout en le protégeant des manipulations, des chocs et des dégradations pendant les salons et les expositions.",
+    "Ce projet m’a permis de développer des compétences en mécatronique, en électronique embarquée, en vision par ordinateur, en gestion d’énergie, en impression 3D SLS et en conception pour la découpe laser."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "Code source Arduino — bientôt disponible"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_1.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_2.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_3.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_4.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_5.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_6.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_7.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_8.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_9.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_10.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 10"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_11.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 11"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_12.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 12"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_13.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 13"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_14.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 14"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_15.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 15"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_16.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 16"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_17.webp",
+      "alt": "Projet InMoov : Bras robotique piloté par vision par ordinateur — 17"
+    }
+  ]
 }

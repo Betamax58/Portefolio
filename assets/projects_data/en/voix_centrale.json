@@ -1,35 +1,56 @@
 {
-    "projectName": "enceinte_centrale_hifi",
-    "title": "Custom Hi-Fi Center Speaker Fabrication",
-    "images": 5,
-    "information": [
-        {
-            "header": "Context",
-            "value": "Personal project completed during a BTS internship"
-        },
-        {
-            "header": "Date",
-            "value": "2020"
-        },
-        {
-            "header": "Project Participant",
-            "value": "1"
-        },
-        {
-            "header": "Main Features",
-            "value": "Center speaker for Hi-Fi system / Complete design (woodworking, filter study, speaker tuning) / Custom handcrafted build / Optimized audio performance"
-        },
-        {
-            "header": "Skills Developed",
-            "value": "Woodworking for cabinet fabrication / Study and design of passive audio filters / Acoustic tuning of the speaker / Optimization of sound performance"
-        }
-    ],
-    "description": [
-        "During my BTS internship, I took the opportunity in my free time to build a <strong>custom center speaker</strong> for a <strong>Hi-Fi system</strong>. The goal of this personal project was to create a speaker optimized for accurately reproducing dialogues and central sounds in a home audio setup.",
-        "I completed this project <strong>entirely on my own</strong>, handling every stage of the design process: from <strong>woodworking</strong> for the construction of the wooden cabinet to the <strong>study of the passive filter</strong> to ensure optimal distribution of sound frequencies between the speakers.",
-        "The <strong>tuning of the speaker</strong> was carefully studied to achieve a balanced sound output, with excellent reproduction of mid and high frequencies, which are essential for a center speaker dedicated to dialogue clarity.",
-        "This project allowed me to develop skills in <strong>acoustics</strong>, <strong>audio electronics</strong>, and <strong>mechanical design</strong>, while honing my techniques in woodworking and acoustic optimization.",
-        "The final speaker integrates seamlessly into a Hi-Fi system, offering <strong>clear and precise sound reproduction</strong>, demonstrating my ability to combine technical expertise with acoustic sensitivity in the design of audio equipment."
-    ],
-    "resources": []
+  "projectName": "voix_centrale",
+  "title": "Custom Hi-Fi Center Speaker Fabrication",
+  "information": [
+    {
+      "header": "Context",
+      "value": "Personal project completed during a BTS internship"
+    },
+    {
+      "header": "Date",
+      "value": "2020"
+    },
+    {
+      "header": "Project Participant",
+      "value": "1"
+    },
+    {
+      "header": "Main Features",
+      "value": "Center speaker for Hi-Fi system / Complete design (woodworking, filter study, speaker tuning) / Custom handcrafted build / Optimized audio performance"
+    },
+    {
+      "header": "Skills Developed",
+      "value": "Woodworking for cabinet fabrication / Study and design of passive audio filters / Acoustic tuning of the speaker / Optimization of sound performance"
+    }
+  ],
+  "description": [
+    "During my BTS internship, I took the opportunity in my free time to build a <strong>custom center speaker</strong> for a <strong>Hi-Fi system</strong>. The goal of this personal project was to create a speaker optimized for accurately reproducing dialogues and central sounds in a home audio setup.",
+    "I completed this project <strong>entirely on my own</strong>, handling every stage of the design process: from <strong>woodworking</strong> for the construction of the wooden cabinet to the <strong>study of the passive filter</strong> to ensure optimal distribution of sound frequencies between the speakers.",
+    "The <strong>tuning of the speaker</strong> was carefully studied to achieve a balanced sound output, with excellent reproduction of mid and high frequencies, which are essential for a center speaker dedicated to dialogue clarity.",
+    "This project allowed me to develop skills in <strong>acoustics</strong>, <strong>audio electronics</strong>, and <strong>mechanical design</strong>, while honing my techniques in woodworking and acoustic optimization.",
+    "The final speaker integrates seamlessly into a Hi-Fi system, offering <strong>clear and precise sound reproduction</strong>, demonstrating my ability to combine technical expertise with acoustic sensitivity in the design of audio equipment."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_1.webp",
+      "alt": "Custom Hi-Fi Center Speaker Fabrication — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_2.webp",
+      "alt": "Custom Hi-Fi Center Speaker Fabrication — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_3.webp",
+      "alt": "Custom Hi-Fi Center Speaker Fabrication — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_4.webp",
+      "alt": "Custom Hi-Fi Center Speaker Fabrication — 4"
+    }
+  ]
 }

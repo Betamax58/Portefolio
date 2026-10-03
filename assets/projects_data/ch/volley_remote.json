@@ -1,78 +1,77 @@
 {
-    "projectName": "console_score_volleyball_bt",
-    "title": "用于排球计分显示屏的蓝牙计分控制台",
-    "images": 6,
-    "information": [
-        {
-            "header": "项目背景",
-            "value": "毕业项目 - 数字系统 BTS"
-        },
-        {
-            "header": "日期",
-            "value": "2021年"
-        },
-        {
-            "header": "项目参与者",
-            "value": "3人"
-        },
-        {
-            "header": "角色与贡献",
-            "value": "从控制台通过蓝牙发送数据 / 使用 App Inventor 开发移动应用替代方案"
-        },
-        {
-            "header": "主要功能",
-            "value": "物理控制台用于实时计分管理 / 通过蓝牙向显示屏传输数据 / 移动应用作为控制台的替代方案 / 巨型 LED 矩阵显示"
-        },
-        {
-            "header": "使用的技术与设备",
-            "value": "PIC18F45K20 微控制器 / 蓝牙通信 / 巨型 LED 矩阵显示 / 基于 App Inventor 开发的移动应用"
-        }
-    ],
-    "description": [
-        "在我于 2021 年完成的<strong>数字系统 BTS 毕业项目</strong>中，我们设计了一款<strong>蓝牙计分控制台</strong>，用于<strong>蒙彼利埃排球队的计分显示屏</strong>。",
-        "我们团队共有<strong>三名成员</strong>，每人负责不同的任务：我负责<strong>从物理控制台通过蓝牙发送数据</strong>，一位同事负责<strong>数据的接收与处理</strong>，另一位同事则负责<strong>在巨型 LED 矩阵上显示得分</strong>。",
-        "该控制台基于<strong>PIC18F45K20 微控制器</strong>，支持<strong>实时计分管理</strong>，并通过蓝牙将数据发送至显示屏。该微控制器因其出色的数据处理能力和适合无线通信的功能而被选用。",
-        "为了提供更高的灵活性，我还使用<strong>App Inventor 开发了一款移动应用</strong>，在需要时可以<strong>替代物理控制台</strong>。",
-        "该项目集成了<strong>巨型 LED 矩阵显示屏</strong>，即使在远距离也能清晰显示比分，并采用了稳定的系统设计，确保显示流畅无延迟。",
-        "通过该项目，我进一步提升了在<strong>无线通信（蓝牙）</strong>、<strong>移动应用开发</strong>、<strong>电子集成</strong>以及<strong>团队合作</strong>等方面的技能。"
-    ],
-    "resources": [],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_1.webp",
-            "alt": "藍牙計分控制台與計分板 — 照片 1"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_2.webp",
-            "alt": "藍牙計分控制台與計分板 — 照片 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_3.webp",
-            "alt": "藍牙計分控制台與計分板 — 照片 3"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_4.webp",
-            "alt": "藍牙計分控制台與計分板 — 照片 4"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_5.webp",
-            "alt": "藍牙計分控制台與計分板 — 照片 5"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_6.webp",
-            "alt": "藍牙計分控制台與計分板 — 照片 6"
-        },
-        {
-            "type": "video",
-            "src": "assets/projects/volley_remote/volley_demo.mp4",
-            "poster": "assets/projects/volley_remote/volley_demo.webp",
-            "alt": "藍牙計分控制台示範"
-        }
-    ]
+  "projectName": "volley_remote",
+  "title": "用于排球计分显示屏的蓝牙计分控制台",
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "毕业项目 - 数字系统 BTS"
+    },
+    {
+      "header": "日期",
+      "value": "2021年"
+    },
+    {
+      "header": "项目参与者",
+      "value": "3人"
+    },
+    {
+      "header": "角色与贡献",
+      "value": "从控制台通过蓝牙发送数据 / 使用 App Inventor 开发移动应用替代方案"
+    },
+    {
+      "header": "主要功能",
+      "value": "物理控制台用于实时计分管理 / 通过蓝牙向显示屏传输数据 / 移动应用作为控制台的替代方案 / 巨型 LED 矩阵显示"
+    },
+    {
+      "header": "使用的技术与设备",
+      "value": "PIC18F45K20 微控制器 / 蓝牙通信 / 巨型 LED 矩阵显示 / 基于 App Inventor 开发的移动应用"
+    }
+  ],
+  "description": [
+    "在我于 2021 年完成的<strong>数字系统 BTS 毕业项目</strong>中，我们设计了一款<strong>蓝牙计分控制台</strong>，用于<strong>蒙彼利埃排球队的计分显示屏</strong>。",
+    "我们团队共有<strong>三名成员</strong>，每人负责不同的任务：我负责<strong>从物理控制台通过蓝牙发送数据</strong>，一位同事负责<strong>数据的接收与处理</strong>，另一位同事则负责<strong>在巨型 LED 矩阵上显示得分</strong>。",
+    "该控制台基于<strong>PIC18F45K20 微控制器</strong>，支持<strong>实时计分管理</strong>，并通过蓝牙将数据发送至显示屏。该微控制器因其出色的数据处理能力和适合无线通信的功能而被选用。",
+    "为了提供更高的灵活性，我还使用<strong>App Inventor 开发了一款移动应用</strong>，在需要时可以<strong>替代物理控制台</strong>。",
+    "该项目集成了<strong>巨型 LED 矩阵显示屏</strong>，即使在远距离也能清晰显示比分，并采用了稳定的系统设计，确保显示流畅无延迟。",
+    "通过该项目，我进一步提升了在<strong>无线通信（蓝牙）</strong>、<strong>移动应用开发</strong>、<strong>电子集成</strong>以及<strong>团队合作</strong>等方面的技能。"
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_1.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_2.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_3.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_4.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_5.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_6.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 6"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/volley_remote/volley_demo.mp4",
+      "poster": "assets/projects/volley_remote/volley_demo.webp",
+      "alt": "用于排球计分显示屏的蓝牙计分控制台 — 演示视频"
+    }
+  ]
 }

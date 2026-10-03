@@ -1,40 +1,126 @@
 {
-    "projectName": "inmoov_bras_robotique",
-    "title": "InMoov 项目：基于计算机视觉控制的机器人手臂",
-    "images": 17,
-    "information": [
-        {
-            "header": "项目背景",
-            "value": "个人项目 - 于 2023 年鲁昂科学节展示"
-        },
-        {
-            "header": "日期",
-            "value": "2023 年 - 至今（持续改进中）"
-        },
-        {
-            "header": "项目参与者",
-            "value": "3 人"
-        },
-        {
-            "header": "主要功能",
-            "value": "通过计算机视觉实现非接触式控制 / SLS 尼龙打印机械臂 / 3S6P 结构的 18650 电池组 / 集成且可直接操作的 BMS 充电系统 / 激光切割定制底座和防护罩 / 展会期间保护机械臂"
-        },
-        {
-            "header": "使用的技术与设备",
-            "value": "Arduino Nano / 摄像头与计算机视觉 / 伺服电机 / 3S6P 结构的 18650 电池组 / 集成 BMS 与可访问充电接口 / SLS 尼龙 3D 打印 / 激光切割底座与防护罩"
-        }
-    ],
-    "description": [
-        "该项目是对<strong>InMoov 机器人手臂</strong>的重新设计和改进，最初用于<strong>2023 年鲁昂科学节</strong>展示。第一版使用配备柔性传感器的手套来复现手部动作。",
-        "在最初几次展览后，我们用<strong>计算机视觉</strong>控制系统取代了手套。这种非接触式方案既避免了出于卫生原因将手套借给参观者，也保护了不适合反复操作的易损柔性传感器。",
-        "机械臂随后使用<strong>SLS 尼龙</strong>重新完整打印，以提高强度、表面质量和运动精度。系统由<strong>3S6P 结构的 18650 电池组</strong>供电，并配备<strong>集成 BMS</strong>以及可从底座直接使用的充电接口。",
-        "支撑箱体和<strong>防护罩</strong>均通过<strong>激光切割</strong>定制制造。防护罩在保持机械臂清晰可见的同时，可避免其在展会和展示期间因触摸、碰撞或其他操作而受损。",
-        "通过该项目，我提升了在机电一体化、嵌入式电子、计算机视觉、能源管理、SLS 3D 打印以及激光切割设计方面的能力。"
-    ],
-    "resources": [
-        {
-            "image": "assets/icons/github",
-            "name": "Arduino 原始碼 — 即將推出"
-        }
-    ]
+  "projectName": "inmoov",
+  "title": "InMoov 项目：基于计算机视觉控制的机器人手臂",
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "个人项目 - 于 2023 年鲁昂科学节展示"
+    },
+    {
+      "header": "日期",
+      "value": "2023 年 - 至今（持续改进中）"
+    },
+    {
+      "header": "项目参与者",
+      "value": "3 人"
+    },
+    {
+      "header": "主要功能",
+      "value": "通过计算机视觉实现非接触式控制 / SLS 尼龙打印机械臂 / 3S6P 结构的 18650 电池组 / 集成且可直接操作的 BMS 充电系统 / 激光切割定制底座和防护罩 / 展会期间保护机械臂"
+    },
+    {
+      "header": "使用的技术与设备",
+      "value": "Arduino Nano / 摄像头与计算机视觉 / 伺服电机 / 3S6P 结构的 18650 电池组 / 集成 BMS 与可访问充电接口 / SLS 尼龙 3D 打印 / 激光切割底座与防护罩"
+    }
+  ],
+  "description": [
+    "该项目是对<strong>InMoov 机器人手臂</strong>的重新设计和改进，最初用于<strong>2023 年鲁昂科学节</strong>展示。第一版使用配备柔性传感器的手套来复现手部动作。",
+    "在最初几次展览后，我们用<strong>计算机视觉</strong>控制系统取代了手套。这种非接触式方案既避免了出于卫生原因将手套借给参观者，也保护了不适合反复操作的易损柔性传感器。",
+    "机械臂随后使用<strong>SLS 尼龙</strong>重新完整打印，以提高强度、表面质量和运动精度。系统由<strong>3S6P 结构的 18650 电池组</strong>供电，并配备<strong>集成 BMS</strong>以及可从底座直接使用的充电接口。",
+    "支撑箱体和<strong>防护罩</strong>均通过<strong>激光切割</strong>定制制造。防护罩在保持机械臂清晰可见的同时，可避免其在展会和展示期间因触摸、碰撞或其他操作而受损。",
+    "通过该项目，我提升了在机电一体化、嵌入式电子、计算机视觉、能源管理、SLS 3D 打印以及激光切割设计方面的能力。"
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/github",
+      "name": "Arduino 原始碼 — 即將推出"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_1.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_2.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_3.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_4.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_5.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_6.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_7.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_8.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_9.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_10.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 10"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_11.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 11"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_12.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 12"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_13.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 13"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_14.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 14"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_15.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 15"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_16.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 16"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/inmoov/inmoov_17.webp",
+      "alt": "InMoov 项目：基于计算机视觉控制的机器人手臂 — 17"
+    }
+  ]
 }

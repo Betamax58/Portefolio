@@ -1,62 +1,61 @@
 {
-    "projectName": "serveur_minecraft_esiggames",
-    "title": "Creation of a Physical Minecraft Server for the ESIG'Games Association",
-    "images": 5,
-    "information": [
-        {
-            "header": "Context",
-            "value": "Associative Project - Collaboration between ESIG'TRONIX and ESIG'Games"
-        },
-        {
-            "header": "Date",
-            "value": "May 2024 - January 2025"
-        },
-        {
-            "header": "Project Participants",
-            "value": "3"
-        },
-        {
-            "header": "Roles and Contributions",
-            "value": "Component sizing for the server / Assembly of the physical server / Migration of the previous online map / Addition of custom mods / Redevelopment of an exclusive mod previously available only with the online host"
-        },
-        {
-            "header": "Technologies and Equipment Used",
-            "value": "Physical server connected to ESIGELEC's internet network / Linux operating system / Minecraft Java Edition / Mod development in Java / Minecraft server management tools"
-        }
-    ],
-    "description": [
-        "As part of a collaboration between the <strong>ESIG'Games</strong> association (video games and board games) and <strong>ESIG'TRONIX</strong>, we were tasked with setting up a <strong>physical Minecraft server</strong> to reduce costs associated with online hosting.",
-        "I was responsible for the <strong>sizing of the server components</strong> to ensure stability and performance, considering the resource needs for hosting multiple simultaneous players and supporting various mods. With the help of a colleague, we <strong>assembled the server</strong> and conducted functionality tests.",
-        "We then performed the <strong>complete migration of the old map</strong> from the online server to this new physical server, ensuring the continuity of data and existing builds. In parallel, we <strong>added several mods</strong> to enrich the gaming experience and <strong>recoded a mod</strong> that was previously only available on the former host, making it compatible with our new infrastructure.",
-        "The project was successfully completed by a team of three people between <strong>May 2024 and January 2025</strong>, providing the ESIG'Games association with a high-performance, durable, and cost-effective server connected directly to ESIGELEC's internet network.",
-        "This project allowed me to strengthen my skills in <strong>server infrastructure</strong>, <strong>Java programming for Minecraft</strong>, and collaborative technical project management."
-    ],
-    "resources": [],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/minecraft_serv/minecraft_1.webp",
-            "alt": "Minecraft build — photo 1"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/minecraft_serv/minecraft_2.webp",
-            "alt": "Minecraft build — photo 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/minecraft_serv/minecraft_3.webp",
-            "alt": "Minecraft build — photo 3"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/minecraft_serv/minecraft_4.webp",
-            "alt": "Minecraft build — photo 4"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/minecraft_serv/minecraft_5.webp",
-            "alt": "Generated illustration of a dual-processor Linux server"
-        }
-    ]
+  "projectName": "minecraft_serv",
+  "title": "Creation of a Physical Minecraft Server for the ESIG'Games Association",
+  "information": [
+    {
+      "header": "Context",
+      "value": "Associative Project - Collaboration between ESIG'TRONIX and ESIG'Games"
+    },
+    {
+      "header": "Date",
+      "value": "May 2024 - January 2025"
+    },
+    {
+      "header": "Project Participants",
+      "value": "3"
+    },
+    {
+      "header": "Roles and Contributions",
+      "value": "Component sizing for the server / Assembly of the physical server / Migration of the previous online map / Addition of custom mods / Redevelopment of an exclusive mod previously available only with the online host"
+    },
+    {
+      "header": "Technologies and Equipment Used",
+      "value": "Physical server connected to ESIGELEC's internet network / Linux operating system / Minecraft Java Edition / Mod development in Java / Minecraft server management tools"
+    }
+  ],
+  "description": [
+    "As part of a collaboration between the <strong>ESIG'Games</strong> association (video games and board games) and <strong>ESIG'TRONIX</strong>, we were tasked with setting up a <strong>physical Minecraft server</strong> to reduce costs associated with online hosting.",
+    "I was responsible for the <strong>sizing of the server components</strong> to ensure stability and performance, considering the resource needs for hosting multiple simultaneous players and supporting various mods. With the help of a colleague, we <strong>assembled the server</strong> and conducted functionality tests.",
+    "We then performed the <strong>complete migration of the old map</strong> from the online server to this new physical server, ensuring the continuity of data and existing builds. In parallel, we <strong>added several mods</strong> to enrich the gaming experience and <strong>recoded a mod</strong> that was previously only available on the former host, making it compatible with our new infrastructure.",
+    "The project was successfully completed by a team of three people between <strong>May 2024 and January 2025</strong>, providing the ESIG'Games association with a high-performance, durable, and cost-effective server connected directly to ESIGELEC's internet network.",
+    "This project allowed me to strengthen my skills in <strong>server infrastructure</strong>, <strong>Java programming for Minecraft</strong>, and collaborative technical project management."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/minecraft_serv/minecraft_1.webp",
+      "alt": "Creation of a Physical Minecraft Server for the ESIG'Games Association — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/minecraft_serv/minecraft_2.webp",
+      "alt": "Creation of a Physical Minecraft Server for the ESIG'Games Association — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/minecraft_serv/minecraft_3.webp",
+      "alt": "Creation of a Physical Minecraft Server for the ESIG'Games Association — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/minecraft_serv/minecraft_4.webp",
+      "alt": "Creation of a Physical Minecraft Server for the ESIG'Games Association — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/minecraft_serv/minecraft_5.webp",
+      "alt": "Creation of a Physical Minecraft Server for the ESIG'Games Association — 5"
+    }
+  ]
 }

@@ -1,35 +1,56 @@
 {
-    "projectName": "enceinte_centrale_hifi",
-    "title": "定制高保真中央音箱制造",
-    "images": 5,
-    "information": [
-        {
-            "header": "项目背景",
-            "value": "在 BTS 实习期间完成的个人项目"
-        },
-        {
-            "header": "日期",
-            "value": "2020年"
-        },
-        {
-            "header": "项目参与者",
-            "value": "1人"
-        },
-        {
-            "header": "主要功能",
-            "value": "高保真系统中央音箱 / 全面设计（木工、滤波器研究、音箱调谐）/ 定制手工制造 / 音频性能优化"
-        },
-        {
-            "header": "培养的技能",
-            "value": "木工制作音箱外壳 / 被动音频滤波器的研究与设计 / 音箱声学调谐 / 音质性能优化"
-        }
-    ],
-    "description": [
-        "在 BTS 实习期间，我利用业余时间完成了一个<strong>定制高保真中央音箱</strong>项目。该项目的目标是为家庭音响系统打造一个能够精准还原对话和中央声道声音的音箱。",
-        "这是一个<strong>完全独立完成</strong>的项目，我负责了从<strong>木工制作木质音箱外壳</strong>到<strong>被动滤波器的设计</strong>等所有步骤，以确保不同频率在扬声器之间的最佳分配。",
-        "我对<strong>音箱的声学调谐</strong>进行了精心设计，以实现均衡的声音输出，尤其在中高频范围内表现出色，从而确保对话的清晰度和细节。",
-        "通过该项目，我提升了在<strong>声学工程</strong>、<strong>音频电子学</strong>和<strong>机械设计</strong>方面的技能，同时完善了我的<strong>木工技术</strong>和<strong>音响系统优化能力</strong>。",
-        "最终成品完美集成到高保真系统中，提供了<strong>清晰且精准的声音还原</strong>，充分展示了我在音频设备设计中将技术能力与声学敏感性相结合的能力。"
-    ],
-    "resources": []
+  "projectName": "voix_centrale",
+  "title": "定制高保真中央音箱制造",
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "在 BTS 实习期间完成的个人项目"
+    },
+    {
+      "header": "日期",
+      "value": "2020年"
+    },
+    {
+      "header": "项目参与者",
+      "value": "1人"
+    },
+    {
+      "header": "主要功能",
+      "value": "高保真系统中央音箱 / 全面设计（木工、滤波器研究、音箱调谐）/ 定制手工制造 / 音频性能优化"
+    },
+    {
+      "header": "培养的技能",
+      "value": "木工制作音箱外壳 / 被动音频滤波器的研究与设计 / 音箱声学调谐 / 音质性能优化"
+    }
+  ],
+  "description": [
+    "在 BTS 实习期间，我利用业余时间完成了一个<strong>定制高保真中央音箱</strong>项目。该项目的目标是为家庭音响系统打造一个能够精准还原对话和中央声道声音的音箱。",
+    "这是一个<strong>完全独立完成</strong>的项目，我负责了从<strong>木工制作木质音箱外壳</strong>到<strong>被动滤波器的设计</strong>等所有步骤，以确保不同频率在扬声器之间的最佳分配。",
+    "我对<strong>音箱的声学调谐</strong>进行了精心设计，以实现均衡的声音输出，尤其在中高频范围内表现出色，从而确保对话的清晰度和细节。",
+    "通过该项目，我提升了在<strong>声学工程</strong>、<strong>音频电子学</strong>和<strong>机械设计</strong>方面的技能，同时完善了我的<strong>木工技术</strong>和<strong>音响系统优化能力</strong>。",
+    "最终成品完美集成到高保真系统中，提供了<strong>清晰且精准的声音还原</strong>，充分展示了我在音频设备设计中将技术能力与声学敏感性相结合的能力。"
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_1.webp",
+      "alt": "定制高保真中央音箱制造 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_2.webp",
+      "alt": "定制高保真中央音箱制造 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_3.webp",
+      "alt": "定制高保真中央音箱制造 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/voix_centrale/voix_centrale_4.webp",
+      "alt": "定制高保真中央音箱制造 — 4"
+    }
+  ]
 }

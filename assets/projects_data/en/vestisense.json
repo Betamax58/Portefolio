@@ -1,7 +1,6 @@
 {
   "projectName": "vestisense",
   "title": "Vestisense: Connected Wardrobe and Smart Mirror",
-  "images": 5,
   "information": [
     {
       "header": "Context",
@@ -35,6 +34,33 @@
     {
       "image": "assets/icons/github",
       "name": "Source code — coming soon"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_1.webp",
+      "alt": "Vestisense: Connected Wardrobe and Smart Mirror — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_2.webp",
+      "alt": "Vestisense: Connected Wardrobe and Smart Mirror — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_3.webp",
+      "alt": "Vestisense: Connected Wardrobe and Smart Mirror — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_4.webp",
+      "alt": "Vestisense: Connected Wardrobe and Smart Mirror — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/vestisense/vestisense_5.webp",
+      "alt": "Vestisense: Connected Wardrobe and Smart Mirror — 5"
     }
   ]
 }

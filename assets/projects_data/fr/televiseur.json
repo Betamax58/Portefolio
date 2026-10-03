@@ -1,90 +1,89 @@
 {
-    "projectName": "reparation_tv_ecran_plat",
-    "title": "Réparation de téléviseurs écran plat pour le recyclage et la revente",
-    "images": 10,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet personnel - Réparations entre 2017 et aujourd'hui"
-        },
-        {
-            "header": "Date",
-            "value": "2017 - Présent"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "1 (projet réalisé seul)"
-        },
-        {
-            "header": "Nombre de téléviseurs réparés",
-            "value": "Environ 6"
-        },
-        {
-            "header": "Principales réparations effectuées",
-            "value": "Remplacement des LEDs de rétroéclairage / Remplacement de fusibles sur la carte d'alimentation / Remplacement de condensateurs défectueux"
-        },
-        {
-            "header": "Objectifs du projet",
-            "value": "Réparer et remettre à neuf des téléviseurs HS / Réduire les déchets électroniques par la réutilisation / Développer des compétences en électronique et en maintenance"
-        }
-    ],
-    "description": [
-        "Depuis 2017, j’ai entrepris la <strong>réparation de téléviseurs écran plat</strong>, ce qui m’a permis de développer des compétences pratiques en électronique et en maintenance. Environ <strong>six téléviseurs</strong> ont été réparés dans le cadre de ce projet personnel, que j’ai soit <strong>revendus</strong> soit <strong>offerts à mes proches</strong>, participant ainsi à une démarche écologique en réduisant les déchets électroniques.",
-        "La majorité des pannes concernaient le <strong>rétroéclairage LED</strong>, les bandes LED devant être remplacées en raison d'une défaillance. Dans d'autres cas, j’ai identifié et réparé des <strong>pannes sur la carte d’alimentation</strong>, notamment des <strong>fusibles grillés</strong> et des <strong>condensateurs endommagés</strong>.",
-        "Les téléviseurs réparés provenaient principalement d’achats de modèles HS ou de récupérations, que je remettais en état. Ce processus m’a permis de perfectionner mes compétences en <strong>diagnostic électronique</strong>, <strong>soudure</strong>, <strong>remplacement de composants</strong> et <strong>gestion thermique</strong> des équipements.",
-        "Au-delà de la réparation, ce projet contribue à <strong>l’économie circulaire</strong>, en prolongeant la durée de vie de produits électroniques et en réduisant leur impact environnemental. Chaque réparation représente une opportunité d’améliorer mes connaissances techniques tout en donnant une seconde vie à du matériel électronique."
-    ],
-    "resources": [],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_1.webp",
-            "alt": "Réparation TV — photo 1"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_2.webp",
-            "alt": "Réparation TV — photo 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_3.webp",
-            "alt": "Réparation TV — photo 3"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_4.webp",
-            "alt": "Réparation TV — photo 4"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_5.webp",
-            "alt": "Réparation TV — photo 5"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_6.webp",
-            "alt": "Réparation TV — photo 6"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_7.webp",
-            "alt": "Réparation TV — photo 7"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_8.webp",
-            "alt": "Réparation TV — photo 8"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_9.webp",
-            "alt": "Réparation TV — photo 9"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/televiseur/tv_10.webp",
-            "alt": "Réparation TV — photo 10"
-        }
-    ]
+  "projectName": "televiseur",
+  "title": "Réparation de téléviseurs écran plat pour le recyclage et la revente",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel - Réparations entre 2017 et aujourd'hui"
+    },
+    {
+      "header": "Date",
+      "value": "2017 - Présent"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "1 (projet réalisé seul)"
+    },
+    {
+      "header": "Nombre de téléviseurs réparés",
+      "value": "Environ 6"
+    },
+    {
+      "header": "Principales réparations effectuées",
+      "value": "Remplacement des LEDs de rétroéclairage / Remplacement de fusibles sur la carte d'alimentation / Remplacement de condensateurs défectueux"
+    },
+    {
+      "header": "Objectifs du projet",
+      "value": "Réparer et remettre à neuf des téléviseurs HS / Réduire les déchets électroniques par la réutilisation / Développer des compétences en électronique et en maintenance"
+    }
+  ],
+  "description": [
+    "Depuis 2017, j’ai entrepris la <strong>réparation de téléviseurs écran plat</strong>, ce qui m’a permis de développer des compétences pratiques en électronique et en maintenance. Environ <strong>six téléviseurs</strong> ont été réparés dans le cadre de ce projet personnel, que j’ai soit <strong>revendus</strong> soit <strong>offerts à mes proches</strong>, participant ainsi à une démarche écologique en réduisant les déchets électroniques.",
+    "La majorité des pannes concernaient le <strong>rétroéclairage LED</strong>, les bandes LED devant être remplacées en raison d'une défaillance. Dans d'autres cas, j’ai identifié et réparé des <strong>pannes sur la carte d’alimentation</strong>, notamment des <strong>fusibles grillés</strong> et des <strong>condensateurs endommagés</strong>.",
+    "Les téléviseurs réparés provenaient principalement d’achats de modèles HS ou de récupérations, que je remettais en état. Ce processus m’a permis de perfectionner mes compétences en <strong>diagnostic électronique</strong>, <strong>soudure</strong>, <strong>remplacement de composants</strong> et <strong>gestion thermique</strong> des équipements.",
+    "Au-delà de la réparation, ce projet contribue à <strong>l’économie circulaire</strong>, en prolongeant la durée de vie de produits électroniques et en réduisant leur impact environnemental. Chaque réparation représente une opportunité d’améliorer mes connaissances techniques tout en donnant une seconde vie à du matériel électronique."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_1.webp",
+      "alt": "Réparation TV — photo 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_2.webp",
+      "alt": "Réparation TV — photo 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_3.webp",
+      "alt": "Réparation TV — photo 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_4.webp",
+      "alt": "Réparation TV — photo 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_5.webp",
+      "alt": "Réparation TV — photo 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_6.webp",
+      "alt": "Réparation TV — photo 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_7.webp",
+      "alt": "Réparation TV — photo 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_8.webp",
+      "alt": "Réparation TV — photo 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_9.webp",
+      "alt": "Réparation TV — photo 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/televiseur/tv_10.webp",
+      "alt": "Réparation TV — photo 10"
+    }
+  ]
 }

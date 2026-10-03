@@ -1,51 +1,162 @@
 {
-    "projectName": "coupe_de_france",
-    "title": "Participation à la Coupe de France de Robotique - Équipe PING 36",
-    "images": 22,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet associatif / Projet ingénieur - ESIG'TRONIX"
-        },
-        {
-            "header": "Dates",
-            "value": "Éditions 2024, 2025 et 2026"
-        },
-        {
-            "header": "Équipe",
-            "value": "ESIG'TRONIX / PING 36"
-        },
-        {
-            "header": "Rôle et contributions",
-            "value": "Conception électronique et robotique / Programmation sous ROS2 / Intégration de capteurs et systèmes embarqués / Gestion de la stratégie robotique"
-        },
-        {
-            "header": "Technologies et matériel utilisés",
-            "value": "Raspberry Pi 5 / ROS2 / ESP32 / STM32H750 avec écran tactile / Lidar / Capteur OTOS / Capteur TOF / Moteurs CC avec encodeurs / Vision par ordinateur / Découpe laser / Impression 3D pour pièces sur mesure"
-        }
-    ],
-    "description": [
-        "J'ai participé à trois éditions de la Coupe de France de Robotique, en <strong>2024, 2025 et 2026</strong>, avec l'équipe <strong>PING 36</strong> de l'association <strong>ESIG'TRONIX</strong>. Cet événement réunit chaque année des passionnés de robotique pour concevoir, programmer et faire s’affronter des robots autonomes sur un plateau de jeu respectant un cahier des charges strict.",
-        "Les trois éditions auxquelles j’ai participé avaient respectivement pour thèmes <strong>Farming Mars</strong> en 2024, <strong>The Show Must Go On</strong> en 2025 et <strong>Winter Is Coming</strong> en 2026. Chaque nouveau règlement nous a amenés à repenser les mécanismes, la stratégie, l’architecture électronique et le logiciel embarqué du robot.",
-        "Pour l’édition 2024, nous avons développé un robot capable d’accomplir différentes tâches imposées par le règlement, notamment la détection et le déplacement d'objets, la gestion d’obstacles et la mise en œuvre de stratégies de jeu efficaces. Cette première expérience m’a permis de perfectionner mes compétences en électronique embarquée, en prototypage et en intégration de capteurs.",
-        "Lors de l’édition 2025, nous avons amélioré notre robot en intégrant de nouvelles technologies, notamment un <strong>STM32H750</strong> avec écran tactile permettant de créer et gérer dynamiquement une liste de coordonnées pour le robot, communiquée directement au contrôleur. J’ai également travaillé sur la programmation sous <strong>ROS2</strong> et l’utilisation du <strong>Raspberry Pi 5</strong> pour le traitement embarqué.",
-        "Nous avons conçu une architecture électronique robuste, combinée à des composants imprimés en 3D sur mesure pour optimiser la structure et la maniabilité du robot. L’intégration de capteurs avancés comme le <strong>lidar</strong> le <strong>capteur OTOS</strong> et le <strong>capteur TOF</strong> a permis d’améliorer la détection d’obstacles et la précision de navigation. La vision par ordinateur a également été exploitée pour enrichir la prise de décision du robot en temps réel.",
-        "Ces trois années de participation ont renforcé mes compétences en robotique collaborative, en gestion de projet technique et en innovation, tout en m’offrant l'opportunité de représenter fièrement notre association lors d’un événement national. Les nouvelles images présentent également le travail de conception CAO et différentes évolutions mécaniques du robot."
-    ],
-    "resources": [
-        {
-            "image": "assets/documents/poster_projet_ping36_2025",
-            "name": "Poster du projet 2025",
-            "link": "assets/documents/poster_projet_ping36_2025.webp"
-        },
-        {
-            "image": "assets/icons/planete_sciences",
-            "name": "Site officiel - Coupe de France de Robotique",
-            "link": "https://www.coupederobotique.fr/"
-        },
-        {
-            "image": "assets/icons/github",
-            "name": "Code source GitHub — bientôt disponible"
-        }
-    ]
+  "projectName": "coupe_de_france",
+  "title": "Participation à la Coupe de France de Robotique - Équipe PING 36",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet associatif / Projet ingénieur - ESIG'TRONIX"
+    },
+    {
+      "header": "Dates",
+      "value": "Éditions 2024, 2025 et 2026"
+    },
+    {
+      "header": "Équipe",
+      "value": "ESIG'TRONIX / PING 36"
+    },
+    {
+      "header": "Rôle et contributions",
+      "value": "Conception électronique et robotique / Programmation sous ROS2 / Intégration de capteurs et systèmes embarqués / Gestion de la stratégie robotique"
+    },
+    {
+      "header": "Technologies et matériel utilisés",
+      "value": "Raspberry Pi 5 / ROS2 / ESP32 / STM32H750 avec écran tactile / Lidar / Capteur OTOS / Capteur TOF / Moteurs CC avec encodeurs / Vision par ordinateur / Découpe laser / Impression 3D pour pièces sur mesure"
+    }
+  ],
+  "description": [
+    "J'ai participé à trois éditions de la Coupe de France de Robotique, en <strong>2024, 2025 et 2026</strong>, avec l'équipe <strong>PING 36</strong> de l'association <strong>ESIG'TRONIX</strong>. Cet événement réunit chaque année des passionnés de robotique pour concevoir, programmer et faire s’affronter des robots autonomes sur un plateau de jeu respectant un cahier des charges strict.",
+    "Les trois éditions auxquelles j’ai participé avaient respectivement pour thèmes <strong>Farming Mars</strong> en 2024, <strong>The Show Must Go On</strong> en 2025 et <strong>Winter Is Coming</strong> en 2026. Chaque nouveau règlement nous a amenés à repenser les mécanismes, la stratégie, l’architecture électronique et le logiciel embarqué du robot.",
+    "Pour l’édition 2024, nous avons développé un robot capable d’accomplir différentes tâches imposées par le règlement, notamment la détection et le déplacement d'objets, la gestion d’obstacles et la mise en œuvre de stratégies de jeu efficaces. Cette première expérience m’a permis de perfectionner mes compétences en électronique embarquée, en prototypage et en intégration de capteurs.",
+    "Lors de l’édition 2025, nous avons amélioré notre robot en intégrant de nouvelles technologies, notamment un <strong>STM32H750</strong> avec écran tactile permettant de créer et gérer dynamiquement une liste de coordonnées pour le robot, communiquée directement au contrôleur. J’ai également travaillé sur la programmation sous <strong>ROS2</strong> et l’utilisation du <strong>Raspberry Pi 5</strong> pour le traitement embarqué.",
+    "Nous avons conçu une architecture électronique robuste, combinée à des composants imprimés en 3D sur mesure pour optimiser la structure et la maniabilité du robot. L’intégration de capteurs avancés comme le <strong>lidar</strong> le <strong>capteur OTOS</strong> et le <strong>capteur TOF</strong> a permis d’améliorer la détection d’obstacles et la précision de navigation. La vision par ordinateur a également été exploitée pour enrichir la prise de décision du robot en temps réel.",
+    "Ces trois années de participation ont renforcé mes compétences en robotique collaborative, en gestion de projet technique et en innovation, tout en m’offrant l'opportunité de représenter fièrement notre association lors d’un événement national. Les nouvelles images présentent également le travail de conception CAO et différentes évolutions mécaniques du robot."
+  ],
+  "resources": [
+    {
+      "image": "assets/documents/poster_projet_ping36_2025",
+      "name": "Poster du projet 2025",
+      "link": "assets/documents/poster_projet_ping36_2025.webp"
+    },
+    {
+      "image": "assets/icons/planete_sciences",
+      "name": "Site officiel - Coupe de France de Robotique",
+      "link": "https://www.coupederobotique.fr/"
+    },
+    {
+      "image": "assets/icons/github",
+      "name": "Code source GitHub — bientôt disponible"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_1.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_2.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_3.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_4.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_5.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_6.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_7.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_8.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_9.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_10.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 10"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_11.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 11"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_12.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 12"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_13.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 13"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_14.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 14"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_15.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 15"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_16.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 16"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_17.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 17"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_18.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 18"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_19.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 19"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_20.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 20"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_21.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 21"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_22.webp",
+      "alt": "Participation à la Coupe de France de Robotique - Équipe PING 36 — 22"
+    }
+  ]
 }

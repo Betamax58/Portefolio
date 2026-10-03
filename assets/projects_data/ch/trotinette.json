@@ -1,35 +1,66 @@
 {
-    "projectName": "reparation_trottinettes_electriques",
-    "title": "电动滑板车维修：回收与翻新",
-    "images": 6,
-    "information": [
-        {
-            "header": "项目背景",
-            "value": "个人项目 - 自学维修"
-        },
-        {
-            "header": "日期",
-            "value": "2020年 - 至今"
-        },
-        {
-            "header": "项目参与者",
-            "value": "1人（独立完成的项目）"
-        },
-        {
-            "header": "主要维修内容",
-            "value": "电池连接重新焊接 / 更换主板上的保险丝和 MOSFET / 修复断裂的电机电缆 / 更换 UrbanGlide 滑板车的控制器 / 解决因使用实心轮胎导致的振动问题"
-        },
-        {
-            "header": "项目目标",
-            "value": "为回收的电动滑板车赋予第二次生命 / 减少电子垃圾 / 提升在功率电子和轻型电动交通工具维护方面的技能"
-        }
-    ],
-    "description": [
-        "我经常修理从<strong>LeBonCoin</strong>等平台回收的<strong>电动滑板车</strong>，这些设备通常是作为配件出售或被认为无法修复的。该个人项目旨在通过<strong>维修和回收</strong>的方式，赋予这些设备新的使用价值。",
-        "大多数故障源于<strong>电池焊接点脱落</strong>，这是由于<strong>使用实心轮胎导致的振动</strong>所引起的。道路行驶时的持续振动会导致电气连接断开。",
-        "除了这些常见故障外，我还解决了一些更复杂的问题。例如，我为一辆<strong>小米滑板车</strong>更换了<strong>主板上的保险丝和 MOSFET</strong>。问题的根源是一个<strong>电机电缆断裂</strong>，导致短路并损坏了主板。我在电机内重新焊接了该电缆，从而恢复了正常功能。",
-        "此外，我还为多台<strong>UrbanGlide 滑板车</strong>进行了<strong>控制器的完整更换</strong>，确保它们恢复到最佳运行状态。",
-        "通过该项目，我提升了在<strong>功率电子学</strong>、<strong>故障诊断</strong>、<strong>电机维修</strong>以及<strong>轻型电动交通工具维护</strong>方面的技能，同时也为<strong>减少电子垃圾</strong>贡献了一份力量。"
-    ],
-    "resources": []
+  "projectName": "trotinette",
+  "title": "电动滑板车维修：回收与翻新",
+  "information": [
+    {
+      "header": "项目背景",
+      "value": "个人项目 - 自学维修"
+    },
+    {
+      "header": "日期",
+      "value": "2020年 - 至今"
+    },
+    {
+      "header": "项目参与者",
+      "value": "1人（独立完成的项目）"
+    },
+    {
+      "header": "主要维修内容",
+      "value": "电池连接重新焊接 / 更换主板上的保险丝和 MOSFET / 修复断裂的电机电缆 / 更换 UrbanGlide 滑板车的控制器 / 解决因使用实心轮胎导致的振动问题"
+    },
+    {
+      "header": "项目目标",
+      "value": "为回收的电动滑板车赋予第二次生命 / 减少电子垃圾 / 提升在功率电子和轻型电动交通工具维护方面的技能"
+    }
+  ],
+  "description": [
+    "我经常修理从<strong>LeBonCoin</strong>等平台回收的<strong>电动滑板车</strong>，这些设备通常是作为配件出售或被认为无法修复的。该个人项目旨在通过<strong>维修和回收</strong>的方式，赋予这些设备新的使用价值。",
+    "大多数故障源于<strong>电池焊接点脱落</strong>，这是由于<strong>使用实心轮胎导致的振动</strong>所引起的。道路行驶时的持续振动会导致电气连接断开。",
+    "除了这些常见故障外，我还解决了一些更复杂的问题。例如，我为一辆<strong>小米滑板车</strong>更换了<strong>主板上的保险丝和 MOSFET</strong>。问题的根源是一个<strong>电机电缆断裂</strong>，导致短路并损坏了主板。我在电机内重新焊接了该电缆，从而恢复了正常功能。",
+    "此外，我还为多台<strong>UrbanGlide 滑板车</strong>进行了<strong>控制器的完整更换</strong>，确保它们恢复到最佳运行状态。",
+    "通过该项目，我提升了在<strong>功率电子学</strong>、<strong>故障诊断</strong>、<strong>电机维修</strong>以及<strong>轻型电动交通工具维护</strong>方面的技能，同时也为<strong>减少电子垃圾</strong>贡献了一份力量。"
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_1.webp",
+      "alt": "电动滑板车维修：回收与翻新 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_2.webp",
+      "alt": "电动滑板车维修：回收与翻新 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_3.webp",
+      "alt": "电动滑板车维修：回收与翻新 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_4.webp",
+      "alt": "电动滑板车维修：回收与翻新 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_5.webp",
+      "alt": "电动滑板车维修：回收与翻新 — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_6.webp",
+      "alt": "电动滑板车维修：回收与翻新 — 6"
+    }
+  ]
 }

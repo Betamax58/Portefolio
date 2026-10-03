@@ -13,6 +13,7 @@ $(document).ready(function () {
     startLogoParallax();
     startProjectsFilters();
     loadProjects();
+    $(".projects-filters li.active").trigger("click");
     startProjectImageScaleOnHover();
 
     window.addEventListener("orientationchange", loadParticlesJS);
@@ -33,19 +34,24 @@ function loadNavbarOpacityOnScroll() {
 }
 
 function loadParticlesJS() {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     particles[0] = particlesJS.load("header-particles-bg", "assets/config/particles-bg.json");
     particles[1] = particlesJS.load("contact-particles-bg", "assets/config/particles-bg.json");
 }
 
 function loadTypedJS() {
     var options = {
-        strings: [" ESIGELEC 工程学生", "医学工程专业", "充满激情", "机器人爱好者"],
+        strings: ["ESIGELEC课程 · 2022–2025", "医疗系统", "电子", "机器人"],
         typeSpeed: 80,
         backSpeed: 40,
         backDelay: 2000,
         loop: true,
     };
 
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        $(".header-overlay-typed").text(options.strings[0]);
+        return;
+    }
     new Typed(".header-overlay-typed", options);
 }
 
@@ -100,19 +106,22 @@ function loadProjects() {
         $(".loading-body span").text("Veuillez patienter...")
 
         var request = new XMLHttpRequest();
-        request.open("GET", "assets/projects_data/ch/" + projectName + ".json", true);
+        request.open("GET", "assets/projects_data/ch/" + projectName + ".json?v=20261003-audit", true);
         request.onerror = function() {
             $(".loading-body .spinner-border").hide();
-            $(".loading-body span").text("Une erreur est survenue lors de la récuparation du projet :(")
+            $(".loading-body span").text("无法加载此项目，请重试。")
         }
         request.onload = async function() {
             if (this.status >= 200 && this.status < 400) {
-                let data = JSON.parse(this.response);
+                let data;
+                try { data = JSON.parse(this.response); }
+                catch (error) { request.onerror(); return; }
 
                 // Title
                 $("#project .modal-project-title").text(data.title);
 
                 // Carousel and Images
+                $("#project-carousel").find("video").each(function() { this.pause(); });
                 $("#project-carousel").carousel("pause");
                 $("#project-carousel > .carousel-inner").html("");
 
@@ -147,7 +156,7 @@ function loadProjects() {
                 for(let i=1; !Array.isArray(data.media) && i<=data.images; i++) {
                     let div = $("<div></div>").addClass("carousel-item").append(
                         $("<img>")
-                            .attr("src", "assets/animations/loading.gif")
+                            .attr("src", "assets/animations/loading.svg")
                             .attr("data-img", projectName + "_" + i)
                             .addClass("d-block w-100")
                             .attr("alt", projectName + " image " + i)
@@ -163,7 +172,7 @@ function loadProjects() {
                         })
                         .append(
                             $("<img>")
-                                .attr("src", "assets/animations/loading.gif")
+                                .attr("src", "assets/animations/loading.svg")
                                 .attr("data-img", projectName + "_" + i)
                         );
 
@@ -174,8 +183,8 @@ function loadProjects() {
                             .attr("srcset", img.srcset);
                     }
                     let projectImg = "assets/projects/" + projectName + "/" + projectName + "_" + i;
-                    img.srcset = projectImg + ".webp, " + projectImg + ".png, " + projectImg + ".jpg";
-                    img.src = projectImg + ".jpg"; // Priorité au .jpg
+                    img.srcset = projectImg + ".webp";
+                    img.src = projectImg + ".webp"; // Priorité au .jpg
 
                     console.log("Chargement de :", img.src);
                     $("#project .project-images").append(li);
@@ -229,8 +238,12 @@ function loadProjects() {
                 });
 
                 $("#project").removeClass("project-loading");
+            } else {
+                request.onerror();
             }
         };
+        request.timeout = 15000;
+        request.ontimeout = request.onerror;
         request.send();
         $("#project").modal();
     });
@@ -238,7 +251,7 @@ function loadProjects() {
 
 function startProjectImageScaleOnHover() {
     $("#project-carousel").on("touchend", function(event) {
-        if (!$(event.target).closest("video, button").length) event.preventDefault();
+        if ($(event.target).closest("img").length) event.preventDefault();
     });
 
     $("#project-carousel").mousemove(function(event) {

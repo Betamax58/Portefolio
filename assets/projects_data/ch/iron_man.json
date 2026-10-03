@@ -5,18 +5,18 @@
     {
       "type": "image",
       "src": "assets/projects/iron_man/helmet.webp",
-      "alt": "电动钢铁侠头盔"
+      "alt": "电动钢铁侠头盔 — 1"
     },
     {
       "type": "image",
       "src": "assets/projects/iron_man/electronics.webp",
-      "alt": "Arduino / 嵌入式编程 / 舵机 / 布线 / 3D打印 / 装配"
+      "alt": "电动钢铁侠头盔 — 2"
     },
     {
       "type": "video",
       "src": "assets/projects/iron_man/demo.mp4",
       "poster": "assets/projects/iron_man/helmet.webp",
-      "alt": "钢铁侠头盔演示"
+      "alt": "电动钢铁侠头盔 — 演示视频"
     }
   ],
   "information": [

@@ -1,35 +1,66 @@
 {
-    "projectName": "reparation_trottinettes_electriques",
-    "title": "Réparation de trottinettes électriques pour le recyclage et la remise en état",
-    "images": 6,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet personnel - Réparations en autodidacte"
-        },
-        {
-            "header": "Date",
-            "value": "2020 - Présent"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "1"
-        },
-        {
-            "header": "Principales réparations effectuées",
-            "value": "Resoudure des connexions de batterie / Remplacement de fusibles et de MOSFET sur cartes mères / Réparation de câbles moteur sectionnés / Remplacement de contrôleurs sur trottinettes UrbanGlide / Résolution de problèmes liés aux vibrations causées par l’utilisation de pneus pleins"
-        },
-        {
-            "header": "Objectifs du projet",
-            "value": "Donner une seconde vie à des trottinettes électriques récupérées pour pièces / Réduire les déchets électroniques / Développer des compétences en électronique de puissance et en maintenance de véhicules électriques légers"
-        }
-    ],
-    "description": [
-        "Je répare régulièrement des <strong>trottinettes électriques</strong> récupérées, principalement sur <strong>LeBonCoin</strong>, souvent données pour pièces. Ce projet personnel s’inscrit dans une démarche de <strong>réparation et de recyclage</strong>, en redonnant vie à des appareils considérés comme irréparables.",
-        "Dans la majorité des cas, le problème provient des <strong>soudures des batteries</strong> qui lâchent en raison des <strong>vibrations causées par l’utilisation de pneus pleins</strong>. La route accentue ces vibrations, provoquant la rupture des connexions électriques.",
-        "Au-delà de ces pannes courantes, j’ai également eu à résoudre des problèmes plus complexes. J’ai notamment remplacé un <strong>fusible et des MOSFET sur la carte mère</strong> d'une <strong>trottinette Xiaomi</strong>, après avoir identifié que la panne provenait d’un <strong>câble moteur sectionné</strong>, que j’ai dû ressouder dans le moteur. Ce câble endommagé était à l’origine du court-circuit ayant entraîné la défaillance de la carte mère.",
-        "J’ai aussi effectué le <strong>remplacement complet de contrôleurs</strong> sur des modèles de trottinettes <strong>UrbanGlide</strong>, assurant leur remise en état de fonctionnement optimal.",
-        "Ce projet m’a permis de renforcer mes compétences en <strong>électronique de puissance</strong>, en <strong>diagnostic de pannes</strong>, en <strong>réparation de moteurs électriques</strong> et en <strong>maintenance de véhicules électriques légers</strong>, tout en contribuant à la <strong>réduction des déchets électroniques</strong>."
-    ],
-    "resources": []
+  "projectName": "trotinette",
+  "title": "Réparation de trottinettes électriques pour le recyclage et la remise en état",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel - Réparations en autodidacte"
+    },
+    {
+      "header": "Date",
+      "value": "2020 - Présent"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "1"
+    },
+    {
+      "header": "Principales réparations effectuées",
+      "value": "Resoudure des connexions de batterie / Remplacement de fusibles et de MOSFET sur cartes mères / Réparation de câbles moteur sectionnés / Remplacement de contrôleurs sur trottinettes UrbanGlide / Résolution de problèmes liés aux vibrations causées par l’utilisation de pneus pleins"
+    },
+    {
+      "header": "Objectifs du projet",
+      "value": "Donner une seconde vie à des trottinettes électriques récupérées pour pièces / Réduire les déchets électroniques / Développer des compétences en électronique de puissance et en maintenance de véhicules électriques légers"
+    }
+  ],
+  "description": [
+    "Je répare régulièrement des <strong>trottinettes électriques</strong> récupérées, principalement sur <strong>LeBonCoin</strong>, souvent données pour pièces. Ce projet personnel s’inscrit dans une démarche de <strong>réparation et de recyclage</strong>, en redonnant vie à des appareils considérés comme irréparables.",
+    "Dans la majorité des cas, le problème provient des <strong>soudures des batteries</strong> qui lâchent en raison des <strong>vibrations causées par l’utilisation de pneus pleins</strong>. La route accentue ces vibrations, provoquant la rupture des connexions électriques.",
+    "Au-delà de ces pannes courantes, j’ai également eu à résoudre des problèmes plus complexes. J’ai notamment remplacé un <strong>fusible et des MOSFET sur la carte mère</strong> d'une <strong>trottinette Xiaomi</strong>, après avoir identifié que la panne provenait d’un <strong>câble moteur sectionné</strong>, que j’ai dû ressouder dans le moteur. Ce câble endommagé était à l’origine du court-circuit ayant entraîné la défaillance de la carte mère.",
+    "J’ai aussi effectué le <strong>remplacement complet de contrôleurs</strong> sur des modèles de trottinettes <strong>UrbanGlide</strong>, assurant leur remise en état de fonctionnement optimal.",
+    "Ce projet m’a permis de renforcer mes compétences en <strong>électronique de puissance</strong>, en <strong>diagnostic de pannes</strong>, en <strong>réparation de moteurs électriques</strong> et en <strong>maintenance de véhicules électriques légers</strong>, tout en contribuant à la <strong>réduction des déchets électroniques</strong>."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_1.webp",
+      "alt": "Réparation de trottinettes électriques pour le recyclage et la remise en état — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_2.webp",
+      "alt": "Réparation de trottinettes électriques pour le recyclage et la remise en état — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_3.webp",
+      "alt": "Réparation de trottinettes électriques pour le recyclage et la remise en état — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_4.webp",
+      "alt": "Réparation de trottinettes électriques pour le recyclage et la remise en état — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_5.webp",
+      "alt": "Réparation de trottinettes électriques pour le recyclage et la remise en état — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/trotinette/trotinette_6.webp",
+      "alt": "Réparation de trottinettes électriques pour le recyclage et la remise en état — 6"
+    }
+  ]
 }

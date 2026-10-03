@@ -1,36 +1,87 @@
 {
-    "projectName": "adopte_une_affiche",
-    "title": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers",
-    "images": 10,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet entrepreneurial"
-        },
-        {
-            "header": "Date",
-            "value": "2024 - Présent"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "2"
-        },
-        {
-            "header": "Services proposés",
-            "value": "Affiches d'animation / Faire-part personnalisés / CV créatifs et retouches / Design graphique"
-        }
-    ],
-    "description": [
-        "\"Adopte une Affiche\" est un projet visant à proposer des solutions graphiques personnalisées, à destination des professionnels et particuliers.",
-        "À l'origine, le projet s'adressait principalement aux professionnels du secteur du divertissement (animateurs en campings, hôtels, bars, etc.) souhaitant promouvoir leurs événements via des affiches attractives et sur mesure.",
-        "Fort de son succès, le projet s'est diversifié pour inclure la création de faire-part personnalisés pour toutes occasions (mariages, naissances, anniversaires), ainsi que la conception et la retouche de CV créatifs afin d'aider les particuliers à se démarquer sur le marché du travail.",
-        "Nous offrons un service de conception graphique adapté aux besoins des clients, avec un accompagnement sur mesure afin de garantir une communication visuelle percutante et professionnelle.",
-        "Notre approche met l'accent sur la créativité, la qualité du design et la satisfaction client, en proposant des solutions rapides et accessibles."
-    ],
-    "resources": [
-        {
-            "image": "assets/icons/adopte_une_affiche_logo",
-            "name": "Site web — prochainement"
-        }
-    ]
+  "projectName": "adopte_une_affiche",
+  "title": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet entrepreneurial"
+    },
+    {
+      "header": "Date",
+      "value": "2024 - Présent"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "2"
+    },
+    {
+      "header": "Services proposés",
+      "value": "Affiches d'animation / Faire-part personnalisés / CV créatifs et retouches / Design graphique"
+    }
+  ],
+  "description": [
+    "\"Adopte une Affiche\" est un projet visant à proposer des solutions graphiques personnalisées, à destination des professionnels et particuliers.",
+    "À l'origine, le projet s'adressait principalement aux professionnels du secteur du divertissement (animateurs en campings, hôtels, bars, etc.) souhaitant promouvoir leurs événements via des affiches attractives et sur mesure.",
+    "Fort de son succès, le projet s'est diversifié pour inclure la création de faire-part personnalisés pour toutes occasions (mariages, naissances, anniversaires), ainsi que la conception et la retouche de CV créatifs afin d'aider les particuliers à se démarquer sur le marché du travail.",
+    "Nous offrons un service de conception graphique adapté aux besoins des clients, avec un accompagnement sur mesure afin de garantir une communication visuelle percutante et professionnelle.",
+    "Notre approche met l'accent sur la créativité, la qualité du design et la satisfaction client, en proposant des solutions rapides et accessibles."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/adopte_une_affiche_logo",
+      "name": "Site web — prochainement"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_1.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_2.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_3.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_4.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_5.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_6.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_7.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_8.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_9.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/adopte_une_affiche/adopte_une_affiche_10.webp",
+      "alt": "Adopte une Affiche - Création et personnalisation d'affiches pour professionnels et particuliers — 10"
+    }
+  ]
 }

@@ -1,78 +1,77 @@
 {
-    "projectName": "console_score_volleyball_bt",
-    "title": "Console de score Bluetooth pour tableau d'affichage de volley-ball",
-    "images": 6,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet de fin d'études - BTS Systèmes Numériques"
-        },
-        {
-            "header": "Date",
-            "value": "2021"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "3)"
-        },
-        {
-            "header": "Rôle et contributions",
-            "value": "Émission des données en Bluetooth depuis la console / Développement d'une application mobile alternative avec App Inventor"
-        },
-        {
-            "header": "Fonctionnalités principales",
-            "value": "Console physique pour la gestion du score en temps réel / Transmission Bluetooth vers un tableau d'affichage / Application mobile en alternative à la console / Affichage sur matrices LED géantes"
-        },
-        {
-            "header": "Technologies et matériel utilisés",
-            "value": "Microcontrôleur PIC18F45K20 / Bluetooth / Matrices LED géantes pour l'affichage / Application mobile développée sous App Inventor"
-        }
-    ],
-    "description": [
-        "Dans le cadre de mon <strong>projet de fin d’études en BTS Systèmes Numériques</strong> en 2021, nous avons conçu une <strong>console de score Bluetooth</strong> destinée à un <strong>tableau d’affichage pour une équipe de volley-ball de Montpellier</strong>.",
-        "Nous étions <strong>trois membres dans l'équipe</strong>, chacun avec un rôle spécifique : j’étais en charge de la <strong>partie émission des données Bluetooth</strong> depuis la console physique, un collègue s’occupait de la <strong>réception et du traitement des données</strong>, tandis que le dernier membre travaillait sur <strong>l’affichage du score sur des matrices LED géantes</strong>.",
-        "La console, basée sur un <strong>microcontrôleur PIC18F45K20</strong>, permettait de <strong>gérer le score en temps réel</strong>, en envoyant les données via Bluetooth vers le tableau d’affichage. Ce microcontrôleur a été choisi pour ses capacités en traitement de données et ses fonctionnalités adaptées aux communications sans fil.",
-        "Pour compléter ce dispositif, j’ai développé une <strong>application mobile avec App Inventor</strong>, permettant de <strong>remplacer la console physique</strong> en cas de besoin, offrant ainsi plus de flexibilité aux utilisateurs.",
-        "Le projet intègre des <strong>matrices LED géantes</strong> pour une lisibilité optimale du score, même à distance, ainsi qu’un système de gestion robuste permettant un affichage fluide et sans décalage.",
-        "Ce projet m’a permis de renforcer mes compétences en <strong>communication sans fil (Bluetooth)</strong>, en <strong>développement d’applications mobiles</strong>, ainsi qu’en <strong>intégration électronique</strong> et <strong>travail en équipe sur un projet technique</strong>."
-    ],
-    "resources": [],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_1.webp",
-            "alt": "Console et tableau de score Bluetooth — photo 1"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_2.webp",
-            "alt": "Console et tableau de score Bluetooth — photo 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_3.webp",
-            "alt": "Console et tableau de score Bluetooth — photo 3"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_4.webp",
-            "alt": "Console et tableau de score Bluetooth — photo 4"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_5.webp",
-            "alt": "Console et tableau de score Bluetooth — photo 5"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/volley_remote/volley_6.webp",
-            "alt": "Console et tableau de score Bluetooth — photo 6"
-        },
-        {
-            "type": "video",
-            "src": "assets/projects/volley_remote/volley_demo.mp4",
-            "poster": "assets/projects/volley_remote/volley_demo.webp",
-            "alt": "Démonstration de la console de score Bluetooth"
-        }
-    ]
+  "projectName": "volley_remote",
+  "title": "Console de score Bluetooth pour tableau d'affichage de volley-ball",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet de fin d'études - BTS Systèmes Numériques"
+    },
+    {
+      "header": "Date",
+      "value": "2021"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "3"
+    },
+    {
+      "header": "Rôle et contributions",
+      "value": "Émission des données en Bluetooth depuis la console / Développement d'une application mobile alternative avec App Inventor"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Console physique pour la gestion du score en temps réel / Transmission Bluetooth vers un tableau d'affichage / Application mobile en alternative à la console / Affichage sur matrices LED géantes"
+    },
+    {
+      "header": "Technologies et matériel utilisés",
+      "value": "Microcontrôleur PIC18F45K20 / Bluetooth / Matrices LED géantes pour l'affichage / Application mobile développée sous App Inventor"
+    }
+  ],
+  "description": [
+    "Dans le cadre de mon <strong>projet de fin d’études en BTS Systèmes Numériques</strong> en 2021, nous avons conçu une <strong>console de score Bluetooth</strong> destinée à un <strong>tableau d’affichage pour une équipe de volley-ball de Montpellier</strong>.",
+    "Nous étions <strong>trois membres dans l'équipe</strong>, chacun avec un rôle spécifique : j’étais en charge de la <strong>partie émission des données Bluetooth</strong> depuis la console physique, un collègue s’occupait de la <strong>réception et du traitement des données</strong>, tandis que le dernier membre travaillait sur <strong>l’affichage du score sur des matrices LED géantes</strong>.",
+    "La console, basée sur un <strong>microcontrôleur PIC18F45K20</strong>, permettait de <strong>gérer le score en temps réel</strong>, en envoyant les données via Bluetooth vers le tableau d’affichage. Ce microcontrôleur a été choisi pour ses capacités en traitement de données et ses fonctionnalités adaptées aux communications sans fil.",
+    "Pour compléter ce dispositif, j’ai développé une <strong>application mobile avec App Inventor</strong>, permettant de <strong>remplacer la console physique</strong> en cas de besoin, offrant ainsi plus de flexibilité aux utilisateurs.",
+    "Le projet intègre des <strong>matrices LED géantes</strong> pour une lisibilité optimale du score, même à distance, ainsi qu’un système de gestion robuste permettant un affichage fluide et sans décalage.",
+    "Ce projet m’a permis de renforcer mes compétences en <strong>communication sans fil (Bluetooth)</strong>, en <strong>développement d’applications mobiles</strong>, ainsi qu’en <strong>intégration électronique</strong> et <strong>travail en équipe sur un projet technique</strong>."
+  ],
+  "resources": [],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_1.webp",
+      "alt": "Console et tableau de score Bluetooth — photo 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_2.webp",
+      "alt": "Console et tableau de score Bluetooth — photo 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_3.webp",
+      "alt": "Console et tableau de score Bluetooth — photo 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_4.webp",
+      "alt": "Console et tableau de score Bluetooth — photo 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_5.webp",
+      "alt": "Console et tableau de score Bluetooth — photo 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/volley_remote/volley_6.webp",
+      "alt": "Console et tableau de score Bluetooth — photo 6"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/volley_remote/volley_demo.mp4",
+      "poster": "assets/projects/volley_remote/volley_demo.webp",
+      "alt": "Démonstration de la console de score Bluetooth"
+    }
+  ]
 }

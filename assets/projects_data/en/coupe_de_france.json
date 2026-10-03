@@ -1,51 +1,162 @@
 {
-    "projectName": "coupe_france_robotique",
-    "title": "Participation in the French Robotics Cup - Team PING 36",
-    "images": 22,
-    "information": [
-        {
-            "header": "Context",
-            "value": "Association Project / Engineering Project - ESIG'TRONIX"
-        },
-        {
-            "header": "Dates",
-            "value": "2024, 2025 and 2026 Editions"
-        },
-        {
-            "header": "Team",
-            "value": "ESIG'TRONIX / PING 36"
-        },
-        {
-            "header": "Role and Contributions",
-            "value": "Electronic and robotic design / Programming with ROS2 / Integration of sensors and embedded systems / Robotics strategy management"
-        },
-        {
-            "header": "Technologies and Equipment Used",
-            "value": "Raspberry Pi 5 / ROS2 / ESP32 / STM32H750 with touchscreen / Lidar / OTOS sensor / TOF sensor / DC motors with encoders / Computer vision / Laser cutting / 3D printing for custom parts"
-        }
-    ],
-    "description": [
-        "I participated in three editions of the French Robotics Cup, in <strong>2024, 2025 and 2026</strong>, with the <strong>PING 36</strong> team from the <strong>ESIG'TRONIX</strong> association. This event brings together robotics enthusiasts each year to design, program, and compete with autonomous robots on a game field, following a strict set of specifications.",
-        "The three editions I took part in were respectively themed <strong>Farming Mars</strong> in 2024, <strong>The Show Must Go On</strong> in 2025 and <strong>Winter Is Coming</strong> in 2026. Each new rulebook required us to rethink the mechanisms, strategy, electronic architecture and embedded software of the robot.",
-        "For the 2024 edition, we developed a robot capable of completing various tasks required by the regulations, including object detection and manipulation, obstacle management, and the implementation of effective game strategies. This first experience allowed me to enhance my skills in embedded electronics, prototyping, and sensor integration.",
-        "In the 2025 edition, we upgraded our robot by integrating new technologies, including an <strong>STM32H750</strong> with a touchscreen, enabling the creation and dynamic management of a coordinate list for the robot, communicated directly to the controller. I also worked on programming with <strong>ROS2</strong> and using the <strong>Raspberry Pi 5</strong> for embedded processing.",
-        "We designed a robust electronic architecture, combined with custom 3D-printed components to optimize the robot's structure and maneuverability. The integration of advanced sensors such as the <strong>lidar</strong>, <strong>OTOS sensor</strong>, and <strong>TOF sensor</strong> improved obstacle detection and navigation accuracy. Computer vision was also utilized to enhance the robot's real-time decision-making capabilities.",
-        "These three years of participation strengthened my skills in collaborative robotics, technical project management, and innovation, while providing me the opportunity to proudly represent our association at a national event. The new images also show the CAD design work and several mechanical evolutions of the robot."
-    ],
-    "resources": [
-        {
-            "image": "assets/documents/poster_projet_ping36_2025",
-            "name": "2025 Project Poster",
-            "link": "assets/documents/poster_projet_ping36_2025.webp"
-        },
-        {
-            "image": "assets/icons/planete_sciences",
-            "name": "Official Website - French Robotics Cup",
-            "link": "https://www.coupederobotique.fr/"
-        },
-        {
-            "image": "assets/icons/github",
-            "name": "GitHub source code — coming soon"
-        }
-    ]
+  "projectName": "coupe_de_france",
+  "title": "Participation in the French Robotics Cup - Team PING 36",
+  "information": [
+    {
+      "header": "Context",
+      "value": "Association Project / Engineering Project - ESIG'TRONIX"
+    },
+    {
+      "header": "Dates",
+      "value": "2024, 2025 and 2026 Editions"
+    },
+    {
+      "header": "Team",
+      "value": "ESIG'TRONIX / PING 36"
+    },
+    {
+      "header": "Role and Contributions",
+      "value": "Electronic and robotic design / Programming with ROS2 / Integration of sensors and embedded systems / Robotics strategy management"
+    },
+    {
+      "header": "Technologies and Equipment Used",
+      "value": "Raspberry Pi 5 / ROS2 / ESP32 / STM32H750 with touchscreen / Lidar / OTOS sensor / TOF sensor / DC motors with encoders / Computer vision / Laser cutting / 3D printing for custom parts"
+    }
+  ],
+  "description": [
+    "I participated in three editions of the French Robotics Cup, in <strong>2024, 2025 and 2026</strong>, with the <strong>PING 36</strong> team from the <strong>ESIG'TRONIX</strong> association. This event brings together robotics enthusiasts each year to design, program, and compete with autonomous robots on a game field, following a strict set of specifications.",
+    "The three editions I took part in were respectively themed <strong>Farming Mars</strong> in 2024, <strong>The Show Must Go On</strong> in 2025 and <strong>Winter Is Coming</strong> in 2026. Each new rulebook required us to rethink the mechanisms, strategy, electronic architecture and embedded software of the robot.",
+    "For the 2024 edition, we developed a robot capable of completing various tasks required by the regulations, including object detection and manipulation, obstacle management, and the implementation of effective game strategies. This first experience allowed me to enhance my skills in embedded electronics, prototyping, and sensor integration.",
+    "In the 2025 edition, we upgraded our robot by integrating new technologies, including an <strong>STM32H750</strong> with a touchscreen, enabling the creation and dynamic management of a coordinate list for the robot, communicated directly to the controller. I also worked on programming with <strong>ROS2</strong> and using the <strong>Raspberry Pi 5</strong> for embedded processing.",
+    "We designed a robust electronic architecture, combined with custom 3D-printed components to optimize the robot's structure and maneuverability. The integration of advanced sensors such as the <strong>lidar</strong>, <strong>OTOS sensor</strong>, and <strong>TOF sensor</strong> improved obstacle detection and navigation accuracy. Computer vision was also utilized to enhance the robot's real-time decision-making capabilities.",
+    "These three years of participation strengthened my skills in collaborative robotics, technical project management, and innovation, while providing me the opportunity to proudly represent our association at a national event. The new images also show the CAD design work and several mechanical evolutions of the robot."
+  ],
+  "resources": [
+    {
+      "image": "assets/documents/poster_projet_ping36_2025",
+      "name": "2025 Project Poster",
+      "link": "assets/documents/poster_projet_ping36_2025.webp"
+    },
+    {
+      "image": "assets/icons/planete_sciences",
+      "name": "Official Website - French Robotics Cup",
+      "link": "https://www.coupederobotique.fr/"
+    },
+    {
+      "image": "assets/icons/github",
+      "name": "GitHub source code — coming soon"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_1.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_2.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_3.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_4.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_5.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_6.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 6"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_7.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 7"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_8.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 8"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_9.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 9"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_10.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 10"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_11.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 11"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_12.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 12"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_13.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 13"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_14.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 14"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_15.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 15"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_16.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 16"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_17.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 17"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_18.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 18"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_19.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 19"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_20.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 20"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_21.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 21"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/coupe_de_france/coupe_de_france_22.webp",
+      "alt": "Participation in the French Robotics Cup - Team PING 36 — 22"
+    }
+  ]
 }

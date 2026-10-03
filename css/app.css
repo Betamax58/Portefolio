@@ -1318,3 +1318,13 @@ footer p {font-size: 14px;}
 }
 
 .resource-container.resource-disabled {opacity: .5; cursor: default; pointer-events: none;}
+
+/* Asset credits remain readable on mobile. */
+.credits-table td, .credits-table th {vertical-align: middle;}
+.credits-table img {width: 32px; height: 32px; object-fit: contain; margin-right: 8px;}
+.asset-credits h6 {margin-top: 18px; font-weight: 600;}
+.asset-credits a {overflow-wrap: anywhere;}
+@media (prefers-reduced-motion: reduce) {
+    html, body {scroll-behavior: auto;}
+    .animated {animation: none !important;}
+}

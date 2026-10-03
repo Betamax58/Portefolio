@@ -1,70 +1,69 @@
 {
-    "projectName": "horloge_bt",
-    "title": "Horloge Bluetooth avec minuterie pour salle de musculation",
-    "images": 3,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet personnel"
-        },
-        {
-            "header": "Date",
-            "value": "2020 - Application mise à jour ultérieurement"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "1"
-        },
-        {
-            "header": "Fonctionnalités principales",
-            "value": "Affichage de l'heure avec matrices LED faites à la main / Minuterie contrôlée via Bluetooth / Application mobile dédiée / Buzzer sonore en fin de décompte / Retour automatique à l'affichage de l'heure"
-        },
-        {
-            "header": "Technologies et matériel utilisés",
-            "value": "Matrices LED fabriquées à la main / Module Bluetooth / Microcontrôleur / Buzzer sonore / Première application sous App Inventor / Refonte de l'application sous Android Studio / Arduino Mega + HC-05 → ESP32-WROOM / JLCPCB"
-        }
-    ],
-    "description": [
-        "Ce projet a été réalisé pendant le premier confinement en 2020. L'objectif était de concevoir une horloge connectée pour la salle de musculation de mon petit frère, lui permettant de gérer ses répétitions et temps de repos via son smartphone.",
-        "L'horloge utilise un affichage par LED composé de matrices entièrement réalisées à la main, offrant un affichage numérique clair et visible même à distance. Elle affiche en temps normal l'heure, mais peut passer en mode minuterie lorsqu'elle est activée via une application mobile connectée en Bluetooth.",
-        "Une fois le compte à rebours terminé, un buzzer se déclenche pour signaler la fin du temps de repos, et l'affichage revient automatiquement à l'heure.",
-        "La première version reposait sur un <strong>Arduino Mega associé à un module Bluetooth HC-05</strong>, avec des montages soudés sur <strong>plaques à trous</strong>. La nouvelle version utilise un <strong>ESP32-WROOM</strong> : son Bluetooth intégré supprime le module externe et simplifie le câblage, tout en permettant une électronique plus compacte et davantage de possibilités d’évolution. Le prototype sur plaques à trous a ensuite laissé place à des <strong>circuits imprimés dédiés fabriqués par JLCPCB</strong>, pour une intégration plus propre, des connexions plus fiables et un assemblage reproductible.",
-        "L'application mobile initiale a été développée avec <strong>App Inventor</strong> permettant un contrôle simple et rapide du minuteur. Quelques années plus tard, j’ai entièrement refondu l’application sous <strong>Android Studio</strong> pour une meilleure interface utilisateur, plus de stabilité et de nouvelles fonctionnalités.",
-        "Ce projet m’a permis de développer mes compétences en communication sans fil (Bluetooth), en développement d'applications mobiles Android, en conception électronique ainsi qu’en fabrication de matrices LED sur mesure."
-    ],
-    "resources": [
-        {
-            "name": "Projet GitHub — bientôt disponible",
-            "image": "assets/icons/github"
-        }
-    ],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/horloge_bt/horloge_bt_1.jpg",
-            "alt": "Schéma de l’afficheur LED"
-        },
-        {
-            "type": "video",
-            "src": "assets/projects/horloge_bt/horloge_bt_demo_1.mp4",
-            "poster": "assets/projects/horloge_bt/horloge_bt_demo_1.jpg",
-            "alt": "Démonstration 1"
-        },
-        {
-            "type": "video",
-            "src": "assets/projects/horloge_bt/horloge_bt_demo_2.mp4",
-            "poster": "assets/projects/horloge_bt/horloge_bt_demo_2.jpg",
-            "alt": "Démonstration 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/horloge_bt/horloge_bt_assembly.png",
-            "alt": "Assemblage de la nouvelle version"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/horloge_bt/horloge_bt_finished.png",
-            "alt": "Horloge dans son boîtier"
-        }
-    ]
+  "projectName": "horloge_bt",
+  "title": "Horloge Bluetooth avec minuterie pour salle de musculation",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel"
+    },
+    {
+      "header": "Date",
+      "value": "2020 - Application mise à jour ultérieurement"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "1"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Affichage de l'heure avec matrices LED faites à la main / Minuterie contrôlée via Bluetooth / Application mobile dédiée / Buzzer sonore en fin de décompte / Retour automatique à l'affichage de l'heure"
+    },
+    {
+      "header": "Technologies et matériel utilisés",
+      "value": "Matrices LED fabriquées à la main / Module Bluetooth / Microcontrôleur / Buzzer sonore / Première application sous App Inventor / Refonte de l'application sous Android Studio / Arduino Mega + HC-05 → ESP32-WROOM / JLCPCB"
+    }
+  ],
+  "description": [
+    "Ce projet a été réalisé pendant le premier confinement en 2020. L'objectif était de concevoir une horloge connectée pour la salle de musculation de mon petit frère, lui permettant de gérer ses répétitions et temps de repos via son smartphone.",
+    "L'horloge utilise un affichage par LED composé de matrices entièrement réalisées à la main, offrant un affichage numérique clair et visible même à distance. Elle affiche en temps normal l'heure, mais peut passer en mode minuterie lorsqu'elle est activée via une application mobile connectée en Bluetooth.",
+    "Une fois le compte à rebours terminé, un buzzer se déclenche pour signaler la fin du temps de repos, et l'affichage revient automatiquement à l'heure.",
+    "La première version reposait sur un <strong>Arduino Mega associé à un module Bluetooth HC-05</strong>, avec des montages soudés sur <strong>plaques à trous</strong>. La nouvelle version utilise un <strong>ESP32-WROOM</strong> : son Bluetooth intégré supprime le module externe et simplifie le câblage, tout en permettant une électronique plus compacte et davantage de possibilités d’évolution. Le prototype sur plaques à trous a ensuite laissé place à des <strong>circuits imprimés dédiés fabriqués par JLCPCB</strong>, pour une intégration plus propre, des connexions plus fiables et un assemblage reproductible.",
+    "L'application mobile initiale a été développée avec <strong>App Inventor</strong> permettant un contrôle simple et rapide du minuteur. Quelques années plus tard, j’ai entièrement refondu l’application sous <strong>Android Studio</strong> pour une meilleure interface utilisateur, plus de stabilité et de nouvelles fonctionnalités.",
+    "Ce projet m’a permis de développer mes compétences en communication sans fil (Bluetooth), en développement d'applications mobiles Android, en conception électronique ainsi qu’en fabrication de matrices LED sur mesure."
+  ],
+  "resources": [
+    {
+      "name": "Projet GitHub — bientôt disponible",
+      "image": "assets/icons/github"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/horloge_bt/horloge_bt_1.jpg",
+      "alt": "Schéma de l’afficheur LED"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/horloge_bt/horloge_bt_demo_1.mp4",
+      "poster": "assets/projects/horloge_bt/horloge_bt_demo_1.jpg",
+      "alt": "Démonstration 1"
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/horloge_bt/horloge_bt_demo_2.mp4",
+      "poster": "assets/projects/horloge_bt/horloge_bt_demo_2.jpg",
+      "alt": "Démonstration 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/horloge_bt/horloge_bt_assembly.png",
+      "alt": "Assemblage de la nouvelle version"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/horloge_bt/horloge_bt_finished.png",
+      "alt": "Horloge dans son boîtier"
+    }
+  ]
 }

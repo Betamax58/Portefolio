@@ -1,59 +1,58 @@
 {
-    "projectName": "arcade_tronix",
-    "title": "Rénovation d'une borne d'arcade pour l'association ESIG'TRONIX",
-    "images": 4,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet associatif - ESIG'TRONIX"
-        },
-        {
-            "header": "Date",
-            "value": "Juin 2024"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "3 (réalisé avec deux collègues de l'association)"
-        },
-        {
-            "header": "Technologies et matériel utilisés",
-            "value": "Raspberry Pi 4 (4 Go) / RecallBox / Électronique embarquée / Bandeau lumineux personnalisé"
-        }
-    ],
-    "description": [
-        "Ce projet avait pour objectif de moderniser une borne d'arcade construite initialement en 2013-2014 par des membres de l'association ESIG'TRONIX. La borne originale utilisait un Raspberry Pi 3 et proposait une sélection limitée de jeux rétro.",
-        "Avec deux collègues de l'association, nous avons entrepris une mise à jour complète de la borne en juin 2024. Nous avons remplacé le Raspberry Pi 3 par un Raspberry Pi 4 doté de 4 Go de RAM, offrant de meilleures performances pour l'émulation de plusieurs consoles rétro.",
-        "Le firmware a été mis à jour vers RecallBox, permettant d'intégrer un large éventail de rétros-consoles pour enrichir l'expérience de jeu. L'ensemble de l'électronique interne a été repensé et remis à neuf afin d'assurer une meilleure stabilité et durabilité du système.",
-        "Nous avons également ajouté une touche esthétique à la borne en installant un panneau lumineux personnalisé sur le dessus, affichant fièrement le nom de l'association ESIG'TRONIX, renforçant ainsi l'identité visuelle de notre groupe lors des événements.",
-        "Ce projet a permis de valoriser notre savoir-faire en électronique, en informatique embarquée et en personnalisation de systèmes ludiques, tout en offrant un espace de divertissement convivial pour les membres de l'association."
-    ],
-    "resources": [
-        {
-            "image": "assets/icons/instagram",
-            "name": "Instagram de l’association ESIG’TRONIX",
-            "link": "https://www.instagram.com/esig_tronix/"
-        }
-    ],
-    "media": [
-        {
-            "type": "image",
-            "src": "assets/projects/arcade_tronix/arcade_1.webp",
-            "alt": "Borne d’arcade ESIG’TRONIX — photo 1"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/arcade_tronix/arcade_2.webp",
-            "alt": "Borne d’arcade ESIG’TRONIX — photo 2"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/arcade_tronix/arcade_3.webp",
-            "alt": "Borne d’arcade ESIG’TRONIX — photo 3"
-        },
-        {
-            "type": "image",
-            "src": "assets/projects/arcade_tronix/arcade_4.webp",
-            "alt": "Borne d’arcade ESIG’TRONIX — photo 4"
-        }
-    ]
+  "projectName": "arcade_tronix",
+  "title": "Rénovation d'une borne d'arcade pour l'association ESIG'TRONIX",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet associatif - ESIG'TRONIX"
+    },
+    {
+      "header": "Date",
+      "value": "Juin 2024"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "3 (réalisé avec deux collègues de l'association)"
+    },
+    {
+      "header": "Technologies et matériel utilisés",
+      "value": "Raspberry Pi 4 (4 Go) / RecallBox / Électronique embarquée / Bandeau lumineux personnalisé"
+    }
+  ],
+  "description": [
+    "Ce projet avait pour objectif de moderniser une borne d'arcade construite initialement en 2013-2014 par des membres de l'association ESIG'TRONIX. La borne originale utilisait un Raspberry Pi 3 et proposait une sélection limitée de jeux rétro.",
+    "Avec deux collègues de l'association, nous avons entrepris une mise à jour complète de la borne en juin 2024. Nous avons remplacé le Raspberry Pi 3 par un Raspberry Pi 4 doté de 4 Go de RAM, offrant de meilleures performances pour l'émulation de plusieurs consoles rétro.",
+    "Le firmware a été mis à jour vers RecallBox, permettant d'intégrer un large éventail de rétros-consoles pour enrichir l'expérience de jeu. L'ensemble de l'électronique interne a été repensé et remis à neuf afin d'assurer une meilleure stabilité et durabilité du système.",
+    "Nous avons également ajouté une touche esthétique à la borne en installant un panneau lumineux personnalisé sur le dessus, affichant fièrement le nom de l'association ESIG'TRONIX, renforçant ainsi l'identité visuelle de notre groupe lors des événements.",
+    "Ce projet a permis de valoriser notre savoir-faire en électronique, en informatique embarquée et en personnalisation de systèmes ludiques, tout en offrant un espace de divertissement convivial pour les membres de l'association."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/instagram",
+      "name": "Instagram de l’association ESIG’TRONIX",
+      "link": "https://www.instagram.com/esig_tronix/"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/arcade_tronix/arcade_1.webp",
+      "alt": "Borne d’arcade ESIG’TRONIX — photo 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/arcade_tronix/arcade_2.webp",
+      "alt": "Borne d’arcade ESIG’TRONIX — photo 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/arcade_tronix/arcade_3.webp",
+      "alt": "Borne d’arcade ESIG’TRONIX — photo 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/arcade_tronix/arcade_4.webp",
+      "alt": "Borne d’arcade ESIG’TRONIX — photo 4"
+    }
+  ]
 }

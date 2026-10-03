@@ -1,41 +1,72 @@
 {
-    "projectName": "recreator_filament_3d",
-    "title": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source)",
-    "images": 6,
-    "information": [
-        {
-            "header": "Cadre",
-            "value": "Projet personnel - Open Source"
-        },
-        {
-            "header": "Date",
-            "value": "2022-2023"
-        },
-        {
-            "header": "Participant au projet",
-            "value": "1"
-        },
-        {
-            "header": "Fonctionnalités principales",
-            "value": "Recyclage de bouteilles en PET en filament 3D / Fabrication de filament à différentes vitesses (300, 600, 900 mm/min) / Projet open source avec partage des fichiers et schémas / Pièces mécaniques issues d'une Ender 3 Pro / Composants imprimés en 3D (calandre et engrenages) / Écran de contrôle intégré / Système de ventilation et buse de chauffe"
-        },
-        {
-            "header": "Technologies et matériel utilisés",
-            "value": "Éléments d'une Ender 3 Pro (écran, alimentation, moteurs, buse, ventilateur, profilés aluminium) / Pièces imprimées en 3D (calandre et engrenages) / 3 fichiers G-code personnalisés pour le contrôle de la vitesse d'extrusion / Microcontrôleur pour la gestion du processus / Logiciels open source pour la conception et le contrôle"
-        }
-    ],
-    "description": [
-        "<strong>Recreator</strong> est un projet <strong>open source</strong> permettant de <strong>recycler des bouteilles en plastique PET</strong> en <strong>filament utilisable pour une imprimante 3D</strong>. Ce projet vise à démocratiser le recyclage plastique en offrant une solution accessible et durable, permettant à quiconque de produire son propre filament à partir de déchets domestiques.",
-        "Pour la conception, j’ai réutilisé les <strong>pièces mécaniques d'une imprimante Ender 3 Pro</strong>, notamment l’écran de contrôle, l’alimentation, les moteurs, la buse de chauffe, le ventilateur et les <strong>profilés en aluminium</strong> servant de structure. Les <strong>engrenages</strong> et la <strong>calandre</strong> ont été <strong>imprimés en 3D</strong>, garantissant une intégration optimale et un fonctionnement sur mesure.",
-        "Le système produit du filament à <strong>trois vitesses différentes</strong> (<strong>300 mm/min, 600 mm/min et 900 mm/min</strong>), chacune gérée par un <strong>fichier G-code</strong> développé spécifiquement. Cette flexibilité permet d’adapter la production en fonction des besoins d’impression, tout en assurant une qualité constante.",
-        "L'intégralité du projet, y compris les <strong>fichiers G-code</strong>, les <strong>plans de conception</strong> et les <strong>instructions d'assemblage</strong>, est disponible en open source pour encourager la collaboration et l'amélioration continue par la communauté. La gestion de l'extrusion, de la température de la buse et de la vitesse du moteur est automatisée via un microcontrôleur, garantissant un fonctionnement sécurisé et stable.",
-        "Ce projet m’a permis de combiner mes compétences en <strong>impression 3D</strong>, <strong>programmation G-code</strong>, <strong>électronique embarquée</strong> et <strong>conception mécanique</strong>, tout en contribuant à une démarche de <strong>recyclage durable</strong> adaptée à la fabrication additive."
-    ],
-    "resources": [
-        {
-            "image": "assets/icons/recreator",
-            "name": "Fichiers G-code et ressources open source",
-            "link": "https://www.recreator3d.com/mk5kitender3"
-        }
-    ]
+  "projectName": "recreator",
+  "title": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source)",
+  "information": [
+    {
+      "header": "Cadre",
+      "value": "Projet personnel - Open Source"
+    },
+    {
+      "header": "Date",
+      "value": "2022-2023"
+    },
+    {
+      "header": "Participant au projet",
+      "value": "1"
+    },
+    {
+      "header": "Fonctionnalités principales",
+      "value": "Recyclage de bouteilles en PET en filament 3D / Fabrication de filament à différentes vitesses (300, 600, 900 mm/min) / Projet open source avec partage des fichiers et schémas / Pièces mécaniques issues d'une Ender 3 Pro / Composants imprimés en 3D (calandre et engrenages) / Écran de contrôle intégré / Système de ventilation et buse de chauffe"
+    },
+    {
+      "header": "Technologies et matériel utilisés",
+      "value": "Éléments d'une Ender 3 Pro (écran, alimentation, moteurs, buse, ventilateur, profilés aluminium) / Pièces imprimées en 3D (calandre et engrenages) / 3 fichiers G-code personnalisés pour le contrôle de la vitesse d'extrusion / Microcontrôleur pour la gestion du processus / Logiciels open source pour la conception et le contrôle"
+    }
+  ],
+  "description": [
+    "<strong>Recreator</strong> est un projet <strong>open source</strong> permettant de <strong>recycler des bouteilles en plastique PET</strong> en <strong>filament utilisable pour une imprimante 3D</strong>. Ce projet vise à démocratiser le recyclage plastique en offrant une solution accessible et durable, permettant à quiconque de produire son propre filament à partir de déchets domestiques.",
+    "Pour la conception, j’ai réutilisé les <strong>pièces mécaniques d'une imprimante Ender 3 Pro</strong>, notamment l’écran de contrôle, l’alimentation, les moteurs, la buse de chauffe, le ventilateur et les <strong>profilés en aluminium</strong> servant de structure. Les <strong>engrenages</strong> et la <strong>calandre</strong> ont été <strong>imprimés en 3D</strong>, garantissant une intégration optimale et un fonctionnement sur mesure.",
+    "Le système produit du filament à <strong>trois vitesses différentes</strong> (<strong>300 mm/min, 600 mm/min et 900 mm/min</strong>), chacune gérée par un <strong>fichier G-code</strong> développé spécifiquement. Cette flexibilité permet d’adapter la production en fonction des besoins d’impression, tout en assurant une qualité constante.",
+    "L'intégralité du projet, y compris les <strong>fichiers G-code</strong>, les <strong>plans de conception</strong> et les <strong>instructions d'assemblage</strong>, est disponible en open source pour encourager la collaboration et l'amélioration continue par la communauté. La gestion de l'extrusion, de la température de la buse et de la vitesse du moteur est automatisée via un microcontrôleur, garantissant un fonctionnement sécurisé et stable.",
+    "Ce projet m’a permis de combiner mes compétences en <strong>impression 3D</strong>, <strong>programmation G-code</strong>, <strong>électronique embarquée</strong> et <strong>conception mécanique</strong>, tout en contribuant à une démarche de <strong>recyclage durable</strong> adaptée à la fabrication additive."
+  ],
+  "resources": [
+    {
+      "image": "assets/icons/recreator",
+      "name": "Fichiers G-code et ressources open source",
+      "link": "https://www.recreator3d.com/mk5kitender3"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "assets/projects/recreator/recreator_1.webp",
+      "alt": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source) — 1"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/recreator/recreator_2.webp",
+      "alt": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source) — 2"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/recreator/recreator_3.webp",
+      "alt": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source) — 3"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/recreator/recreator_4.webp",
+      "alt": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source) — 4"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/recreator/recreator_5.webp",
+      "alt": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source) — 5"
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/recreator/recreator_6.webp",
+      "alt": "Recreator : Recyclage de bouteilles en PET en filament pour imprimante 3D (Projet Open Source) — 6"
+    }
+  ]
 }

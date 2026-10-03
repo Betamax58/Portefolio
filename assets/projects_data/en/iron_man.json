@@ -5,18 +5,18 @@
     {
       "type": "image",
       "src": "assets/projects/iron_man/helmet.webp",
-      "alt": "Motorized Iron Man helmet"
+      "alt": "Motorized Iron Man helmet — 1"
     },
     {
       "type": "image",
       "src": "assets/projects/iron_man/electronics.webp",
-      "alt": "Arduino / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
+      "alt": "Motorized Iron Man helmet — 2"
     },
     {
       "type": "video",
       "src": "assets/projects/iron_man/demo.mp4",
       "poster": "assets/projects/iron_man/helmet.webp",
-      "alt": "Iron Man helmet demonstration"
+      "alt": "Motorized Iron Man helmet — Video demonstration"
     }
   ],
   "information": [

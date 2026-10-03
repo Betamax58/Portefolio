@@ -23,13 +23,14 @@
     "这里汇集了我出于兴趣进行的编程、电子和机械实验。我尝试各种想法、探索不同方案并制作小型原型，不一定将每一次尝试发展成完整项目。",
     "共同的目标是：在动手尝试中理解、学习，并享受创造的乐趣。"
   ],
-  "resources": [],
-  "media": [
+  "resources": [
     {
-      "type": "image",
-      "src": "assets/projects/labo_idees/thumbnail.svg",
-      "alt": "创意实验室"
-    },
+      "image": "assets/icons/github",
+      "name": "源代码 — Just for fun",
+      "link": "https://github.com/Betamax58/just-for-fun"
+    }
+  ],
+  "media": [
     {
       "type": "video",
       "src": "assets/projects/labo_idees/araignee.webm",

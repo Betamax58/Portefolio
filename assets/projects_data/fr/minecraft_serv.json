@@ -31,18 +31,7 @@
         "Le projet a été mené à bien en équipe de trois personnes, entre <strong>mai 2024 et janvier 2025</strong> et a permis à l’association ESIG'Games de bénéficier d’un serveur performant, durable et économique, connecté directement au réseau internet de l’ESIGELEC.",
         "Ce projet m’a permis de renforcer mes compétences en <strong>infrastructure serveur</strong>, en <strong>programmation Java pour Minecraft</strong>, ainsi qu’en gestion de projets techniques collaboratifs."
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "Galerie photos du serveur",
-            "link": "assets/img/projects/serveur_minecraft_esiggames"
-        },
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "Code source du mod recodé",
-            "link": "https://github.com/username/esiggames-minecraft-mod"
-        }
-    ],
+    "resources": [],
     "media": [
         {
             "type": "image",

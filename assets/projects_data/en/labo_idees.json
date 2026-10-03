@@ -23,13 +23,14 @@
     "A space for my programming, electronics and mechanical experiments, made for the enjoyment of discovering and building things. I test ideas, explore solutions and put together small prototypes, without necessarily turning each one into a full project.",
     "The common thread: experimenting, understanding and learning while having fun."
   ],
-  "resources": [],
-  "media": [
+  "resources": [
     {
-      "type": "image",
-      "src": "assets/projects/labo_idees/thumbnail.svg",
-      "alt": "The Idea Lab"
-    },
+      "image": "assets/icons/github",
+      "name": "Source code — Just for fun",
+      "link": "https://github.com/Betamax58/just-for-fun"
+    }
+  ],
+  "media": [
     {
       "type": "video",
       "src": "assets/projects/labo_idees/araignee.webm",

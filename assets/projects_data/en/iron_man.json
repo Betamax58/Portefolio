@@ -10,7 +10,7 @@
     {
       "type": "image",
       "src": "assets/projects/iron_man/electronics.webp",
-      "alt": "ESP32 / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
+      "alt": "Arduino / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
     }
   ],
   "information": [
@@ -23,29 +23,26 @@
       "value": "2025"
     },
     {
-      "header": "Built by",
-      "value": "Kévin BOYER-NAVARRO — solo build"
+      "header": "Author",
+      "value": "Kévin BOYER-NAVARRO"
     },
     {
       "header": "Main features",
-      "value": "Articulated helmet / ESP32 servo control / Electronic and mechanical integration"
+      "value": "Articulated helmet / Arduino servo control / Electronic and mechanical integration"
     },
     {
       "header": "Technology and hardware",
-      "value": "ESP32 / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
+      "value": "Arduino / Embedded programming / Servomotors / Wiring / 3D printing / Assembly"
     }
   ],
   "description": [
-    "As a <strong>Marvel fan</strong>, especially of <strong>Iron Man</strong>, I built a motorized helmet inspired by the Mark V armor in 2025. This personal project brings together 3D printing, electronics and embedded programming.",
-    "I completed the build on my own: <strong>3D printing the parts, mechanical assembly, electronic integration, wiring and ESP32 programming</strong>. Servomotors move the individual sections of the faceplate, requiring coordinated control matched to the mechanism.",
-    "The photographs show the assembled helmet and its interior, including the wiring, servomotors and linkages. Integrating these components into a compact space was an essential part of the build.",
-    "This project let me put a complete mechatronics workflow into practice, from manufacturing parts to embedded control. <strong>All I need now is J.A.R.V.I.S. and an arc reactor</strong>… the helmet is a good start.",
-    "The STL button links to <strong>BoxAndLoop’s Mark V helmet on Thingiverse</strong>, a downloadable model of this helmet type. My ESP32 code will be shared later."
+    "I am a <strong>Marvel fan</strong>, especially of <strong>Iron Man</strong>. This motorized Mark V-inspired helmet combines 3D printing, electronics and Arduino programming.",
+    "All I need now is <strong>J.A.R.V.I.S. and an arc reactor</strong>!"
   ],
   "resources": [
     {
       "image": "assets/icons/github",
-      "name": "ESP32 code — coming soon"
+      "name": "Arduino code — coming soon"
     },
     {
       "image": "assets/icons/thingiverse.svg",

@@ -1,7 +1,7 @@
 {
     "projectName": "reparation_tv_ecran_plat",
     "title": "平板电视维修：回收与转售",
-    "images": 5,
+    "images": 10,
     "information": [
         {
             "header": "项目背景",
@@ -34,11 +34,57 @@
         "这些电视主要来源于故障设备的购买或回收，我对其进行了全面修复。该过程帮助我提升了<strong>电子故障诊断</strong>、<strong>焊接技术</strong>、<strong>元件更换</strong>以及<strong>设备热管理</strong>等技能。",
         "除此之外，该项目还为<strong>循环经济</strong>做出了贡献，通过延长电子产品的使用寿命并减少环境影响，实现环保与技术提升的双重目标。每一次维修都是一次提升技术知识并赋予电子设备新生命的机会。"
     ],
-    "resources": [
+    "resources": [],
+    "media": [
         {
-            "image": "assets/img/icons/gallery",
-            "name": "维修照片库",
-            "link": "assets/img/projects/reparation_tv_ecran_plat"
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_1.webp",
+            "alt": "電視維修 — 照片 1"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_2.webp",
+            "alt": "電視維修 — 照片 2"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_3.webp",
+            "alt": "電視維修 — 照片 3"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_4.webp",
+            "alt": "電視維修 — 照片 4"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_5.webp",
+            "alt": "電視維修 — 照片 5"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_6.webp",
+            "alt": "電視維修 — 照片 6"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_7.webp",
+            "alt": "電視維修 — 照片 7"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_8.webp",
+            "alt": "電視維修 — 照片 8"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_9.webp",
+            "alt": "電視維修 — 照片 9"
+        },
+        {
+            "type": "image",
+            "src": "assets/projects/televiseur/tv_10.webp",
+            "alt": "電視維修 — 照片 10"
         }
     ]
 }

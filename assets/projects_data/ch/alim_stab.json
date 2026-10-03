@@ -27,16 +27,5 @@
         "该电源配备了两个开关：一个是用于主电源的总开关，另一个用于控制是否向连接端子提供电流。一个独立的 LED 指示灯显示端子是否有电流输出，从而确保使用过程中的安全性。",
         "通过该项目，我提升了在功率电子、电源系统设计及安全布线等方面的技能，为今后的个人电子项目打下了坚实基础。"
     ],
-    "resources": [
-        {
-            "image": "assets/img/icons/github_black",
-            "name": "完整文档",
-            "link": "assets/documents/alim_stabilisee_pc.pdf"
-        },
-        {
-            "image": "assets/img/icons/gallery",
-            "name": "图片库",
-            "link": "assets/img/projects/alim_stabilisee_pc"
-        }
-    ]
+    "resources": []
 }
